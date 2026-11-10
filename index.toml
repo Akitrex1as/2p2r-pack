@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "d7d25b928e35b4075019242f47f8932c79e98e62fdc453cd869d0024146e40c2"
-
-[[files]]
 file = "config/Additional Structures - General.cfg"
 hash = "6fd4f0f274ee8ffed22a16b3992b3055368ee43d40ef2f0a0888d79f73dcdd94"
 
