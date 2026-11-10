@@ -1,0 +1,10 @@
+// Io
+setIcon(<galaxyspace:ioblocks, meta:0>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.io.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.io.description")
+addParent("triumph:femboysecret/exploration/solar_system/jupiter")
+
+criteria = addCriteria("entered_io", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.io")
+
+setRewardExperience(280)

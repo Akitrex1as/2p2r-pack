@@ -1,0 +1,12 @@
+// Rocket T5
+setIcon("galaxyspace:rocket_tier_5")
+setTranslatedTitle("advancements.triumph.femboysecret.rockets.rocket_t5.title")
+setTranslatedDescription("advancements.triumph.femboysecret.rockets.rocket_t5.description")
+addParent("triumph:femboysecret/rockets/rocket_t4")
+
+criteria = addCriteria("rocket_t5", "minecraft:inventory_changed")
+criteria.addItem("galaxyspace:rocket_tier_5")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(450)

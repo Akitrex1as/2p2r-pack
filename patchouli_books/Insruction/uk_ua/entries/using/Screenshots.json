@@ -1,0 +1,24 @@
+{
+	"name": "Знімки екрану",
+	"icon": "minecraft:painting",
+	"category": "using",
+	"advancement": "triumph:vanilla/story/root",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Особливості скрінів",
+			"text": "Знімки екрану одразу ж копіюються в буфер обміну після натискання $(k:screenshot). Також вони зберігаються до папки screenshots, яку можна перевірити за допомогою нового меню праворуч від кнопки \"Продовжити гру\"."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/screenshots.png"
+			],
+			"title": "Особливості скрінів",
+			"border": true
+		}
+	]
+}

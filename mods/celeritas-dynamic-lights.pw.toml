@@ -1,0 +1,18 @@
+filename = 'celeritasdynamiclights-1.2.11.jar'
+name = 'Celeritas/Nothirium Dynamic Lights'
+side = "client"
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.11'
+
+[download]
+hash = '6a07890fcabca3b74435642ec655342065ad7dd003f96acea5c010b43b0428d5039302fd73f0b5433d8541e7b5cf2d25ab2d40913595004a6d42eeae7b021ca0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/McEPxZ3z/versions/1YOX6lRI/celeritasdynamiclights-1.2.11.jar'
+
+[update.modrinth]
+mod-id = 'McEPxZ3z'
+version = '1YOX6lRI'

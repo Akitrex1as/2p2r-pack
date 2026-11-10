@@ -1,0 +1,12 @@
+// Diamond Respirator
+setIcon("adpother:diamond_respirator")
+setTranslatedTitle("advancements.triumph.pollution.diamond_respirator.title")
+setTranslatedDescription("advancements.triumph.pollution.diamond_respirator.description")
+addParent("triumph:pollution/gold_respirator")
+
+criteria = addCriteria("diamond_respirator", "minecraft:inventory_changed")
+criteria.addItem("adpother:diamond_respirator")
+
+setRequirements("any")
+setRewardExperience(200)
+setPos(72,-72)

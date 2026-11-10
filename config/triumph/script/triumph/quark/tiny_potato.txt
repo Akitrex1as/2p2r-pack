@@ -1,0 +1,11 @@
+// Tiny Potato
+setIcon(<quark:tiny_potato>)
+setTranslatedTitle("advancements.triumph.quark.tiny_potato.title")
+setTranslatedDescription("advancements.triumph.quark.tiny_potato.description")
+addParent("triumph:quark/root")
+
+criteria = addCriteria("tiny_potato", "minecraft:inventory_changed")
+criteria.addItem(<quark:tiny_potato>)
+
+setRequirements("any")
+setRewardExperience(50)

@@ -1,0 +1,8 @@
+{
+	"name": "Планети",
+	"description": "Записи відкриваються, коли ви дослідите планету.",
+	"icon": "contenttweaker:icon_sol",
+	"parent": "space",
+	"sortnum": 3,
+	"secret": false
+}

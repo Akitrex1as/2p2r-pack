@@ -1,0 +1,98 @@
+{
+	"name": "Unlocking Planets",
+	"icon": "galacticresearch:telescope",
+	"category": "space_start",
+	"advancement": "galacticraftcore:galacticraft/basic_wafer",
+	"sortnum": 1,
+	"priority": true,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Why a telescope",
+			"text": "Even with a rocket you cannot fly to a body you have not researched. Unlock it first, and that includes the $(l:space/planets/moon)Moon$(). A planet's moons unlock together with it."
+		},
+		{
+			"type": "text",
+			"title": "Research steps",
+			"text": "$(li)Power the telescope and aim it at the target.$(li)Keep the target in view until data collection ends.$(li)Place the Mission Control Station right next to the telescope.$(li)Put a launch pad next to it."
+		},
+		{
+			"type": "text",
+			"title": "Launching a mission",
+			"text": "$(li)Place a satellite rocket on the pad.$(li)Fuel it.$(li)Choose the mission at the station and start it.$(li)Wait a few minutes.$(li)Press the analyze button and the planet is unlocked."
+		},
+		{
+			// БЛАНК СКРІНШОТУ: замініть файл blank_mcs_setup.png. Що зняти: вид збоку або згори на робочу установку: телескоп, Mission Control Station впритул до нього, поруч стартовий майданчик 3x3 із супутниковою ракетою і заправником; бажано вдень, щоб усі блоки було добре видно
+			"type": "image",
+			"images": [
+				"testbook:images/blank_mcs_setup.png"
+			],
+			"title": "Mission setup",
+			"border": true,
+			"text": "Telescope, control station and a pad with a rocket."
+		},
+		{
+			// БЛАНК СКРІНШОТУ: замініть файл blank_mcs_gui.png. Що зняти: відкритий інтерфейс Mission Control Station зі списком місій, позначеними кнопками запуску та аналізу, під час активної місії
+			"type": "image",
+			"images": [
+				"testbook:images/blank_mcs_gui.png"
+			],
+			"title": "Station screen",
+			"border": true,
+			"text": "Choose missions and start the analysis here."
+		},
+		{
+			"type": "text",
+			"title": "Deep space",
+			"text": "For other stars the mission asks for more: at least 3 finished missions and a Teledish antenna linked with a Frequency Module. Other stars cannot be seen from Earth: look for Proxima B with a telescope on Pluto, Haumea or the Kuiper Belt, and for Tau Ceti F from Proxima B."
+		},
+		{
+			"type": "text",
+			"title": "Asteroid mining",
+			"text": "Asteroids sometimes approach the planet. Find one with the telescope and start a mission with a mining rocket. It returns to the same pad with a load of ores and gems."
+		},
+		{
+			"type": "text",
+			"title": "Good to know",
+			"text": "A $(l:space/tech/space_station)space station$() helps find villages, mansions and boss dungeons within 1000 blocks: choose this at the control station. Research Paper moves finished missions between stations."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticresearch:telescope",
+			"title": "Telescope",
+			"text": "Collects the first data about a celestial body."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticresearch:mission_control_station",
+			"title": "Mission Control Station",
+			"text": "Starts missions and analyzes their results."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticresearch:satellite_rocket",
+			"title": "Satellite Rocket",
+			"text": "Flies without a crew. A planet will not unlock without it."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticresearch:mining_rocket",
+			"title": "Mining Rocket",
+			"text": "Mines ore from asteroids and comes back."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:dishbase",
+			"title": "Teledish",
+			"text": "Needed for deep space missions."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticresearch:research_paper",
+			"title": "Research Paper",
+			"text": "Moves a finished mission to another station."
+		}
+	]
+}

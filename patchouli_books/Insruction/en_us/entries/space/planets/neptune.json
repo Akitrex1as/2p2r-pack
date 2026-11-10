@@ -1,0 +1,23 @@
+{
+	"name": "Neptune",
+	"icon": "contenttweaker:icon_neptune",
+	"category": "space_planets",
+	"advancement": "triumph:research/neptune",
+	"sortnum": 9,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Neptune",
+			"text": "The farthest gas giant, with the fastest winds in the Solar System. You cannot land on it. Land on Triton with a tier 6 rocket. Proteus only stays on the map."
+		},
+		{
+			"type": "text",
+			"title": "Triton",
+			"text": "It orbits the planet backwards. Gravity is about 26% of Earth's. It is one of the coldest worlds, so bring the best thermal protection. It has large and small geysers. A geyser block is needed for the tier 6 oxygen tank.",
+			"anchor": "triton"
+		}
+	]
+}

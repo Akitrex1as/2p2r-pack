@@ -1,0 +1,77 @@
+{
+	"name": "Ракета",
+	"icon": "galacticraftcore:rocket_t1",
+	"category": "space_start",
+	"advancement": "galacticraftcore:galacticraft/rocket_workbench",
+	"sortnum": 3,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Перший рівень",
+			"text": "Збирається на верстаті NASA: ніс, корпус, стабілізатори і двигун. Відсіки дають місце для вантажу. Перший рівень дістає Місяць і земну станцію."
+		},
+		{
+			"type": "text",
+			"title": "Перед стартом",
+			"text": "Перевірте передстартовий список. Одягніть парашут: без нього падіння під час повернення на Землю смертельне. Натисніть $(k:Галактична карта) для карти і перевірте рівень ракети, який потрібен для цілі."
+		},
+		{
+			"type": "text",
+			"title": "Що взяти з собою",
+			"text": "Балони, їжу в банках, інструменти, світильники на глоустоуні і засіб, щоб повернутися: 9 $(l:space/start/fuel)майданчиків$(), $(l:space/start/fuel#loader)заправник$(), батареї та каністри палива. Ракета після посадки чекає в посадковому модулі."
+		},
+		{
+			// БЛАНК СКРІНШОТУ: замініть файл blank_galaxy_map.png. Що зняти: галактична карта (клавіша M) під час вибору планети, щоб було видно її назву і напис про потрібний рівень ракети; вибрати ціль, недоступну для поточної ракети, щоб показати чим це відрізняється
+			"type": "image",
+			"images": [
+				"testbook:images/blank_galaxy_map.png"
+			],
+			"title": "Карта галактики",
+			"border": true,
+			"text": "Тут видно потрібний рівень ракети."
+		},
+		{
+			"type": "text",
+			"title": "Другий і третій",
+			"text": "Схема 2 рівня лежить у скарбниці підземелля Місяця: вона веде на $(l:space/planets/mars)Марс$(). Ракета 3 рівня потрібна для $(l:space/planets/asteroids)астероїдів$() і $(l:space/planets/venus)Венери$(), а її схема чекає на Марсі."
+		},
+		{
+			"type": "text",
+			"title": "Вищі рівні",
+			"text": "Ракета 4 відкривається після Венери і третього посадкового модуля. Ракета 5 потрібна перед $(l:space/planets/proxima)Альфою Центавра$(), а ракета 6 перед $(l:space/planets/tau_ceti)Тау Кита$(). Докладніше читайте в записі $(l:space/tech/high_rockets)Ракети 4-6$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:rocket_workbench",
+			"title": "Верстат NASA",
+			"text": "Тут збирають ракети за схемами."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:rocket_t1",
+			"title": "Ракета 1 рівня",
+			"text": "Долітає до Місяця і земної станції."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:rocket_t2",
+			"title": "Ракета 2 рівня",
+			"text": "Схема лежить у скарбниці Місяця."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:rocket_t3",
+			"title": "Ракета 3 рівня",
+			"text": "Схема лежить у скарбниці Марса."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:parachute",
+			"title": "Парашут",
+			"text": "Одягайте завжди: він рятує під час падіння."
+		}
+	]
+}

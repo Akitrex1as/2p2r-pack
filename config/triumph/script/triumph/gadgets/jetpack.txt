@@ -1,0 +1,11 @@
+// Jetpack
+setIcon("galaxyspace:jetpack")
+setTranslatedTitle("advancements.triumph.gadgets.jetpack.title")
+setTranslatedDescription("advancements.triumph.gadgets.jetpack.description")
+addParent("triumph:femboysecret/root")
+
+criteria = addCriteria("jetpack", "minecraft:inventory_changed")
+criteria.addItem("galaxyspace:jetpack")
+
+setRequirements("any")
+setRewardExperience(150)

@@ -1,0 +1,11 @@
+// Geothermal Generator
+setIcon("galacticraftplanets:geothermal_generator")
+setTranslatedTitle("advancements.triumph.femboysecret.industry.geothermal_generator.title")
+setTranslatedDescription("advancements.triumph.femboysecret.industry.geothermal_generator.description")
+addParent("triumph:femboysecret/exploration/solar_system/venus")
+criteria = addCriteria("geothermal_generator", "minecraft:inventory_changed")
+criteria.addItem("galacticraftplanets:geothermal_generator")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(250)

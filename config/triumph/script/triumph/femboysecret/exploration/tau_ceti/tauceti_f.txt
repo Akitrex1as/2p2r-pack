@@ -1,0 +1,12 @@
+// Tauceti F
+setIcon(<galaxyspace:tauceti_f_blocks, meta:1>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.tau_ceti.tauceti_f.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.tau_ceti.tauceti_f.description")
+addParent("triumph:femboysecret/exploration/tau_ceti/root")
+
+criteria = addCriteria("entered_tauceti_f", "minecraft:changed_dimension")
+criteria.setDimensionDestination("planet.tauceti_f")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(500)

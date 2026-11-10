@@ -1,0 +1,24 @@
+{
+	"name": "Screenshots",
+	"icon": "minecraft:painting",
+	"category": "using",
+	"advancement": "triumph:vanilla/story/root",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Screenshot Features",
+			"text": "Screenshots are immediately copied to clipboard after pressing $(k:screenshot). They are also saved to screenshots folder, which can be checked using new menu to the right of \"Resume Game\" button."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/screenshots.png"
+			],
+			"title": "Screenshot Features",
+			"border": true
+		}
+	]
+}

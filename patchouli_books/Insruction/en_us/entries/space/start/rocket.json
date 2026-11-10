@@ -1,0 +1,77 @@
+{
+	"name": "Rocket",
+	"icon": "galacticraftcore:rocket_t1",
+	"category": "space_start",
+	"advancement": "galacticraftcore:galacticraft/rocket_workbench",
+	"sortnum": 3,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Tier one",
+			"text": "Built on the NASA Workbench: nose cone, body plating, fins and engine. Chests add cargo space. Tier one reaches the Moon and an Earth space station."
+		},
+		{
+			"type": "text",
+			"title": "Before launch",
+			"text": "Check your prelaunch list. Wear a parachute: without one, the fall when returning to Earth is deadly. Press $(k:Galaxy Map) for the map and check which rocket tier the target needs."
+		},
+		{
+			"type": "text",
+			"title": "What to bring",
+			"text": "Tanks, canned food, tools, glowstone torches and a way home: 9 $(l:space/start/fuel)pads$(), a $(l:space/start/fuel#loader)fuel loader$(), batteries and fuel canisters. After landing, your rocket waits in the lander."
+		},
+		{
+			// БЛАНК СКРІНШОТУ: замініть файл blank_galaxy_map.png. Що зняти: галактична карта (клавіша M) під час вибору планети, щоб було видно її назву і напис про потрібний рівень ракети; вибрати ціль, недоступну для поточної ракети, щоб показати чим це відрізняється
+			"type": "image",
+			"images": [
+				"testbook:images/blank_galaxy_map.png"
+			],
+			"title": "Galaxy map",
+			"border": true,
+			"text": "It shows the rocket tier a target needs."
+		},
+		{
+			"type": "text",
+			"title": "Tiers two and three",
+			"text": "The tier 2 schematic is in the Moon dungeon's treasure room and leads to $(l:space/planets/mars)Mars$(). A tier 3 rocket is needed for the $(l:space/planets/asteroids)asteroids$() and $(l:space/planets/venus)Venus$(), and its schematic waits on Mars."
+		},
+		{
+			"type": "text",
+			"title": "Higher tiers",
+			"text": "Rocket 4 opens after Venus and the third lander module. Rocket 5 comes before $(l:space/planets/proxima)Alpha Centauri$() and rocket 6 before $(l:space/planets/tau_ceti)Tau Ceti$(). Read more in the $(l:space/tech/high_rockets)Rockets 4-6$() entry."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:rocket_workbench",
+			"title": "NASA Workbench",
+			"text": "Rockets are built here from schematics."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:rocket_t1",
+			"title": "Tier 1 Rocket",
+			"text": "Reaches the Moon and an Earth station."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:rocket_t2",
+			"title": "Tier 2 Rocket",
+			"text": "Its schematic is in the Moon's treasure room."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:rocket_t3",
+			"title": "Tier 3 Rocket",
+			"text": "Its schematic is in the Mars treasure room."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:parachute",
+			"title": "Parachute",
+			"text": "Always wear it: it saves you from the fall."
+		}
+	]
+}

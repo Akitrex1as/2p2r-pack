@@ -1,0 +1,298 @@
+{
+	"name": "Automation",
+	"icon": "quark:ender_watcher",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/smelt_iron",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "This module expands Minecraft automation capabilities."
+		},
+		{
+			"type": "text",
+			"title": "Chute",
+			"text": "Chute is a new automation block. You can insert items into it using automation (hopper, dropper, etc.), and all inserted items immediately fall below it, always perfectly centered."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/chute.png"
+			],
+			"title": "Chute",
+			"border": true,
+			"text": "Redstone signal stops it."
+		},
+		{
+			"type": "text",
+			"title": "Colored Slime",
+			"text": "Slime blocks can be dyed red and blue. Primary color blocks (red, green, blue) can be combined to create secondary colors (cyan, magenta, yellow). When pushed by pistons, two slime blocks",
+			"anchor": "colored_slime"
+		},
+		{
+			"type": "text",
+			"text": "will only connect if they are the same color, or if one is made from the other (e.g., red won't connect to blue, but will connect to magenta). Any color slime blocks connect to non-slime blocks around them normally."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/color-slime.png"
+			],
+			"title": "Colored Slime",
+			"border": true
+		},
+		{
+			"type": "text",
+			"title": "Planting Dispenser",
+			"text": "Dispenser can plant seeds in appropriate soil type.$(br)This works for all seeds, on farmland, soul sand and chorus fruit on end stone. Cocoa beans can be planted if jungle tree is in front of dispenser."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dispensers.png"
+			],
+			"title": "Planting Dispenser",
+			"border": true,
+			"text": "Planting using dispenser"
+		},
+		{
+			"type": "text",
+			"title": "Dispensers and Blocks",
+			"text": "Dispensers are allowed to place blocks in the world. Any blocks that already had placement behavior, like TNT, are ignored. Blocks rotate to be placed facing away from dispenser."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dispensers-place-blocks.png"
+			],
+			"title": "Dispensers and Blocks",
+			"border": true
+		},
+		{
+			"type": "text",
+			"title": "Dispensers and Records",
+			"text": "Dispenser can play records if jukebox is in front. If jukebox already has a record, it returns to dispenser."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dispenser-jukebox.png"
+			],
+			"title": "Dispensers and Records",
+			"border": true,
+			"text": "$(o)\"Happy music plays...\""
+		},
+		{
+			"type": "text",
+			"title": "Ender Watcher",
+			"text": "Ender Watcher is a new redstone input block. It emits full redstone signal if player looks directly at it. Crafted with Ender Eye, redstone and $(l:vainlla+/World#biotite)biotite$() blocks (World module)."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/ender-watcher.png"
+			],
+			"title": "Ender Watcher",
+			"border": true,
+			"text": "$(o)\"It watches you in the eyes..\""
+		},
+		{
+			"type": "text",
+			"title": "Gravisand",
+			"text": "New sand variant made from sand and ender pearl. Gravisand won't fall unless powered by redstone, however, if it can't fall, it will rise. Also, gravisand propagates signal to adjacent gravisand blocks, causing them to also fall or rise."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/gravisand.png"
+			],
+			"title": "Gravisand",
+			"border": true,
+			"text": "Gravity sand"
+		},
+		{
+			"type": "text",
+			"title": "Hungry Animals",
+			"text": "Animals that have breeding food assigned will eat it from the floor at any time they can be fed manually, provided food is nearby."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/floor-food-eating.png"
+			],
+			"title": "Hungry Animals",
+			"border": true
+		},
+		{
+			"type": "text",
+			"title": "Iron Chains",
+			"text": "Crafted from iron ingots and nuggets. Right-click chains on a boat or minecart, then on another transport to connect them. Connected boats or minecarts always stay close, allowing train creation."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/chain.png"
+			],
+			"title": "Iron Chains",
+			"border": true,
+			"text": "Also can make chainmail armor."
+		},
+		{
+			"type": "text",
+			"title": "Metal Buttons",
+			"text": "Combining wooden button with iron or gold ingot creates button of that type. Following weighted obsidian pressure plates, gold buttons emit very short pulse, while iron buttons emit very long pulse."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/metal-buttons.png"
+			],
+			"title": "Metal Buttons",
+			"border": true
+		},
+		{
+			"type": "text",
+			"title": "Obsidian Plates",
+			"text": "Pressure plates made from obsidian only trigger when $(l)players$() walk on them."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/obsidian-plates.png"
+			],
+			"title": "Obsidian Plates",
+			"border": true
+		},
+		{
+			"type": "text",
+			"title": "Piston Block Breakers",
+			"text": "Pistons pushing iron rod work like a drill, breaking any blocks ahead. Can break anything piston can push. Iron rods crafted from 2 iron ingots and Ender Rod."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/piston-block-breakers.png"
+			],
+			"title": "Piston Block Breakers",
+			"border": true
+		},
+		{
+			"type": "text",
+			"title": "Pistons and Entities",
+			"text": "Pistons allowed to move more blocks. Attempting to move block to invalid position causes it to break and drop contents (e.g., attempting triple chest). Cannot move monster spawner."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/pistons-move-tes.png"
+			],
+			"title": "Pistons and Entities",
+			"border": true
+		},
+		{
+			"type": "text",
+			"title": "Piston Item Pushing",
+			"text": "Pistons can push dropped items so they fly! Sticky pistons can't do this, but can pull items back."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/pistons-push-items.png"
+			],
+			"title": "Piston Item Pushing",
+			"border": true
+		},
+		{
+			"type": "text",
+			"title": "Redstone Inductor",
+			"text": "New redstone circuit element crafted from stone, redstone and magma cream. Output value is sum of signals from all 3 input sides. Inductor can also be locked if active repeater or comparator is nearby."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/redstone-inductor.png"
+			],
+			"title": "Redstone Inductor",
+			"border": true,
+			"text": "When locked, it retains output value."
+		},
+		{
+			"type": "text",
+			"title": "Redstone Randomizer",
+			"text": "New redstone circuit element crafted like comparator but with small $(l:vainlla+/World#biotite)biotite$(). Whenever Randomizer receives signal from back, it activates either left or right output randomly."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/redstone-randomizer.png"
+			],
+			"title": "Redstone Randomizer",
+			"border": true
+		},
+		{
+			"type": "text",
+			"title": "Weather Sensor",
+			"text": "Weather sensor crafted from purple plates, $(l:vainlla+/World#biotite)biotite$() and glass. Works like daylight sensor but emits full redstone signal during rain or snow."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/weather-sensor.png"
+			],
+			"title": "Weather Sensor",
+			"border": true
+		},
+		{
+			"type": "spotlight",
+			"item": "usefulrailroads:rail_highspeed",
+			"text": "High-speed rails: a cart with a rider goes about 40 blocks/s, an empty one about 16. They can climb and descend slopes. Expensive. "
+		},
+		{
+			"type": "spotlight",
+			"item": "usefulrailroads:rail_intersection",
+			"text": "Regular intersection for your railways."
+		},
+		{
+			"type": "spotlight",
+			"item": "redstoneplusplus:rotator",
+			"text": "Can rotate blocks and slime structures 90 degrees in direction you specified by right-clicking block."
+		},
+		{
+			"type": "spotlight",
+			"title": "New Half Blocks",
+			"item": "redstoneplusplus:half_slime",
+			"text": "Blocks with functionality of some blocks (slime, redstone, obsidian) only on one side, other sides don't."
+		},
+		{
+			"type": "spotlight",
+			"item": "funtnt:tnt_2",
+			"text": "More powerful TNT, its power increases proportionally to what previous TNT was made from up to nuclear weapon."
+		},
+		{
+			"type": "text",
+			"title": "Item Pipes",
+			"text": "Item pipes allow moving items between storages without complex systems. Especially useful for automating resource transport."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/pipes.jpg"
+			],
+			"title": "Item Pipes",
+			"border": true,
+			"text": "Chest intestines."
+		},
+		{
+			"type": "spotlight",
+			"item": "charm:redstone_sand",
+			"text": "Block that acts like sand but works as redstone block."
+		},
+		{
+			"type": "spotlight",
+			"item": "charm:variable_redstone_lamp",
+			"text": "Block that emits light according to input redstone signal strength."
+		}
+	]
+}

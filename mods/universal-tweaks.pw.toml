@@ -1,0 +1,25 @@
+filename = 'UniversalTweaks-1.12.2-1.21.0.jar'
+name = 'Universal Tweaks'
+side = "both"
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.0'
+
+[download]
+hash = '2583babeeccbf3235fe0aa68d996d3480fab0cc79dd58555bebd08e7f51b73fff1548ed83118b6ff26cc5b562ebcf751e86becb4a75a2136e386c9b6b9b3296a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/s32LssQX/versions/eGtvVjBI/UniversalTweaks-1.12.2-1.21.0.jar'
+
+[update.modrinth]
+mod-id = 's32LssQX'
+version = 'eGtvVjBI'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'G1ckZuWK'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Bnsrfd1o'
+type = 'REQUIRED'

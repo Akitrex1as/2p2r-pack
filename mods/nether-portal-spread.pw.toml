@@ -1,0 +1,21 @@
+filename = 'netherportalspread_1.12.2-5.4.jar'
+name = 'Nether Portal Spread'
+side = "both"
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'netherportalspread_1.12.2-5.4.jar'
+
+[download]
+hash = 'f39f3306d33bee98d8f85518f4a633d996bbaa73'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3448054
+project-id = 342097
+
+[[x-prismlauncher-dependencies]]
+addonId = '342584'
+type = 'REQUIRED'

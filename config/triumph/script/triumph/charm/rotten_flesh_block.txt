@@ -1,0 +1,11 @@
+// Rotten Flesh Block
+setIcon(<charm:rotten_flesh_block>)
+setTranslatedTitle("advancements.triumph.charm.rotten_flesh_block.title")
+setTranslatedDescription("advancements.triumph.charm.rotten_flesh_block.description")
+addParent("triumph:charm/ender_pearl_block")
+
+criteria = addCriteria("rotten_flesh_block", "minecraft:inventory_changed")
+criteria.addItem(<charm:rotten_flesh_block>)
+
+setRequirements("any")
+setRewardExperience(50)

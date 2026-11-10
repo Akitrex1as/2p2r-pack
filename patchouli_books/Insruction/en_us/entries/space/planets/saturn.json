@@ -1,0 +1,35 @@
+{
+	"name": "Saturn",
+	"icon": "contenttweaker:icon_saturn",
+	"category": "space_planets",
+	"advancement": "triumph:research/saturn",
+	"sortnum": 7,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Saturn",
+			"text": "A ringed gas giant. You cannot land on Saturn itself. Land on Enceladus or Titan with a tier 5 rocket. Mimas, Tethys, Dione, Rhea and Iapetus only stay on the map."
+		},
+		{
+			"type": "text",
+			"title": "Enceladus",
+			"text": "A very cold icy moon known for its geysers. Gravity is about 27% of Earth's. It has coal and unknown crystals. The dungeon boss is an Ice Blaze. Bring your best thermal protection.",
+			"anchor": "enceladus"
+		},
+		{
+			"type": "text",
+			"title": "Titan",
+			"text": "The only moon with thick air. Gravity is about 27% of Earth's. There is wind and precipitation, but you still cannot breathe. Titan is rich: diamonds, sapphires, emeralds, coal, lapis and redstone.",
+			"anchor": "titan"
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:gs_basic:8",
+			"title": "Unknown Crystal",
+			"text": "Found on Enceladus."
+		}
+	]
+}

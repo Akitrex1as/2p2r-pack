@@ -1,0 +1,20 @@
+// Desh Armor
+setIcon("galacticraftplanets:desh_chestplate")
+setTranslatedTitle("advancements.triumph.femboysecret.armor.desh_armor.title")
+setTranslatedDescription("advancements.triumph.femboysecret.armor.desh_armor.description")
+addParent("triumph:femboysecret/exploration/solar_system/mars")
+criteria1 = addCriteria("desh_helmet", "minecraft:inventory_changed")
+criteria1.addItem("galacticraftplanets:desh_helmet")
+
+criteria2 = addCriteria("desh_chestplate", "minecraft:inventory_changed")
+criteria2.addItem("galacticraftplanets:desh_chestplate")
+
+criteria3 = addCriteria("desh_leggings", "minecraft:inventory_changed")
+criteria3.addItem("galacticraftplanets:desh_leggings")
+
+criteria4 = addCriteria("desh_boots", "minecraft:inventory_changed")
+criteria4.addItem("galacticraftplanets:desh_boots")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(250)

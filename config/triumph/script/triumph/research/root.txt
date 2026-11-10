@@ -1,0 +1,13 @@
+// Root of the research tab: the telescope.
+setIcon("galacticresearch:telescope")
+setTranslatedTitle("advancements.triumph.research.root.title")
+setTranslatedDescription("advancements.triumph.research.root.description")
+setBackground("custom:textures/gui/background.png")
+setShowToast(false)
+setAnnounceToChat(false)
+setPos(-6,33)
+
+criteria = addCriteria("telescope", "minecraft:inventory_changed")
+criteria.addItem("galacticresearch:telescope")
+
+setRequirements("all")

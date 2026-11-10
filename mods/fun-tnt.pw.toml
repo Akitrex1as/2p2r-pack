@@ -1,0 +1,18 @@
+filename = 'funtnt-1.12.2.0.jar'
+name = 'Fun TNT'
+side = "both"
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'funtnt-1.12.2.0.jar'
+
+[download]
+hash = '831190874b02d56321ef23bc5a451f2109b95dec'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2567797
+project-id = 294963

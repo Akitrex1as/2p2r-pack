@@ -1,0 +1,185 @@
+{
+	"name": "Miscellaneous",
+	"icon": "quark:ancient_tome",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/smelt_iron",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "This module includes miscellaneous features that do not belong to any other module."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/ancient-tomes.png"
+			],
+			"title": "Ancient Tomes",
+			"border": true,
+			"text": "Allow you to increase enchantment levels beyond normal limits."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/animal-poisoning.png"
+			],
+			"title": "Animal Poisoning",
+			"border": true,
+			"text": "Do not feed animals spider eyes."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/colored-runes.png"
+			],
+			"title": "Colored Runes",
+			"border": true,
+			"text": "Allow you to change the enchantment glint color on tools.",
+			"anchor": "runes"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/endermites-into-shulkers.png"
+			],
+			"title": "Endermites into Shulkers",
+			"border": true,
+			"text": "Endermites can burrow and transform into shulkers."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/extra-arrows.png"
+			],
+			"title": "Extra Arrows",
+			"border": true,
+			"text": "Explosive arrows detonate upon impact."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/extra-potions.png"
+			],
+			"title": "Extra Potions",
+			"border": true,
+			"text": "New potion varieties with distinct effects."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/horse-whistles.png"
+			],
+			"title": "Horse Whistle",
+			"border": true,
+			"text": "Calls your horse within 64 blocks. It will come if it finds a path."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/lock-rotation.jpg"
+			],
+			"title": "Rotation Lock",
+			"border": true,
+			"text": "Allows you to lock block orientation while building."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/note-blocks.png"
+			],
+			"title": "Monster Notes",
+			"border": true,
+			"text": "Note blocks that play monster sounds when heads are placed."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/note-block-gui.png"
+			],
+			"title": "Note Blocks",
+			"border": true,
+			"text": "Dedicated user interface for configuring note blocks."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/pickarang.png"
+			],
+			"title": "Pickarang",
+			"border": true,
+			"text": "A pickaxe that acts as a boomerang."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/vanilla-dusts.png"
+			],
+			"title": "Placeable Dusts",
+			"border": true,
+			"text": "Glowstone and gunpowder can be placed on the ground."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/reacharound-placing.png"
+			],
+			"title": "Reacharound Placing",
+			"border": true,
+			"text": "Allows placing blocks around corners while standing still."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/snowman-heads.png"
+			],
+			"title": "Snow Golem Heads",
+			"border": true,
+			"text": "A named pumpkin snow golem killed by a witch drops player heads."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/throw-dragon-breath.png"
+			],
+			"title": "Throw Dragon's Breath",
+			"border": true,
+			"text": "Dragon's breath can be thrown at targets."
+		},
+		{
+			"type": "text",
+			"title": "Matrix Enchanting",
+			"text": "Matrix enchanting is a complete overhaul of the enchanting system. Enchantment pieces are generated using lapis and experience, and then arranged on a grid to enchant items."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/matrix-enchanting.jpg"
+			],
+			"title": "Matrix Enchanting",
+			"border": true,
+			"text": "Precise control over enchantments applied to items."
+		},
+		{
+			"type": "text",
+			"title": "Totem of Holding",
+			"text": "A Totem of Holding appears where you die and stores your items. If you die again before collecting it, the totem shatters and drops everything."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/totem-of-holding.jpg"
+			],
+			"title": "Totem of Holding",
+			"border": true,
+			"text": "Item preservation after death."
+		},
+		{
+			"type": "spotlight",
+			"item": "quark:tiny_potato",
+			"title": "Tiny Potato",
+			"text": "A decorative potato. You can name it, and it will speak."
+		}
+	]
+}

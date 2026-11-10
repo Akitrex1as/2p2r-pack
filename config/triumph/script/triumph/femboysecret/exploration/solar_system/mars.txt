@@ -1,0 +1,12 @@
+// Mars
+setIcon(<galacticraftplanets:mars, meta:5>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.mars.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.mars.description")
+addParent("triumph:femboysecret/rockets/rocket_t2")
+
+criteria = addCriteria("entered_mars", "minecraft:changed_dimension")
+criteria.setDimensionDestination("planet.mars")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(200)

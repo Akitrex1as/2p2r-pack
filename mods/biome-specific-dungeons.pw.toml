@@ -1,0 +1,21 @@
+filename = 'BiomeSpecificDungeons-1.12.2-1.0.3.jar'
+name = 'Biome Specific Dungeons'
+side = "both"
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BiomeSpecificDungeons-1.12.2-1.0.3.jar'
+
+[download]
+hash = 'b3700ae819dfe4c773482f09b5c6107773c9b630'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2685974
+project-id = 316696
+
+[[x-prismlauncher-dependencies]]
+addonId = '228525'
+type = 'REQUIRED'

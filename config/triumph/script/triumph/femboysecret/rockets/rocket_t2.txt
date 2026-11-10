@@ -1,0 +1,11 @@
+// Rocket T2
+setIcon("galacticraftplanets:rocket_t2")
+setTranslatedTitle("advancements.triumph.femboysecret.rockets.rocket_t2.title")
+setTranslatedDescription("advancements.triumph.femboysecret.rockets.rocket_t2.description")
+addParent("triumph:femboysecret/exploration/solar_system/root")
+criteria = addCriteria("rocket_t2", "minecraft:inventory_changed")
+criteria.addItem("galacticraftplanets:rocket_t2")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(150)

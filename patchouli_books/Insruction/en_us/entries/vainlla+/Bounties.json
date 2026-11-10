@@ -1,0 +1,37 @@
+{
+	"name": "Bounty Board",
+	"icon": "bountiful:bountyboarditem",
+	"category": "vainlla+",
+	"advancement": "triumph:bountiful/root",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "The board",
+			"text": "Bounty boards stand in villages and cannot be crafted. Bounties appear on them: take one, bring what it asks before time runs out, and cash it in at a board for the reward."
+		},
+		{
+			"type": "text",
+			"title": "Rarity",
+			"text": "Bounties are common, uncommon, rare or epic. The rarer one asks for more and gives a better reward and more experience."
+		},
+		{
+			"type": "text",
+			"title": "Space bounties",
+			"text": "After landing on the $(l:space/planets/moon)Moon$(), $(l:space/planets/mars)Mars$(), the $(l:space/planets/asteroids)asteroids$(), $(l:space/planets/venus)Venus$(), $(l:space/planets/mercury)Mercury$(), $(l:space/planets/ceres)Ceres$() or $(l:space/planets/jupiter#io)Io$(), boards offer bounties and rewards made of those worlds' materials. Only someone who has been there can turn them in."
+		},
+		{
+			"type": "text",
+			"title": "Science samples",
+			"text": "Samples from $(l:space/planets/mars#phobos)Phobos$(), $(l:space/planets/jupiter#europa)Europa$(), $(l:space/planets/jupiter#ganymede)Ganymede$(), $(l:space/planets/jupiter#callisto)Callisto$() and $(l:space/planets/neptune#triton)Triton$() are paid in parts of the next step: plates for rocket heavy plates, titanium for tanks, schematics and thermal cloth."
+		},
+		{
+			"type": "spotlight",
+			"item": "bountiful:bountyboarditem",
+			"title": "Bounty Board",
+			"text": "Found in villages. Ordinary bounties ask for Overworld goods, space bounties for planet materials."
+		}
+	]
+}

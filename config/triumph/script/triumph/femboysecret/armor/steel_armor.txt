@@ -1,0 +1,20 @@
+// Steel Armor
+setIcon("galacticraftcore:steel_chestplate")
+setTranslatedTitle("advancements.triumph.femboysecret.armor.steel_armor.title")
+setTranslatedDescription("advancements.triumph.femboysecret.armor.steel_armor.description")
+addParent("triumph:femboysecret/root")
+criteria1 = addCriteria("steel_helmet", "minecraft:inventory_changed")
+criteria1.addItem("galacticraftcore:steel_helmet")
+
+criteria2 = addCriteria("steel_chestplate", "minecraft:inventory_changed")
+criteria2.addItem("galacticraftcore:steel_chestplate")
+
+criteria3 = addCriteria("steel_leggings", "minecraft:inventory_changed")
+criteria3.addItem("galacticraftcore:steel_leggings")
+
+criteria4 = addCriteria("steel_boots", "minecraft:inventory_changed")
+criteria4.addItem("galacticraftcore:steel_boots")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(150)

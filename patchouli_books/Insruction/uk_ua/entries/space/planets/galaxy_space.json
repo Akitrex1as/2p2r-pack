@@ -1,0 +1,46 @@
+{
+	"name": "Шлях подорожей",
+	"icon": "galaxyspace:rocket_tier_6",
+	"category": "space_planets",
+	"advancement": "triumph:femboysecret/exploration/solar_system/root",
+	"sortnum": -1,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Шлях",
+			"text": "Після ключа $(l:space/planets/moon)Місяця$(): $(l:space/planets/mars)Марс$(), $(l:space/planets/asteroids)астероїди$(), $(l:space/planets/venus)Венера$(), $(l:space/planets/mercury)Меркурій$(), $(l:space/planets/ceres)Церера$(), $(l:space/planets/pluto)Плутон$(), $(l:space/planets/haumea)Хаумеа$(), $(l:space/planets/kuiper_belt)пояс Койпера$()."
+		},
+		{
+			"type": "text",
+			"title": "Куди сісти",
+			"text": "$(l:space/planets/jupiter#io)Іо$(), $(l:space/planets/jupiter#europa)Європа$(), $(l:space/planets/jupiter#ganymede)Ганімед$(), $(l:space/planets/jupiter#callisto)Каллісто$(), $(l:space/planets/saturn#enceladus)Енцелад$() і $(l:space/planets/saturn#titan)Титан$(). Ще $(l:space/planets/uranus#miranda)Міранда$() і $(l:space/planets/neptune#triton)Тритон$()."
+		},
+		{
+			"type": "text",
+			"title": "Лише на карті",
+			"text": "$(l:space/planets/jupiter)Юпітер$(), $(l:space/planets/saturn)Сатурн$(), $(l:space/planets/uranus)Уран$() і $(l:space/planets/neptune)Нептун$(). Також Деймос, Оберон і Протей. Барнард вимкнений."
+		},
+		{
+			"type": "text",
+			"title": "Нові записи",
+			"text": "Запис про планету з'являється тут, коли ви завершите її дослідження на станції керування. Супутники відкриваються разом зі своєю планетою. Той самий запис відкриється, якщо ви просто прилетите на ціль."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/bosses.png"
+			],
+			"title": "Підземелля",
+			"border": true,
+			"text": "Блейз на Церері, ґаст на Іо, крижаний блейз на Енцеладі."
+		},
+		{
+			"type": "text",
+			"title": "Спорядження",
+			"text": "Перед висадкою тримайте кисень, термозахист, захист від тиску та радіації. База має бути герметичною. Про шкали читайте в записі $(l:space/survival/hazards)Радіація, тиск і тепло$()."
+		}
+	]
+}

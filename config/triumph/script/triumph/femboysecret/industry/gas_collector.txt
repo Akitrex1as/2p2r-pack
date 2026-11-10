@@ -1,0 +1,11 @@
+// Gas Collector
+setIcon("galaxyspace:gas_collector")
+setTranslatedTitle("advancements.triumph.femboysecret.industry.gas_collector.title")
+setTranslatedDescription("advancements.triumph.femboysecret.industry.gas_collector.description")
+addParent("triumph:femboysecret/gasgen")
+criteria = addCriteria("gas_collector", "minecraft:inventory_changed")
+criteria.addItem("galaxyspace:gas_collector")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(150)

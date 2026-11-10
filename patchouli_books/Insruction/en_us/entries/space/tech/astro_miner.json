@@ -1,0 +1,40 @@
+{
+	"name": "Astro Miner",
+	"icon": "galacticraftplanets:astro_miner",
+	"category": "space_tech",
+	"advancement": "triumph:femboysecret/exploration/solar_system/asteroids",
+	"sortnum": 3,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Astro Miner",
+			"text": "A robot that digs asteroids and brings ore home by itself. It needs a dock on the surface and power. One player may have up to 6 miners. Titanium, aluminum and iron are found here."
+		},
+		{
+			"type": "text",
+			"title": "Short range telepads",
+			"text": "A pair of telepads moves you between two points in one world. Both ends need power and matching addresses. Handy for large bases on the $(l:space/planets/asteroids)asteroids$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:astro_miner",
+			"title": "Astro Miner",
+			"text": "Digs asteroids without you."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:miner_base",
+			"title": "Astro Miner Base",
+			"text": "The dock where the miner brings ore."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:telepad_short",
+			"title": "Short Range Telepad",
+			"text": "Moves you between two points."
+		}
+	]
+}

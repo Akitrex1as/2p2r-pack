@@ -1,0 +1,13 @@
+// Bountiful Root: a board of your own, or a bounty taken from a village board
+setIcon("bountiful:bountyboarditem")
+setTranslatedTitle("advancements.triumph.bountiful.root.title")
+setTranslatedDescription("advancements.triumph.bountiful.root.description")
+addParent("triumph:vanilla/story/root")
+
+criteria = addCriteria("bountiful_root", "minecraft:inventory_changed")
+criteria.addItem("bountiful:bountyboarditem")
+criteria2 = addCriteria("bounty", "minecraft:inventory_changed")
+criteria2.addItem("bountiful:bounty")
+
+setRequirements("any")
+setRewardExperience(50)

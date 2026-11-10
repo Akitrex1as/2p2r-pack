@@ -1,0 +1,22 @@
+{
+	"name": "Pluto",
+	"icon": "galaxyspace:plutoblocks",
+	"category": "space_planets",
+	"advancement": "triumph:research/pluto",
+	"sortnum": 10,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "About",
+			"text": "A dwarf planet at the edge of the system. Tier 6 rocket. Gravity is about 27% of Earth's. It is among the coldest worlds, with real temperatures below -200 °C. Charon only stays on the map. From here a telescope sees $(l:space/planets/proxima)Proxima B$()."
+		},
+		{
+			"type": "text",
+			"title": "What is here",
+			"text": "An alpha wolf guards the treasure. Bring tier 4 thermal protection and plenty of oxygen: home is far away."
+		}
+	]
+}

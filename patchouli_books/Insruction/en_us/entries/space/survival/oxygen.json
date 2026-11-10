@@ -1,0 +1,144 @@
+{
+	"name": "Oxygen",
+	"icon": "galacticraftcore:oxygen_mask",
+	"category": "space_survival",
+	"advancement": "galacticraftcore:galacticraft/compressor",
+	"sortnum": 0,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Where there is no air",
+			"text": "You cannot breathe on the Moon, Mars, asteroids, Venus or in GalaxySpace. Without tanks you lose health fast, and a normal torch goes out. $(l:space/survival/hazards)Plants and normal food$() need oxygen too."
+		},
+		{
+			"type": "text",
+			"title": "Supply",
+			"text": "The Oxygen Collector works anywhere on Earth. In a vacuum it only draws from nearby leaves or wheat, so bring your first supply with you. The Oxygen Compressor fills tanks from a collector.",
+			"anchor": "supply"
+		},
+		{
+			"type": "text",
+			"title": "Gear",
+			"text": "A mask, oxygen gear, two tanks and a parachute. Tanks come as light, medium and heavy, with even larger ones in GalaxySpace. A heavier tank lasts longer."
+		},
+		{
+			"type": "text",
+			"title": "Oxygen bubble",
+			"text": "The Bubble Distributor makes an air bubble around itself. It is simple and needs no sealed walls, so it suits a first base. It needs power and oxygen through pipes from a collector."
+		},
+		{
+			"type": "text",
+			"title": "Oxygen Sealer",
+			"text": "Fills a closed room of up to 800 blocks with oxygen. Several sealers close together add up. It rechecks the room about every 5 seconds. Keep the space above and right next to the machine free.",
+			"anchor": "sealer"
+		},
+		{
+			"type": "text",
+			"title": "What holds air",
+			"text": "Plain solid blocks are the safest. Of glass, only glass blocks and panes work. Pipes and wires through a wall must be the sealable kind, as normal ones leak. Diagonal panes can leave a gap."
+		},
+		{
+			"type": "text",
+			"title": "Air Lock",
+			"text": "The door of a base: at least 7 Air Lock Frames and a controller. The controller needs meteoric iron, so you must reach the $(l:space/planets/moon)Moon$() first. Two locks in a row with a small room between them keep the air in.",
+			"anchor": "airlock"
+		},
+		{
+			"type": "text",
+			"title": "Important",
+			"text": "Oxygen in a room or a bubble stops both suffocation and vacuum damage. As soon as you step outside without a spacesuit, the vacuum hurts again. Read more in the $(l:space/survival/hazards#base)pressure entry$()."
+		},
+		{
+			// БЛАНК СКРІНШОТУ: замініть файл blank_sealed_room.png. Що зняти: кімната на Місяці зсередини: герметизатор з вільним місцем навколо, збирач кисню або труба від нього, у стіні закритий повітряний шлюз; у кадрі має бути видно, що маски немає на екрані і кисень не витрачається
+			"type": "image",
+			"images": [
+				"testbook:images/blank_sealed_room.png"
+			],
+			"title": "Sealed base",
+			"border": true,
+			"text": "A sealer, an oxygen pipe and an air lock in the wall."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:collector",
+			"title": "Oxygen Collector",
+			"text": "Gathers oxygen from Earth's air or nearby leaves."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:oxygen_compressor",
+			"title": "Oxygen Compressor",
+			"text": "Fills tanks with oxygen from a collector."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:oxygen_mask",
+			"title": "Oxygen Mask",
+			"text": "Tanks do not work without it."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:oxygen_gear",
+			"title": "Oxygen Gear",
+			"text": "Connects the mask to the tanks."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:oxygen_tank_heavy_full",
+			"title": "Heavy Oxygen Tank",
+			"text": "The largest tank in Galacticraft."
+		},
+		{
+			"type": "text",
+			"title": "Larger Tanks",
+			"text": "GalaxySpace tanks hold more oxygen than the Galacticraft heavy tank. Each tier is made from the previous one, and the first from a heavy tank. Tier 5 needs $(l:space/planets/jupiter#europa)Europa$() ice, tier 6 a $(l:space/planets/neptune#triton)Triton$() geyser. $(li)Tier 4: 3500 oxygen.$(li)Tier 5: 4000.$(li)Tier 6: 4500."
+		},
+		{
+			"type": "text",
+			"title": "EPP Tank",
+			"text": "Holds only 2500 oxygen, but refills itself while you stand in an oxygen bubble or sealed room. Built on the NASA Workbench from its own schematic. At the Modification Table it can be installed into tier 4-6 tanks, which then refill too."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:oxygen_tank_4",
+			"text": "3500 oxygen."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:oxygen_tank_5",
+			"text": "4000 oxygen."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:oxygen_tank_6",
+			"text": "4500 oxygen."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:oxygen_tank_epp_1",
+			"text": "2500 oxygen, refills in oxygen areas."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:distributor",
+			"title": "Bubble Distributor",
+			"text": "Makes a bubble of air around itself."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:sealer",
+			"title": "Oxygen Sealer",
+			"text": "Fills a closed room with oxygen.",
+			"anchor": "sealer"
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:air_lock_frame:1",
+			"title": "Air Lock Controller",
+			"text": "Controls the air lock frames."
+		}
+	]
+}

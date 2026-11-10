@@ -1,0 +1,10 @@
+// Enceladus
+setIcon(<galaxyspace:enceladusblocks, meta:0>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.enceladus.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.enceladus.description")
+addParent("triumph:femboysecret/exploration/solar_system/saturn")
+
+criteria = addCriteria("entered_enceladus", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.enceladus")
+
+setRewardExperience(320)

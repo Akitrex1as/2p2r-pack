@@ -1,0 +1,25 @@
+filename = 'tabulator-1.0.3.jar'
+name = 'Tabulator'
+side = "both"
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Tabulator-1.0.3'
+
+[download]
+hash = 'cfda900d1cadbb8c3072ce2030495758c20a348f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4028361
+project-id = 637556
+
+[[x-prismlauncher-dependencies]]
+addonId = '239197'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419286'
+type = 'REQUIRED'

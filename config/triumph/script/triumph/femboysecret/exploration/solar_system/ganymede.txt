@@ -1,0 +1,10 @@
+// Ganymede
+setIcon(<galaxyspace:ganymedeblocks, meta:0>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.ganymede.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.ganymede.description")
+addParent("triumph:femboysecret/exploration/solar_system/jupiter")
+
+criteria = addCriteria("entered_ganymede", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.ganymede")
+
+setRewardExperience(280)

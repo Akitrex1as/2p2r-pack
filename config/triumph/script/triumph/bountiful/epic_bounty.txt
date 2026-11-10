@@ -1,0 +1,11 @@
+// Epic Bounty: rarity 3 is Epic in the bounty's NBT
+setIcon(<bountiful:bounty, nbt:{rarity:3}>)
+setTranslatedTitle("advancements.triumph.bountiful.epic_bounty.title")
+setTranslatedDescription("advancements.triumph.bountiful.epic_bounty.description")
+addParent("triumph:bountiful/first_bounty")
+
+criteria = addCriteria("epic_bounty", "minecraft:inventory_changed")
+criteria.addItem(<bountiful:bounty, nbt:{rarity:3}>)
+
+setRequirements("any")
+setRewardExperience(150)

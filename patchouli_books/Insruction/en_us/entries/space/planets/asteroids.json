@@ -1,0 +1,33 @@
+{
+	"name": "Asteroid Belt",
+	"icon": "galacticraftplanets:asteroids_block",
+	"category": "space_planets",
+	"advancement": "triumph:research/asteroids",
+	"sortnum": 2,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "About",
+			"text": "Countless rocks between Mars and Jupiter. Tier 3 rocket. There is no air. Most of the world is empty, so there is far to fall: gravity is about 10% of Earth's, and the Sun gives off radiation."
+		},
+		{
+			"type": "text",
+			"title": "Landing",
+			"text": "You descend in an Entry Pod. Bring blocks for a bridge and a grapple: you will have to cross between rocks."
+		},
+		{
+			"type": "text",
+			"title": "Resources",
+			"text": "Iron, aluminum and ilmenite. Ilmenite gives titanium for the next $(l:space/tech/high_rockets)rocket$() and armor. Crashed probes with useful loot also sit here."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:grapple",
+			"title": "Grapple",
+			"text": "Helps you cross between asteroids."
+		}
+	]
+}

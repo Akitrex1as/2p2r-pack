@@ -1,0 +1,12 @@
+name = "sarosskinchanger-1.2"
+filename = "sarosskinchanger-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Gf8kVfEk/versions/ncjMeXEO/sarosskinchanger-1.2.jar"
+hash-format = "sha512"
+hash = "240433a8511a04f37bfe6d304bbeb03f2af0677809f28bf5b6b0723413a5bc34357b88807f4142e1c2b1ad839f10ee880a5ac0812cd80fc4708a99c3febc0763"
+
+[update.modrinth]
+mod-id = "Gf8kVfEk"
+version = ""

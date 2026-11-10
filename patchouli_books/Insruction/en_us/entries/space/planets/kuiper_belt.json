@@ -1,0 +1,17 @@
+{
+	"name": "Kuiper Belt",
+	"icon": "galacticraftplanets:dense_ice",
+	"category": "space_planets",
+	"advancement": "triumph:research/kuiper_belt",
+	"sortnum": 12,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "About",
+			"text": "An icy belt beyond Neptune. Tier 6 rocket. This is the coldest place in the game's Solar System. From here, as from Pluto and Haumea, a telescope sees Alpha Centauri."
+		}
+	]
+}

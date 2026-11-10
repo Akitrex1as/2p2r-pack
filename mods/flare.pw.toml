@@ -1,0 +1,18 @@
+filename = 'flare-0.8.0.jar'
+name = 'Flare (Spark for 1.12.2)'
+side = "both"
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.8.0'
+
+[download]
+hash = '8d0705752ad66543a5da4fb82d2f20df3100ff52e7717f4c3f1f63997a9c31c075babfb8b8bae8d1f41a235daec6790ec0f94dcad5d34b37b8141ccdb90a8141'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rWzXKfPV/versions/75jbWsjD/flare-0.8.0.jar'
+
+[update.modrinth]
+mod-id = 'rWzXKfPV'
+version = '75jbWsjD'

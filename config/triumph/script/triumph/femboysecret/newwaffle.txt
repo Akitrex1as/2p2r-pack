@@ -1,0 +1,17 @@
+//Set icon item
+setIcon(<galaxyspace:gs_basic, meta:5>)
+
+//Set title String
+setTranslatedTitle("advancements.triumph.femboysecret.newwaffle.title")
+
+//Set description String
+setTranslatedDescription("advancements.triumph.femboysecret.newwaffle.description")
+addParent("triumph:femboysecret/root")
+//Add parent
+
+//Add criteria for the achievement
+criteria = addCriteria("fuel_generator", "minecraft:inventory_changed")
+criteria.addItem(<galaxyspace:gs_basic, meta:5>)
+
+setRequiresParents()
+setRequirements("all")

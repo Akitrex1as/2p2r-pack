@@ -1,0 +1,7 @@
+{
+	"name": "Usage",
+	"description": "Describes how to work with the interface and additional features.",
+	"icon": "minecraft:observer",
+	"sortnum": 1,
+	"secret": false
+}

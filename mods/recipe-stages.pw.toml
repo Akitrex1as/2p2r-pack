@@ -1,0 +1,18 @@
+filename = 'RecipeStages-1.1.3.8.jar'
+name = 'Recipe Stages'
+side = "both"
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.3.8'
+
+[download]
+hash = 'c25e33ad1d02ee8f2ae996d727761c626009610521ed6fca25c97552100abe35b2aa879a07dfbe7879c529767fa8244e2f4036e515412f5822464658cc705d3d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qXkLFB0L/versions/QFPOlT3V/RecipeStages-1.1.3.8.jar'
+
+[update.modrinth]
+mod-id = 'qXkLFB0L'
+version = 'QFPOlT3V'

@@ -1,0 +1,12 @@
+// Iron Vacuum Bag
+setIcon("adpother:iron_vacuum_bag")
+setTranslatedTitle("advancements.triumph.pollution.iron_vacuum_bag.title")
+setTranslatedDescription("advancements.triumph.pollution.iron_vacuum_bag.description")
+addParent("triumph:pollution/root")
+
+criteria = addCriteria("iron_vacuum_bag", "minecraft:inventory_changed")
+criteria.addItem("adpother:iron_vacuum_bag")
+
+setRequirements("any")
+setRewardExperience(100)
+setPos(36,-36)

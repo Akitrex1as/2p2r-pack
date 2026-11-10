@@ -1,0 +1,17 @@
+{
+	"name": "Haumea",
+	"icon": "galaxyspace:haumeablocks",
+	"category": "space_planets",
+	"advancement": "triumph:research/haumea",
+	"sortnum": 11,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "About",
+			"text": "An elongated dwarf planet that spins extremely fast. Tier 6 rocket. Gravity is about 21% of Earth's. It is very cold with no air. It has aluminum. From here a telescope sees $(l:space/planets/proxima)Proxima B$()."
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Техніка",
+	"description": "Ракети високих рівнів, станції та бази.",
+	"icon": "galaxyspace:assembly_machine",
+	"parent": "space",
+	"sortnum": 2,
+	"secret": false
+}

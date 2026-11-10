@@ -1,0 +1,87 @@
+{
+	"name": "Client",
+	"icon": "minecraft:carrot",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/root",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "This module adds client-side features that do not require Quark to be loaded on the server."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/autojump-keybind.jpg"
+			],
+			"title": "Auto-Jump",
+			"border": true,
+			"text": "Press $(k:quark.keybind.toggleAutojump) to toggle auto-jump mode."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/shulker-box-tooltip.jpg"
+			],
+			"title": "Shulker Boxes",
+			"border": true,
+			"text": "Hovering over a shulker box displays its contents."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/chest-search.jpg"
+			],
+			"title": "Chest Search",
+			"border": true,
+			"text": "When using search, all non-matching items will be dimmed."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/enchanted-book-icons.jpg"
+			],
+			"title": "Enchanted Book Icons",
+			"border": true,
+			"text": "Icons show which items the enchanted book applies to."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/food-tooltip.jpg"
+			],
+			"title": "Food Tooltip",
+			"border": true,
+			"text": "Each food item displays how much hunger and saturation it restores."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/items-flashing.jpg"
+			],
+			"title": "Despawn Flashing",
+			"border": true,
+			"text": "10 seconds before despawning, dropped items will begin to flash."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/map-tooltip.jpg"
+			],
+			"title": "Map Tooltip",
+			"border": true,
+			"text": "Hovering your cursor over a map allows you to preview it."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/highlight-inventory-slots.jpg"
+			],
+			"title": "Slot Highlighting",
+			"border": true,
+			"text": "When hovering, you will see slots where the item cannot be used."
+		}
+	]
+}

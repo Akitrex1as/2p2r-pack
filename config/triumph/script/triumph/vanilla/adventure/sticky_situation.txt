@@ -1,0 +1,11 @@
+// Sticky Situation
+setIcon("minecraft:shulker_shell")
+setTranslatedTitle("advancements.triumph.vanilla.adventure.sticky_situation.title")
+setTranslatedDescription("advancements.triumph.vanilla.adventure.sticky_situation.description")
+addParent("triumph:vanilla/end/find_end_city")
+
+criteria = addCriteria("sticky_situation", "minecraft:inventory_changed")
+criteria.addItem("minecraft:shulker_shell")
+
+setRequirements("any")
+setRewardExperience(75)

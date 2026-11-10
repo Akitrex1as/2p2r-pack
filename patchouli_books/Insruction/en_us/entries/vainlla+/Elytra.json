@@ -1,0 +1,38 @@
+{
+	"name": "Elytra",
+	"icon": "minecraft:elytra",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/end/root",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Where to fly",
+			"text": "Elytra only work in the Overworld and the End. In the Nether gliding will not start, and on planets you cannot wear them: a GalaxySpace spacesuit is required there, and its chestplate takes their slot."
+		},
+		{
+			"type": "text",
+			"title": "Where to get them",
+			"text": "Elytra lie on End City ships. The End is the pack's last goal: an Eye of Ender needs a coral from $(l:space/planets/tau_ceti)Tau Ceti F$(). Fireworks stack only to 3 per slot, so the supply is limited."
+		},
+		{
+			"type": "spotlight",
+			"item": "quark:biotite_block",
+			"title": "Repair",
+			"text": "Anvil: elytra on the left, a $(l:vainlla+/World#biotite)Block of Biotite$() on the right. It restores a quarter of the durability for 3 levels, keeping enchantments, dye and name. Leather and books do not work on elytra."
+		},
+		{
+			"type": "spotlight",
+			"item": "quark:enderdragon_scale",
+			"title": "Dragon Scale",
+			"text": "Drops only from a respawned dragon, one at a time. Elytra and a scale in a crafting grid give two pairs of elytra, and the new pair is black."
+		},
+		{
+			"type": "text",
+			"title": "Dyeing",
+			"text": "Elytra can be dyed in a crafting grid with any dye, like leather armor."
+		}
+	]
+}

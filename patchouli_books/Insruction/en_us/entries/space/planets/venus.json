@@ -1,0 +1,49 @@
+{
+	"name": "Venus",
+	"icon": "galacticraftplanets:venus",
+	"category": "space_planets",
+	"advancement": "triumph:research/venus",
+	"sortnum": 3,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "About",
+			"text": "The hottest planet: the real surface of Venus reaches 464 °C. Tier 3 rocket. Gravity is about 53% of Earth's. It has the highest pressure of any world you can reach, plus corrosive acid rain."
+		},
+		{
+			"type": "text",
+			"title": "Protection",
+			"text": "A light spacesuit is not enough: you need a $(l:space/survival/space_suit)heavy one$() or a $(l:space/tech/space_base)Gravity Module$() with Stabilization. Use thermal protection against the heat. Acid and corrosion wear gear down, so carry spares."
+		},
+		{
+			"type": "text",
+			"title": "Resources",
+			"text": "Aluminum, copper, galena, quartz, silicon, tin and solar ore. A Geothermal Generator draws heat from below, so there is plenty of power."
+		},
+		{
+			"type": "text",
+			"title": "The dungeon",
+			"text": "You land in an Entry Pod. Juicers live on the planet, and the Spider Queen guards the treasure: she shoots webs, poisons and summons spiders. Her key leads onward."
+		},
+		{
+			"type": "text",
+			"title": "Station",
+			"text": "You can build an atmospheric space station around Venus. It is easier than the surface, though still warmer than Earth."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:geothermal_generator",
+			"title": "Geothermal Generator",
+			"text": "Makes power from the planet's heat."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:key_t3",
+			"title": "Tier 3 Key",
+			"text": "Opens the Venus treasure room."
+		}
+	]
+}

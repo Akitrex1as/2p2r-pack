@@ -1,0 +1,13 @@
+// Корінь гілки GalaxySpace: власна посадка на Місяць. Ключ можна передати іншому, посадку ні.
+setIcon(<galaxyspace:rocket_tier_6>)
+setTranslatedTitle("advancements.triumph.femboysecret.root.title")
+setTranslatedDescription("advancements.triumph.femboysecret.root.description")
+setBackground("custom:textures/gui/background.png")
+setShowToast(true)
+setAnnounceToChat(true)
+setPos(-6,33)
+
+criteria = addCriteria("moon_key", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.moon")
+
+setRequirements("all")

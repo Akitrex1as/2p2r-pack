@@ -1,0 +1,18 @@
+//Set icon item
+setIcon("galaxyspace:hydroponic_base")
+
+//Set title String
+setTranslatedTitle("advancements.triumph.femboysecret.spaceferm.title")
+
+//Set description String
+setTranslatedDescription("advancements.triumph.femboysecret.spaceferm.description")
+addParent("triumph:femboysecret/fuelgen")
+
+//Add parent
+
+//Add criteria for the achievement
+criteria = addCriteria("fuel_generator", "minecraft:inventory_changed")
+criteria.addItem("galaxyspace:hydroponic_base")
+
+setRequiresParents()
+setRequirements("all")

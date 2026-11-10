@@ -1,0 +1,8 @@
+// Alpha Centauri Root
+setIcon(<contenttweaker:icon_proxima>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.alpha_centauri.root.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.alpha_centauri.root.description")
+addParent("triumph:femboysecret/rockets/rocket_t5")
+
+setRequiresParents()
+setRewardExperience(0)

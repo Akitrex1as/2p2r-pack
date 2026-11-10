@@ -1,0 +1,121 @@
+filename = 'Localizator-1.12.2-1.0.15.jar'
+name = 'Localizator'
+side = "both"
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v1.0.15 - JSON Paintings fix'
+
+[download]
+hash = '4d4c879528fa7d18c0ac0bf6ea02006f3697ea47'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7392357
+project-id = 948959
+
+[[x-prismlauncher-dependencies]]
+addonId = '310383'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '257777'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '258587'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '251136'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1056043'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '262884'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '317158'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '260360'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306780'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '223150'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '688489'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '231347'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '254441'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '284007'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '279900'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '331746'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '227875'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '278141'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '255389'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '968474'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '256141'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '313536'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '229060'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '69118'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '373157'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '248027'
+type = 'OPTIONAL'

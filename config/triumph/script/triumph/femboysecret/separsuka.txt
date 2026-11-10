@@ -1,0 +1,19 @@
+//Set icon item
+setIcon("galaxyspace:liquid_separator")
+
+//Set title String
+setTranslatedTitle("advancements.triumph.femboysecret.separsuka.title")
+
+//Set description String
+setTranslatedDescription("advancements.triumph.femboysecret.separsuka.description")
+addParent("triumph:femboysecret/gasgen")
+
+//Add parent
+
+//Add criteria for the achievement
+criteria = addCriteria("solarwind_panel", "minecraft:inventory_changed")
+criteria.addItem(<galaxyspace:liquid_separator>)
+
+setRequiresParents()
+setRequirements("all")
+

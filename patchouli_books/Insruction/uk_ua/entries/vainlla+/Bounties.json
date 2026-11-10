@@ -1,0 +1,37 @@
+{
+	"name": "Дошка оголошень",
+	"icon": "bountiful:bountyboarditem",
+	"category": "vainlla+",
+	"advancement": "triumph:bountiful/root",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Дошка",
+			"text": "Дошки оголошень стоять у селах, скрафтити їх не можна. На дошці з'являються завдання: візьміть одне, принесіть потрібне до кінця часу і здайте його на дошці, щоб отримати нагороду."
+		},
+		{
+			"type": "text",
+			"title": "Рідкість",
+			"text": "Завдання бувають звичайні, незвичайні, рідкісні й епічні. Чим рідкісніше, тим більше воно просить і тим кращу нагороду й більше досвіду дає."
+		},
+		{
+			"type": "text",
+			"title": "Космічні завдання",
+			"text": "Після висадки на $(l:space/planets/moon)Місяць$(), $(l:space/planets/mars)Марс$(), $(l:space/planets/asteroids)астероїди$(), $(l:space/planets/venus)Венеру$(), $(l:space/planets/mercury)Меркурій$(), $(l:space/planets/ceres)Цереру$() чи $(l:space/planets/jupiter#io)Іо$() на дошках з'являються завдання й нагороди з матеріалів цих світів. Здати їх може лише той, хто там побував."
+		},
+		{
+			"type": "text",
+			"title": "Наукові зразки",
+			"text": "Зразки з $(l:space/planets/mars#phobos)Фобоса$(), $(l:space/planets/jupiter#europa)Європи$(), $(l:space/planets/jupiter#ganymede)Ганімеда$(), $(l:space/planets/jupiter#callisto)Каллісто$() і $(l:space/planets/neptune#triton)Тритона$() оплачуються деталями наступного кроку: пластинами для важких пластин ракет, титаном для балонів, схемами й термотканиною."
+		},
+		{
+			"type": "spotlight",
+			"item": "bountiful:bountyboarditem",
+			"title": "Дошка оголошень",
+			"text": "Трапляється в селах. Звичайні завдання просять земні речі, космічні — матеріали планет."
+		}
+	]
+}

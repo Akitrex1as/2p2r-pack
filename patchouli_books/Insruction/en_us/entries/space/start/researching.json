@@ -1,0 +1,62 @@
+{
+	"name": "First Steps",
+	"icon": "galacticraftcore:machine:0",
+	"category": "space_start",
+	"advancement": "galacticraftcore:galacticraft/coal_generator",
+	"sortnum": 0,
+	"priority": true,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Coal Generator",
+			"text": "Copper, iron, a furnace and aluminum wire. It burns coal and powers nearby machines through wire. It also pollutes, so put a chimney next to it: see the $(l:ecology_inst/page06)Ecology$() section."
+		},
+		{
+			"type": "text",
+			"title": "Machine order",
+			"text": "$(li)Circuit Fabricator: makes wafers.$(li)Compressor: burns coal and presses metal into sheets.$(li)Electric Compressor: gives twice as many sheets.$(li)NASA Workbench: builds rockets."
+		},
+		{
+			"type": "text",
+			"title": "Tier one wafer",
+			"text": "Make a basic wafer in the Circuit Fabricator. It unlocks the planet entries and gives you the Galactic Research book, which has the recipes for power, the telescope and rockets."
+		},
+		{
+			"type": "text",
+			"title": "What to gather",
+			"text": "Space eats a lot of metal. Stock up on iron, copper, tin, aluminum, silicon, coal, redstone and diamonds early. Silicon lies deep, so look for it below the other ores."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:prelaunch_checklist",
+			"title": "Prelaunch Checklist",
+			"text": "Tick off fuel, oxygen, parachute and launch pad before takeoff. Crafted from canvas and red dye."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:machine2:4",
+			"title": "Circuit Fabricator",
+			"text": "Makes wafers from diamonds, silicon and redstone."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:machine:12",
+			"title": "Compressor",
+			"text": "Burns coal and presses metal into sheets."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:machine2:0",
+			"title": "Electric Compressor",
+			"text": "Runs on power and gives twice as many sheets."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:basic_item:13",
+			"title": "Basic Wafer",
+			"text": "Needed for almost every space machine."
+		}
+	]
+}

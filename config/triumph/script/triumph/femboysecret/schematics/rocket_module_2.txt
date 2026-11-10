@@ -1,0 +1,11 @@
+setIcon("galaxyspace:rocket_modules")
+setTranslatedTitle("advancements.triumph.femboysecret.schematics.rocket_module_2.title")
+setTranslatedDescription("advancements.triumph.femboysecret.schematics.rocket_module_2.description")
+addParent("triumph:femboysecret/schematics/rocket_module_1")
+setRequiresParents()
+
+criteria = addCriteria("rocket_module_2", "minecraft:inventory_changed")
+criteria.addItem(<galaxyspace:rocket_modules, meta:1>)
+
+setRequirements("all")
+setRewardExperience(200)

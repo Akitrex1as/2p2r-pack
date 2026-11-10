@@ -1,0 +1,105 @@
+{
+	"name": "Ventilation",
+	"icon": "adchimneys:concrete_gray:2",
+	"category": "ecology",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Simple Ventilation",
+			"text": "Wearing a $(l:ecology_inst/page03)respirator$() at work is good, but wearing it constantly, especially at home, is not the best idea. If you want to breathe freely without needing to wear protection, you can surround your territory with air purifiers to ensure"
+		},
+		{
+			"type": "text",
+			"text": "constant supply of clean air to your lungs. Each working purifier creates emission-free air around itself in a given, limited by material and purifier type, radius. Therefore, to have clean air, you need to cover the territory with purifiers at a distance less than or equal to the $(l:ecology_inst/page02)filter$() radius between them."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/image2.png"
+			],
+			"title": "Simple Filter",
+			"border": true,
+			"text": "The simplest universal filter.",
+			"anchor": "simple_filter"
+		},
+		{
+			"type": "text",
+			"text": "$(l)Note:$()$(br)The simple filter can also be used to purify water bodies. In this case, the pump must be submerged in water, and the filter must be above water, filled with a filter item and not blocked by any block."
+		},
+		{
+			"type": "text",
+			"title": "Large Ventilation",
+			"text": "Be especially careful if you place an $(l:ecology_inst/page01)emission source$() in an enclosed space, as this can lead to suffocation or even an explosion. To prevent this, use the diagram on the following pages.$(br)$(l)Note:$()$(br)The radius of 1 pump is 16 blocks."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/ventilation.png"
+			],
+			"title": "General Structure",
+			"border": true,
+			"text": "On the following pages the image is clearer."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/ventilation1.png"
+			],
+			"title": "Sulfur Suction",
+			"border": true,
+			"text": "Ventilation line that sucks sulfur."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/ventilation2.png"
+			],
+			"title": "Redstone Pump",
+			"border": true,
+			"text": "The pump must be powered by generator energy."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/ventilation3.png"
+			],
+			"title": "Carbon Suction",
+			"border": true,
+			"text": "Ventilation line that sucks carbon."
+		},
+		{
+			"type": "spotlight",
+			"item": "adpother:aerometer",
+			"title": "Aerometer",
+			"link_recipe": false,
+			"text": "Can be a useful addition for finding weak spots in your ventilation."
+		},
+		{
+			"type": "text",
+			"text": "If you're tired of constant emission clouds and you're too lazy to go that high up to remove them, then use the emission pump. It helps you deal with this task, allowing you to clear clouds from the ground! Just place $(l:ecology_inst/page02)filters$() nearby, power it and put the pipe high enough.",
+			"anchor": "pump"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/image16.png"
+			],
+			"title": "Emission Pump",
+			"border": true,
+			"text": "Yes, I know what this looks like."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/image21.png"
+			],
+			"title": "Snow",
+			"border": true,
+			"text": "Temperature at altitude is low, this can happen."
+		}
+	],
+	"advancement": "triumph:pollution/iron_vacuum_tube"
+}

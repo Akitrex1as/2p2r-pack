@@ -1,0 +1,39 @@
+{
+	"name": "Ceres",
+	"icon": "galaxyspace:ceresblocks",
+	"category": "space_planets",
+	"advancement": "triumph:research/ceres",
+	"sortnum": 5,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "About",
+			"text": "A dwarf planet in the Asteroid Belt. Tier 3 rocket. Gravity is about 24% of Earth's. There is no air and it is properly cold, so bring thermal protection and a suit against radiation."
+		},
+		{
+			"type": "text",
+			"title": "Resources",
+			"text": "Plenty of meteoric iron and dolomite crystals you will need later. Grab several stacks of dolomite at once to avoid coming back."
+		},
+		{
+			"type": "text",
+			"title": "The dungeon",
+			"text": "The boss is an Evolved Blaze. It drops a tier 4 key: use it on the treasure room with better GalaxySpace loot. Bring fire protection and canned food."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:gs_basic:3",
+			"title": "Dolomite Crystal",
+			"text": "The main resource of Ceres."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:dungeon_keys",
+			"title": "Tier 4 Key",
+			"text": "Opens the Ceres treasure room."
+		}
+	]
+}

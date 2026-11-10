@@ -1,0 +1,17 @@
+{
+	"name": "Tau Ceti",
+	"icon": "contenttweaker:icon_tauceti",
+	"category": "space_planets",
+	"advancement": "triumph:femboysecret/exploration/tau_ceti/root",
+	"sortnum": 14,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "The path",
+			"text": "A nearby Sun-like star. After $(l:space/planets/proxima)Proxima B$(), the target is Tau Ceti F. It can only be seen with a telescope from Proxima B. Its corals are the only way to make an Eye of Ender. It takes a tier 6 rocket. It is the last stop on the way to the Parade of Planets."
+		}
+	]
+}

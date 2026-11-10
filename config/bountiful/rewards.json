@@ -1,0 +1,289 @@
+[
+  {
+    "content": "minecraft:gold_nugget",
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:gold_ingot",
+    "unitWorth": 900,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:diamond",
+    "unitWorth": 2400,
+    "weight": 10
+  },
+  {
+    "content": "minecraft:iron_sword",
+    "unitWorth": 750,
+    "weight": 5,
+    "nbt_data": "{display:{Lore:[\"Sharper than Usual.\"]},ench:[{id:16,lvl:1}]}",
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "minecraft:leather_helmet",
+    "unitWorth": 500,
+    "weight": 5,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "minecraft:leather_boots",
+    "unitWorth": 450,
+    "weight": 5,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "minecraft:iron_chestplate",
+    "unitWorth": 1800,
+    "weight": 5,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "minecraft:golden_chestplate",
+    "unitWorth": 1200,
+    "weight": 5,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "minecraft:bow",
+    "unitWorth": 1300,
+    "weight": 10,
+    "nbt_data": "{ench:[{id:48,lvl:2}]}",
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  {
+    "content": "galacticraftcore:basic_item:3",
+    "amount": {
+      "min": 2,
+      "max": 16
+    },
+    "unitWorth": 180,
+    "weight": 60
+  },
+  {
+    "content": "galacticraftcore:basic_item:4",
+    "amount": {
+      "min": 2,
+      "max": 16
+    },
+    "unitWorth": 180,
+    "weight": 60
+  },
+  {
+    "content": "galacticraftcore:basic_item:11",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 350,
+    "weight": 40
+  },
+  {
+    "content": "galacticraftcore:food:9",
+    "amount": {
+      "min": 1,
+      "max": 4
+    },
+    "unitWorth": 300,
+    "weight": 40
+  },
+  {
+    "content": "galacticraftcore:basic_item:9",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 550,
+    "weight": 60,
+    "stages": [
+      "p2r_moon"
+    ]
+  },
+  {
+    "content": "galacticraftcore:item_basic_moon:0",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 700,
+    "weight": 50,
+    "stages": [
+      "p2r_moon"
+    ]
+  },
+  {
+    "content": "galacticraftplanets:item_basic_mars:2",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 1000,
+    "weight": 50,
+    "stages": [
+      "p2r_mars"
+    ]
+  },
+  {
+    "content": "galaxyspace:gs_basic:9",
+    "amount": {
+      "min": 1,
+      "max": 4
+    },
+    "unitWorth": 600,
+    "weight": 40,
+    "stages": [
+      "p2r_mars"
+    ]
+  },
+  {
+    "content": "galacticraftplanets:item_basic_asteroids:0",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 1100,
+    "weight": 50,
+    "stages": [
+      "p2r_asteroids"
+    ]
+  },
+  {
+    "content": "galacticraftplanets:item_basic_asteroids:7",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 1500,
+    "weight": 20,
+    "stages": [
+      "p2r_asteroids"
+    ]
+  },
+  {
+    "content": "galacticraftplanets:basic_item_venus:1",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 1000,
+    "weight": 50,
+    "stages": [
+      "p2r_venus"
+    ]
+  },
+  {
+    "content": "galaxyspace:ingots:1",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 1000,
+    "weight": 50,
+    "stages": [
+      "p2r_mercury"
+    ]
+  },
+  {
+    "content": "galaxyspace:gs_basic:21",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },
+    "unitWorth": 2500,
+    "weight": 10,
+    "stages": [
+      "p2r_io"
+    ]
+  },
+  {
+    "content": "galaxyspace:compressed_plates:4",
+    "amount": {
+      "min": 1,
+      "max": 4
+    },
+    "unitWorth": 600,
+    "weight": 50,
+    "stages": [
+      "p2r_phobos"
+    ]
+  },
+  {
+    "content": "galacticraftplanets:item_basic_asteroids:6",
+    "amount": {
+      "min": 1,
+      "max": 4
+    },
+    "unitWorth": 900,
+    "weight": 50,
+    "stages": [
+      "p2r_europa"
+    ]
+  },
+  {
+    "content": "galaxyspace:gs_basic:12",
+    "amount": {
+      "min": 1,
+      "max": 6
+    },
+    "unitWorth": 600,
+    "weight": 50,
+    "stages": [
+      "p2r_ganymede"
+    ]
+  },
+  {
+    "content": "galaxyspace:gs_basic:4",
+    "amount": {
+      "min": 1,
+      "max": 6
+    },
+    "unitWorth": 500,
+    "weight": 50,
+    "stages": [
+      "p2r_callisto"
+    ]
+  },
+  {
+    "content": "galaxyspace:gs_basic:14",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 1500,
+    "weight": 20,
+    "stages": [
+      "p2r_callisto"
+    ]
+  },
+  {
+    "content": "galaxyspace:gs_basic:22",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },
+    "unitWorth": 3000,
+    "weight": 10,
+    "stages": [
+      "p2r_triton"
+    ]
+  }
+]

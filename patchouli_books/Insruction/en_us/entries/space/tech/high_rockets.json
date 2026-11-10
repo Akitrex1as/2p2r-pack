@@ -1,0 +1,119 @@
+{
+	"name": "Rockets 4-6",
+	"icon": "galaxyspace:rocket_tier_5",
+	"category": "space_tech",
+	"advancement": "triumph:femboysecret/rockets/rocket_t3",
+	"sortnum": 0,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Schematics",
+			"text": "Higher tier rockets have no single schematic. They are made from parts: nose, body, engine, booster, fins and tank. The NASA Workbench makes each part from its own schematic. Heavy plates hold the hull: tier 4 takes $(l:space/planets/mars#phobos)Phobos$() regolith, tier 5 $(l:space/planets/jupiter#callisto)Callisto$() stone, tier 6 $(l:space/planets/jupiter#ganymede)Ganymede$() stone."
+		},
+		{
+			"type": "text",
+			"title": "Lander modules",
+			"text": "Tier 4 rockets also need three lander modules: without the third one the rocket will not fly. Look for schematics in treasure rooms and follow the advancement tree. $(l:space/planets/ceres)Ceres$() and $(l:space/planets/jupiter#io)Io$() have their own dungeons with better loot.",
+			"anchor": "landers"
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:rocket_assembler",
+			"title": "Rocket Assembly",
+			"text": "Assembles rockets from parts made on the NASA Workbench."
+		},
+		{
+			"type": "multiblock",
+			"name": "Advanced pad",
+			"text": "Tier 5 and 6 rockets only stand on a 5x5 square.",
+			"multiblock": {
+				"pattern": [
+					[
+						"PPPPP",
+						"PPPPP",
+						"PP0PP",
+						"PPPPP",
+						"PPPPP"
+					]
+				],
+				"mapping": {
+					"P": "galaxyspace:advanced_landing_pad",
+					"0": "galaxyspace:advanced_landing_pad"
+				}
+			},
+			"anchor": "advanced_pad"
+		},
+		{
+			"type": "text",
+			"title": "Range",
+			"text": "In this pack, distance to the target matters, so the required tier also depends on where you start. Flying via a closer planet can help: check the requirement on the map before each flight."
+		},
+		{
+			"type": "text",
+			"title": "Their fuel",
+			"text": "The Liquid Separator splits water. From there, methane, ethane, helium and hydrogen make better fuel mixes. Harvest gas with the Gas Collector and process it through the liquefier and the methane synthesizer."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:rocket_tier_4",
+			"title": "Tier 4 Rocket",
+			"text": "For the moons of Jupiter."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:rocket_tier_5",
+			"title": "Tier 5 Rocket",
+			"text": "For Saturn, Uranus and Alpha Centauri."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:rocket_tier_6",
+			"title": "Tier 6 Rocket",
+			"text": "For Pluto and Tau Ceti."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:schematics:0",
+			"title": "Nose Cone Schematic",
+			"text": "One of the part schematics for the NASA Workbench."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:rocket_modules:2",
+			"title": "Tier 3 Lander",
+			"text": "A tier 4 rocket will not fly without it."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:advanced_landing_pad",
+			"title": "Advanced Launch Pad",
+			"text": "Needed for tier 5 and 6 rockets.",
+			"anchor": "advanced_pad"
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:liquid_separator",
+			"title": "Liquid Separator",
+			"text": "Splits liquids and mixes them into fuel."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:gas_collector",
+			"title": "Gas Collector",
+			"text": "Collects gases within its working radius."
+		},
+		{
+			"type": "text",
+			"title": "Gas Extractor",
+			"text": "Right-click natural gas: the block disappears and 200 mB goes into a natural gas canister in your inventory. An empty oil canister also works and turns into a gas one. Each extraction costs 100 energy from a 6000 store. The Advanced Battery at the Modification Table raises that to 18000."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:gas_extractor",
+			"text": "Right-click natural gas to fill a canister in your inventory."
+		}
+	]
+}

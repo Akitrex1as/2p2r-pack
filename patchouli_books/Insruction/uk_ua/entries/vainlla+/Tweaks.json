@@ -1,0 +1,288 @@
+{
+	"name": "Хитрощі",
+	"icon": "quark:glass_shards:16",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/mine_stone",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Цей модуль налаштовує різні елементи ігрового процесу."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/armor-stand.jpg"
+			],
+			"title": "Підставка для броні",
+			"border": true,
+			"text": "Тепер вона має руки і може тримати зброю."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/axes-break-leaves.jpg"
+			],
+			"title": "Листоруб",
+			"border": true,
+			"text": "Сокира ламає листя так само як і ножиці."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/flint-tools.jpg"
+			],
+			"title": "Камінний крафт",
+			"border": true,
+			"text": "Створюйте кам'яні інструменти з будь-якого каменю."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/burning-baby.jpg"
+			],
+			"title": "Діти горять",
+			"border": true,
+			"text": "Малі зомбі горять при сонці, як і їхні батьки."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/burning-torches.jpg"
+			],
+			"title": "Палаючі смолоскипи",
+			"border": true,
+			"text": "Смолоскипи переплавляють по 2 предмети кожен."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/chicken-shear.jpg"
+			],
+			"title": "Стрижка курей",
+			"border": true,
+			"text": "Курей можна стригти як і овець."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/chicken-shed.jpg"
+			],
+			"title": "Линяння курчат",
+			"border": true,
+			"text": "Кури періодично скидають пір'я, подібно знесенню яйєць."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/clay-conversion.jpg"
+			],
+			"title": "\"Розглинення\"",
+			"border": true,
+			"text": "Глиняні блоки можна перетворити на глину на верстаку."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dirt-path.jpg"
+			],
+			"title": "Бруд у стежку",
+			"border": true,
+			"text": "ПКМ лопатою по бруду перетворить його на стежку."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dye-any-wool.jpg"
+			],
+			"title": "Мультивовна",
+			"border": true,
+			"text": "Можна пофарбувати будь-яку вовну."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/ender-cheese.jpg"
+			],
+			"title": "Розумні ендермени",
+			"border": true,
+			"text": "На складній складності ви не сховаєтесь від них під блоками."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/glass-shards.jpg"
+			],
+			"title": "Осколки скла",
+			"border": true,
+			"text": "З 4 уламків можна зробити скло."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/hoe-sickle.jpg"
+			],
+			"title": "Велика мотика",
+			"border": true,
+			"text": "Чим краща мотика, тим більше трави за раз вона косить."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/knock-knock.jpg"
+			],
+			"title": "Стук-стук",
+			"border": true,
+			"text": "Стукання має гучніший звук ніж ламання."
+		},
+		{
+			"type": "spotlight",
+			"item": "antiqueatlas:antique_atlas",
+			"title": "Старовинний атлас",
+			"text": "Це карта яка дозволить вам зручно орієнтуватись на місцевості."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/feellikeainvisible.png"
+			],
+			"title": "Невидимість",
+			"border": true,
+			"text": "З ефектом невидимості вас не бачить ніхто, навіть моби."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/drop-down-ladders.jpg"
+			],
+			"title": "Легкі драбини",
+			"border": true,
+			"text": "Драбини можна розміщувати вниз клацаючи по 1 блоку."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/look-down-ladders.jpg"
+			],
+			"title": "Логічні драбини",
+			"border": true,
+			"text": "Якщо ви просто дивитесь вниз, то ви швидше спускаєтесь."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/cart-interactions.jpg"
+			],
+			"title": "Вагонетки",
+			"border": true,
+			"text": "У вагонетки можна покласти деякі речі без крафту."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/pat-the-dogs.jpg"
+			],
+			"title": "Собаки",
+			"border": true,
+			"text": "Гладьте своїх улюбленців затиснувши Shift+ПКМ."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/quick-armor-swapping.jpg"
+			],
+			"title": "Швидко-броня",
+			"border": true,
+			"text": "Клацнувши Shift+ПКМ по іншій броні на стійці ви її заміните на свою."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/right-click-harvest.jpg"
+			],
+			"title": "Великий врожай",
+			"border": true,
+			"text": "Чим краща мотика, тим більше вона збирає врожаю за раз."
+		},
+		{
+			"type": "text",
+			"title": "Подвійні двері",
+			"text": "Сусідні двері відчиняються разом, зокрема й селянами."
+		},
+		{
+			"type": "text",
+			"title": "Покращений сон",
+			"text": "Час змінюється, коли сплять усі гравці, які не відійшли від клавіатури. Гравець, який не рухається дві хвилини, вважається відсутнім."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/shave-snow.jpg"
+			],
+			"title": "Бриття снігу",
+			"border": true,
+			"text": "Клацнувши ПКМ по блоку снігу, ви знімаєте його шар."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/sign-edit.jpg"
+			],
+			"title": "Редагування таблички",
+			"border": true,
+			"text": "Клацніть ПКМ по $(l:vainlla+/Decoration#signs)табличці$() щоб її відредагувати."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/slabs-to-blocks.jpg"
+			],
+			"title": "Плити в блоки",
+			"border": true,
+			"text": "Плити можна перетворити на блоки."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/springy-slime.jpg"
+			],
+			"title": "Пружний слиз",
+			"border": true,
+			"text": "Будь-які предмети відскакуватимуть від $(l:vainlla+/Automation#colored_slime)слизу$()."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/squid-inking.jpg"
+			],
+			"title": "Чорнило кальмара",
+			"border": true,
+			"text": "Після атаки кальмари випускають чорнило, яке засліплює гравців."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/compaSS.png"
+			],
+			"title": "Маякомпас",
+			"text": "Shift+ПКМ - зв'язати$(br)Ковадло+залізний злиток - розв'язати."
+		},
+		{
+			"type": "spotlight",
+			"item": "wolfarmor:diamond_wolf_armor",
+			"title": "Вовчі покращення",
+			"text": "Вовки мають стільки ж видів броні, скільки і гравець, а ще вовк матиме майже такі ж особливості броні. Крім того, цю броню можна одягнути за допомогою викидача. Також, подібно до мула, вовки можуть носити скрині."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/furrywolf.png"
+			],
+			"title": "Вовчі покращення",
+			"border": true,
+			"text": "Гачі мастер всіх вовків."
+		}
+	]
+}

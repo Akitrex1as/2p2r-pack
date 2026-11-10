@@ -1,0 +1,49 @@
+{
+	"name": "Protection",
+	"icon": "adpother:iron_vacuum_tube",
+	"category": "ecology",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Emissions can be cleaned using a special set of devices - \"vacuum tubes\", \"packagers\" and \"respirators\".$(br)They are divided into iron, gold and diamond tiers."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/image15.png"
+			],
+			"border": true,
+			"text": "Full iron ecological set"
+		},
+		{
+			"type": "text",
+			"text": "$(l)Note:$()$(br)To make all these tools work, you need to combine one of your tools with a $(l:ecology_inst/page02)filter item$() (leaves, wool, paper) on an anvil. Sometimes crafting requires 2 filter items. If the packager is filled to a certain percentage, you can refill it in a similar way."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/respirator.png"
+			],
+			"border": true,
+			"text": "Installing carbon filter (leaves)."
+		},
+		{
+			"type": "text",
+			"title": "$(l)Usage$()",
+			"text": "To use this set, equip it as shown on the first page, look at an emission block and hold right mouse button to vacuum the area."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/image20.png"
+			],
+			"title": "Usage example",
+			"border": true,
+			"text": "Vacuuming dust."
+		}
+	],
+	"advancement": "triumph:pollution/root"
+}

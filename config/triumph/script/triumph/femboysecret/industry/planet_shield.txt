@@ -1,0 +1,11 @@
+// Planet Shield
+setIcon("galaxyspace:planet_shield")
+setTranslatedTitle("advancements.triumph.femboysecret.industry.planet_shield.title")
+setTranslatedDescription("advancements.triumph.femboysecret.industry.planet_shield.description")
+addParent("triumph:femboysecret/fuelgen")
+criteria = addCriteria("planet_shield", "minecraft:inventory_changed")
+criteria.addItem("galaxyspace:planet_shield")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(300)

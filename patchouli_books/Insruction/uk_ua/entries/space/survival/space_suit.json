@@ -1,0 +1,72 @@
+{
+	"name": "Скафандри",
+	"icon": "galaxyspace:space_suit_light_head",
+	"category": "space_survival",
+	"advancement": "triumph:femboysecret/root",
+	"sortnum": 2,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Легкий чи важкий",
+			"text": "Легкий скафандр рятує від вакууму, але не від радіації. Важкий захищає ще й від радіації та тиску, тож беріть його якомога раніше. Потрібен повний комплект: шолом, куртка, штани і чоботи."
+		},
+		{
+			"type": "text",
+			"title": "Модифікаційний стіл",
+			"text": "Модулі ставлять у скафандр на столі. Спершу зробіть збиральний цех і порожній модуль. Частина модулів активна: їх вмикають клавішами. Зараз це $(k:keybind.togglehelmet.name), $(k:keybind.togglechest.name), $(k:keybind.togglelegs.name), $(k:keybind.toggleboots.name)."
+		},
+		{
+			"type": "text",
+			"title": "Модулі: огляд",
+			"text": "$(li)Сенсорні окуляри: показують руди й монстрів.$(li)Нічний зір.$(li)Дихання під водою.$(li)Автоживлення.$(li)Електричний джетпак.$(li)Посилена батарея."
+		},
+		{
+			"type": "text",
+			"title": "Модулі: рух і захист",
+			"text": "$(li)Прискорювачі бігу.$(li)Високий стрибок.$(li)Великий крок для підйому на блоки.$(li)Сила тяжіння: легше ходити на планетах.$(li)Захист $(l:space/planets/uranus#miranda)кобальтовими$() пластинами."
+		},
+		{
+			// БЛАНК СКРІНШОТУ: замініть файл blank_modification.png. Що зняти: відкритий інтерфейс Modification Table із покладеним шоломом або курткою скафандра та кількома модулями, щоб було видно перелік можливих модулів
+			"type": "image",
+			"images": [
+				"testbook:images/blank_modification.png"
+			],
+			"title": "Стіл модифікацій",
+			"border": true,
+			"text": "Скафандр у столі й доступні модулі."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:space_suit_light_head",
+			"title": "Легкий скафандр",
+			"text": "Рятує від вакууму, але не від радіації."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:space_suit_head",
+			"title": "Важкий скафандр",
+			"text": "Рятує від вакууму й радіації та тримає тиск."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:assembly_machine",
+			"title": "Збиральний цех",
+			"text": "Зварює деталі нового рівня лазером."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:modification_table",
+			"title": "Модифікаційний стіл",
+			"text": "Тут модулі ставлять у спорядження."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:gs_basic:11",
+			"title": "Порожній модуль",
+			"text": "Заготовка для всіх модулів."
+		}
+	]
+}

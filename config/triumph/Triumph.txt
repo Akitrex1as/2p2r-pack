@@ -1,0 +1,6 @@
+printDefaultConfigs(false)
+printDocumentation(false)
+removeVanillaAdvancements(true)
+removeModAdvancements(false)
+removeAdvancements(["wolfarmor"])
+allowDragging(false)

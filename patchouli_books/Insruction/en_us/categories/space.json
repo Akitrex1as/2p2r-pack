@@ -1,0 +1,8 @@
+{
+	"name": "Space",
+	"description": "Section describing how to start exploring the universe.",
+	"icon": "galacticraftcore:rocket_t1",
+	"sortnum": 3,
+	"advancement": "galacticraftcore:galacticraft/coal_generator",
+	"secret": false
+}

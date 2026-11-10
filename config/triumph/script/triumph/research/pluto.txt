@@ -1,0 +1,13 @@
+// Granted by scripts/planet_research.zs, or by landing there.
+setIcon(<galaxyspace:plutoblocks, meta:0>)
+setTranslatedTitle("advancements.triumph.research.pluto.title")
+setTranslatedDescription("advancements.triumph.research.pluto.description")
+addParent("triumph:research/root")
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("researched", "minecraft:impossible")
+criteria = addCriteria("landed_0", "minecraft:changed_dimension")
+criteria.setDimensionDestination("planet.pluto")
+
+setRequirements("any")

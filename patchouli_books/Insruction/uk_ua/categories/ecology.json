@@ -1,0 +1,8 @@
+{
+	"name": "Екологія",
+	"description": "Це інструкція про екологію і про те, як запобігти вибуху твоєї хати :3",
+	"icon": "pollutantpump:pump",
+	"sortnum": 2,
+	"advancement": "triumph:vanilla/story/smelt_iron",
+	"secret": false
+}

@@ -1,0 +1,15 @@
+// Granted by scripts/planet_research.zs, or by landing there.
+setIcon(<galacticraftplanets:mars, meta:5>)
+setTranslatedTitle("advancements.triumph.research.mars.title")
+setTranslatedDescription("advancements.triumph.research.mars.description")
+addParent("triumph:research/root")
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("researched", "minecraft:impossible")
+criteria = addCriteria("landed_0", "minecraft:changed_dimension")
+criteria.setDimensionDestination("planet.mars")
+criteria = addCriteria("landed_1", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.phobos")
+
+setRequirements("any")

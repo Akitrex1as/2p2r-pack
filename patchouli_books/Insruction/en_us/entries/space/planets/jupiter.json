@@ -1,0 +1,53 @@
+{
+	"name": "Jupiter",
+	"icon": "contenttweaker:icon_jupiter",
+	"category": "space_planets",
+	"advancement": "triumph:research/jupiter",
+	"sortnum": 6,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Jupiter",
+			"text": "The largest planet in the Solar System. It is a gas giant, so you cannot land: it stays on the map. Land on its moons instead. They take a tier 4 rocket."
+		},
+		{
+			"type": "text",
+			"title": "Io",
+			"text": "The most volcanic world in the Solar System. Gravity is about 35% of Earth's. It has copper, sulfur, volcanic ore, and lava and sulfur geysers. The boss is a huge ghast, and its tier 5 key opens the treasure room.",
+			"anchor": "io"
+		},
+		{
+			"type": "text",
+			"title": "Europa",
+			"text": "An icy moon with an ocean under its shell. Gravity is about 22% of Earth's. It has emeralds, silicon and aluminum, plus geysers, including underwater ones. The surface is cold. Europa's brown ice is needed for the tier 5 oxygen tank.",
+			"anchor": "europa"
+		},
+		{
+			"type": "text",
+			"title": "Ganymede",
+			"text": "The largest moon in the Solar System, bigger than Mercury. Gravity is about 29% of Earth's. It has magnesium and ilmenite. There is no air and it is cold, so thermal protection is a must. Ganymede stone goes into the heavy plate of the tier 6 rocket.",
+			"anchor": "ganymede"
+		},
+		{
+			"type": "text",
+			"title": "Callisto",
+			"text": "An old, crater-covered distant moon. Gravity is about 32% of Earth's. It is as cold as Jupiter's other moons. It has no special ores, but Callisto stone is needed for the heavy plate of the tier 5 rocket.",
+			"anchor": "callisto"
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:gs_basic:12",
+			"title": "Volcanic Stone",
+			"text": "Found on Io."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:dungeon_keys:1",
+			"title": "Tier 5 Key",
+			"text": "Opens the Io treasure room."
+		}
+	]
+}

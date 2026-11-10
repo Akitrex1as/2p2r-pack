@@ -1,0 +1,12 @@
+// Moon
+setIcon(<galacticraftcore:basic_block_moon, meta:5>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.moon.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.moon.description")
+addParent("triumph:femboysecret/exploration/solar_system/root")
+
+criteria = addCriteria("entered_moon", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.moon")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(100)

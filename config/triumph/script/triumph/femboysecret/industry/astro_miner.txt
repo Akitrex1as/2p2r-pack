@@ -1,0 +1,11 @@
+// Astro Miner
+setIcon("galacticraftplanets:astro_miner")
+setTranslatedTitle("advancements.triumph.femboysecret.industry.astro_miner.title")
+setTranslatedDescription("advancements.triumph.femboysecret.industry.astro_miner.description")
+addParent("triumph:femboysecret/exploration/solar_system/asteroids")
+criteria = addCriteria("astro_miner", "minecraft:inventory_changed")
+criteria.addItem("galacticraftplanets:astro_miner")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(300)

@@ -1,0 +1,13 @@
+// Rocket T4
+setIcon("galaxyspace:rocket_tier_4")
+setTranslatedTitle("advancements.triumph.femboysecret.rockets.rocket_t4.title")
+setTranslatedDescription("advancements.triumph.femboysecret.rockets.rocket_t4.description")
+addParent("triumph:femboysecret/exploration/solar_system/venus")
+addParent("triumph:femboysecret/schematics/rocket_module_3")
+addParent("triumph:femboysecret/schematics/schematic_gs_t5")
+criteria = addCriteria("rocket_t4", "minecraft:inventory_changed")
+criteria.addItem("galaxyspace:rocket_tier_4")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(350)

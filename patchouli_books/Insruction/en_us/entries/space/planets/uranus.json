@@ -1,0 +1,29 @@
+{
+	"name": "Uranus",
+	"icon": "contenttweaker:icon_uranus",
+	"category": "space_planets",
+	"advancement": "triumph:research/uranus",
+	"sortnum": 8,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Uranus",
+			"text": "An ice giant that spins lying on its side. You cannot land on it. Land on Miranda with a tier 5 rocket. Ariel, Umbriel, Titania and Oberon only stay on the map."
+		},
+		{
+			"type": "text",
+			"title": "Miranda",
+			"text": "Its surface looks stitched from patches. Gravity is about 29% of Earth's. It is very cold. Resources abound: iron, dolomite, diamonds, quartz, cobalt and nickel. Cobalt is used for armor and the Protection module.",
+			"anchor": "miranda"
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:ingots:0",
+			"title": "Cobalt",
+			"text": "A metal from Miranda for armor and the Protection module."
+		}
+	]
+}

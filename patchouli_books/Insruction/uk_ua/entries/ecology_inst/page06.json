@@ -1,0 +1,40 @@
+{
+	"name": "Димарі",
+	"icon": "adchimneys:concrete_cyan",
+	"category": "ecology",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Щоб викиди не поширювалися навколо $(l:ecology_inst/page01)печі$(), розташуйте димар поряд. Якщо ваша піч генерує занадто багато викидів, поставте більше димарів.$(br)Якщо димар перекрити блоком (окрім $(l:ecology_inst/page02)фільтра$()), то він згодом вибухне."
+		},
+		{
+			"type": "multiblock",
+			"text": "\"Я б додав блок, але залишу це на вас)\"",
+			"name": "Приклад використання",
+			"multiblock": {
+				"pattern": [
+					[
+						" B "
+					],
+					[
+						" B "
+					],
+					[
+						" BA"
+					],
+					[
+						" 0 "
+					]
+				],
+				"mapping": {
+					"A": "minecraft:furnace",
+					"B": "adchimneys:cobblestone"
+				}
+			}
+		}
+	],
+	"advancement": "triumph:vanilla/story/smelt_iron"
+}

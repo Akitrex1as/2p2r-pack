@@ -1,0 +1,11 @@
+// Air Lock Controller
+setIcon(<galacticraftcore:air_lock_frame, meta:1>)
+setTranslatedTitle("advancements.triumph.femboysecret.industry.air_lock.title")
+setTranslatedDescription("advancements.triumph.femboysecret.industry.air_lock.description")
+addParent("triumph:femboysecret/root")
+criteria = addCriteria("air_lock_controller", "minecraft:inventory_changed")
+criteria.addItem(<galacticraftcore:air_lock_frame, meta:1>)
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(150)

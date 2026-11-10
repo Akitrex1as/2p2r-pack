@@ -1,0 +1,29 @@
+filename = 'Triumph-1.12.2-3.19.2.jar'
+name = 'Triumph'
+side = "both"
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Triumph 1.12-3.19.2'
+
+[download]
+hash = '2741423e8aeba105d4f9877aacc152ec611b8959'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2825547
+project-id = 235492
+
+[[x-prismlauncher-dependencies]]
+addonId = '272515'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '274341'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '229587'
+type = 'REQUIRED'

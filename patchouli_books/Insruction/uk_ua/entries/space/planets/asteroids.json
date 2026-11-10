@@ -1,0 +1,33 @@
+{
+	"name": "Пояс астероїдів",
+	"icon": "galacticraftplanets:asteroids_block",
+	"category": "space_planets",
+	"advancement": "triumph:research/asteroids",
+	"sortnum": 2,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Про світ",
+			"text": "Безліч каменів між Марсом і Юпітером. Ракета 3 рівня. Повітря немає. Земля майже всюди порожня, тож падати є куди: гравітація близько 10% земної, а Сонце дає радіацію."
+		},
+		{
+			"type": "text",
+			"title": "Посадка",
+			"text": "Спуск іде в капсулі. Візьміть блоки для мосту і гак: між каменями доведеться перебиратися."
+		},
+		{
+			"type": "text",
+			"title": "Ресурси",
+			"text": "Залізо, алюміній та ільменіт. З ільменіту отримують титан для наступної $(l:space/tech/high_rockets)ракети$() і броні. Також тут стоять уламки чужих зондів із корисним лутом."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:grapple",
+			"title": "Гак",
+			"text": "Допомагає перебиратися між астероїдами."
+		}
+	]
+}

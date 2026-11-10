@@ -1,0 +1,8 @@
+{
+	"name": "First Steps",
+	"description": "From the first generator to the first flight.",
+	"icon": "galacticraftcore:rocket_t1",
+	"parent": "space",
+	"sortnum": 0,
+	"secret": false
+}

@@ -1,0 +1,11 @@
+// Quark basalt
+setIcon(<quark:basalt>)
+setTranslatedTitle("advancements.triumph.vanilla.nether.basalt.title")
+setTranslatedDescription("advancements.triumph.vanilla.nether.basalt.description")
+addParent("triumph:vanilla/nether/root")
+
+criteria = addCriteria("basalt", "minecraft:inventory_changed")
+criteria.addItem(<quark:basalt>)
+
+setRequirements("any")
+setRewardExperience(50)

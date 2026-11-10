@@ -1,0 +1,137 @@
+{
+	"name": "Управління",
+	"icon": "galacticraftcore:standard_wrench",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/root",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Цей модуль додає функції управління вашими речами."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/arrow-scrolling.jpg"
+			],
+			"title": "Прокручування стріл",
+			"border": true,
+			"text": "Підкрадаючись з луком, колесико миші змінюватиме стріли."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/auto-tool-restock.jpg"
+			],
+			"title": "Відновлення інструменту",
+			"border": true,
+			"text": "Заміна зламаних інструментів на нові."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/better-craft-shifting.jpg"
+			],
+			"title": "Покращений крафт",
+			"border": true,
+			"text": "Shift+ПКМ переміщує предмет до сітки крафту."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/chest-buttons.jpg"
+			],
+			"title": "Кнопки скринь",
+			"border": true,
+			"text": "Додано кнопки для організацій речей в скринях."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/boat-chests.jpg"
+			],
+			"title": "Скрині в човнах",
+			"border": true,
+			"text": "Клацніть ПКМ по човну, щоб поставити туди скриню."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dropoff.jpg"
+			],
+			"title": "Викладання речей",
+			"border": true,
+			"text": "Натисніть цю кнопку, щоб викласти речі в найближчі скрині."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/f-swap.jpg"
+			],
+			"title": "Клавіша F",
+			"border": true,
+			"text": "Ця клавіша тепер працює в інвентарі."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/favorites.jpg"
+			],
+			"title": "Улюблені речі",
+			"border": true,
+			"text": "alt+ПКМ щоб вберегти речі від викладання."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/hotbar-changer.jpg"
+			],
+			"title": "Панель інвентарю",
+			"border": true,
+			"text": "Натисніть Z, щоб відкрити/закрити розширену панель."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/link-items.jpg"
+			],
+			"title": "Пов'язані предмети",
+			"border": true,
+			"text": "Натисніть Shift+T, щоб показати предмет у чаті."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/right-click-shulker-box.jpg"
+			],
+			"title": "Легші шалкери",
+			"border": true,
+			"text": "Щось покласти в шалкер можна прямо в інвентарі."
+		},
+		{
+			"type": "text",
+			"title": "Кнопка сортування",
+			"text": "Сортування здійснюється за допомогою системи категорій (їжа, зброя, броня, блок тощо). Кожна категорія також має свої правила сортування, наприклад, їжа буде відсортована на основі того, яка з них більш ситна; інструменти будуть відсортовані на основі того,"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/sorting-button.jpg"
+			],
+			"title": "Кнопка сортування",
+			"border": true,
+			"text": "який з них кращий або має більшу міцність."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/backpack.jpg"
+			],
+			"title": "Рюкзаки",
+			"border": true,
+			"text": "Можна купити в чинбаря, відкриваються на ПКМ."
+		}
+	]
+}

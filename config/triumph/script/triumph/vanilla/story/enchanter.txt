@@ -1,0 +1,11 @@
+// Enchanter
+setIcon("minecraft:enchanting_table")
+setTranslatedTitle("advancements.triumph.vanilla.story.enchanter.title")
+setTranslatedDescription("advancements.triumph.vanilla.story.enchanter.description")
+addParent("triumph:vanilla/story/mine_diamond")
+
+criteria = addCriteria("enchanter", "minecraft:inventory_changed")
+criteria.addItem("minecraft:enchanting_table")
+
+setRequirements("any")
+setRewardExperience(50)

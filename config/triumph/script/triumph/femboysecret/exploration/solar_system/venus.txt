@@ -1,0 +1,12 @@
+// Venus
+setIcon(<galacticraftplanets:venus, meta:0>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.venus.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.venus.description")
+addParent("triumph:femboysecret/rockets/rocket_t3")
+
+criteria = addCriteria("entered_venus", "minecraft:changed_dimension")
+criteria.setDimensionDestination("planet.venus")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(250)

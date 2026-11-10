@@ -1,0 +1,22 @@
+{
+	"name": "Плутон",
+	"icon": "galaxyspace:plutoblocks",
+	"category": "space_planets",
+	"advancement": "triumph:research/pluto",
+	"sortnum": 10,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Про світ",
+			"text": "Карликова планета на самому краю системи. Ракета 6 рівня. Гравітація близько 27% земної. Один із найхолодніших світів, де реальна температура опускається нижче -200 °C. Харон лишається лише на карті. Звідси телескоп бачить $(l:space/planets/proxima)Proxima B$()."
+		},
+		{
+			"type": "text",
+			"title": "Що тут є",
+			"text": "Скарбницю стереже альфа-вовк. Беріть термозахист 4 рівня і великий запас кисню: далеко до дому."
+		}
+	]
+}

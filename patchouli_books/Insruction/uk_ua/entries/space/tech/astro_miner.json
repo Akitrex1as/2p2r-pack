@@ -1,0 +1,40 @@
+{
+	"name": "Астрошахтар",
+	"icon": "galacticraftplanets:astro_miner",
+	"category": "space_tech",
+	"advancement": "triumph:femboysecret/exploration/solar_system/asteroids",
+	"sortnum": 3,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Астрошахтар",
+			"text": "Робот сам копає астероїди і везе руду на базу. Йому потрібна база-стоянка на поверхні та енергія. На одного гравця можна мати до 6 шахтарів. На місці є титан, алюміній і залізо."
+		},
+		{
+			"type": "text",
+			"title": "Короткі телепорти",
+			"text": "Пара телепортів переносить вас між двома точками в одному світі. Обидва кінці потрібно живити й налаштувати на один адрес. Зручно для великих баз на $(l:space/planets/asteroids)астероїдах$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:astro_miner",
+			"title": "Астрошахтар",
+			"text": "Копає астероїди без вашої участі."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:miner_base",
+			"title": "База шахтаря",
+			"text": "Стоянка, куди шахтар везе руду."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:telepad_short",
+			"title": "Короткий телепорт",
+			"text": "Переносить вас між двома точками."
+		}
+	]
+}

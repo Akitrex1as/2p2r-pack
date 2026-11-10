@@ -1,0 +1,21 @@
+filename = 'itlt-1.12.x-1.0.4.jar'
+name = "It's the little things"
+side = "client"
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'itlt-1.12.x-1.0.4.jar'
+
+[download]
+hash = '046b21212d93acb02adf7bc240be3ee990bce3db'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3330021
+project-id = 232791
+
+[[x-prismlauncher-dependencies]]
+addonId = '401014'
+type = 'TOOL'

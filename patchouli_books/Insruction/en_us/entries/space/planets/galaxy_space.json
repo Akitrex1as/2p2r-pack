@@ -1,0 +1,46 @@
+{
+	"name": "Travel Route",
+	"icon": "galaxyspace:rocket_tier_6",
+	"category": "space_planets",
+	"advancement": "triumph:femboysecret/exploration/solar_system/root",
+	"sortnum": -1,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "The path",
+			"text": "After the $(l:space/planets/moon)Moon$() key: $(l:space/planets/mars)Mars$(), $(l:space/planets/asteroids)the asteroids$(), $(l:space/planets/venus)Venus$(), $(l:space/planets/mercury)Mercury$(), $(l:space/planets/ceres)Ceres$(), $(l:space/planets/pluto)Pluto$(), $(l:space/planets/haumea)Haumea$(), $(l:space/planets/kuiper_belt)the Kuiper Belt$()."
+		},
+		{
+			"type": "text",
+			"title": "Where to land",
+			"text": "$(l:space/planets/jupiter#io)Io$(), $(l:space/planets/jupiter#europa)Europa$(), $(l:space/planets/jupiter#ganymede)Ganymede$(), $(l:space/planets/jupiter#callisto)Callisto$(), $(l:space/planets/saturn#enceladus)Enceladus$() and $(l:space/planets/saturn#titan)Titan$(). Also $(l:space/planets/uranus#miranda)Miranda$() and $(l:space/planets/neptune#triton)Triton$()."
+		},
+		{
+			"type": "text",
+			"title": "Only on the map",
+			"text": "$(l:space/planets/jupiter)Jupiter$(), $(l:space/planets/saturn)Saturn$(), $(l:space/planets/uranus)Uranus$() and $(l:space/planets/neptune)Neptune$(). Also Deimos, Oberon and Proteus. Barnard is disabled."
+		},
+		{
+			"type": "text",
+			"title": "New entries",
+			"text": "A planet's entry appears here when you finish researching it at the control station. Moons open together with their planet. The entry also opens if you simply land there."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/bosses.png"
+			],
+			"title": "Dungeons",
+			"border": true,
+			"text": "A blaze on Ceres, a ghast on Io, an ice blaze on Enceladus."
+		},
+		{
+			"type": "text",
+			"title": "Gear",
+			"text": "Before landing, sort out oxygen, thermal protection and protection from pressure and radiation. Your base must be sealed. Read about the gauges in $(l:space/survival/hazards)Radiation, Pressure, Heat$()."
+		}
+	]
+}

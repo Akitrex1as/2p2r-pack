@@ -1,0 +1,185 @@
+{
+	"name": "Різне",
+	"icon": "quark:ancient_tome",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/smelt_iron",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Цей модуль включає різноманітні функції, які не входять до жодного іншого модуля."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/ancient-tomes.png"
+			],
+			"title": "Древні фоліанти",
+			"border": true,
+			"text": "Дозволяють збільшити рівень зачарування."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/animal-poisoning.png"
+			],
+			"title": "Отруєння тварин",
+			"border": true,
+			"text": "Не годуйте тварин павучими очима."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/colored-runes.png"
+			],
+			"title": "Кольорові руни",
+			"border": true,
+			"text": "Дозволяють змінити колір зачарування на інструментах.",
+			"anchor": "runes"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/endermites-into-shulkers.png"
+			],
+			"title": "Ендерміти у шалкери",
+			"border": true,
+			"text": "Ендерміти можуть перетворитися на шалкерів."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/extra-arrows.png"
+			],
+			"title": "Додаткові стріли",
+			"border": true,
+			"text": "Вибухова стріла підривається при влучанні."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/extra-potions.png"
+			],
+			"title": "Додаткові зілля",
+			"border": true,
+			"text": "Нові види зіль з різними ефектами."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/horse-whistles.png"
+			],
+			"title": "Свисток для коня",
+			"border": true,
+			"text": "Свисток кличе коня в радіусі 64 блоків. Кінь прийде, якщо знайде дорогу."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/lock-rotation.jpg"
+			],
+			"title": "Фіксація обертання",
+			"border": true,
+			"text": "Дозволяє зафіксувати обертання блоків під час будівництва."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/note-blocks.png"
+			],
+			"title": "Ноти монстрів",
+			"border": true,
+			"text": "Нотні блоки, які відтворюють звуки монстрів."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/note-block-gui.png"
+			],
+			"title": "Нотні блоки",
+			"border": true,
+			"text": "Додатковий інтерфейс для налаштування нотних блоків."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/pickarang.png"
+			],
+			"title": "Кайлоранг",
+			"border": true,
+			"text": "Кайло, яке працює як бумеранг."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/vanilla-dusts.png"
+			],
+			"title": "Порошки",
+			"border": true,
+			"text": "Світлокамінь і порох можна розміщувати на землі."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/reacharound-placing.png"
+			],
+			"title": "Колозабуд",
+			"border": true,
+			"text": "Дозволяє ставити блоки за блоками, стоячи на місці."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/snowman-heads.png"
+			],
+			"title": "Голови снігових големів",
+			"border": true,
+			"text": "Іменований сніговий голем із гарбузом, убитий відьмою, кидає голову гравця."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/throw-dragon-breath.png"
+			],
+			"title": "Кидихання дракона",
+			"border": true,
+			"text": "Дихання дракона можна кидати в щось або когось."
+		},
+		{
+			"type": "text",
+			"title": "Матриця чарів",
+			"text": "Матриця чарів - це повна переробка системи чарів. Її частини можна генерувати за допомогою лазуриту та досвіду. Потім їх слід розмістити на сітці, щоб накласти чари на предмети."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/matrix-enchanting.jpg"
+			],
+			"title": "Матриця чарів",
+			"border": true,
+			"text": "Контроль над чарами, що застосовуються до предметів."
+		},
+		{
+			"type": "text",
+			"title": "Тотем збереження",
+			"text": "Тотем збереження з'являється на місці смерті й зберігає речі. Якщо померти ще раз, тотем розірветься, а речі випадуть."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/totem-of-holding.jpg"
+			],
+			"title": "Тотем збереження",
+			"border": true,
+			"text": "Зберігання предметів після смерті."
+		},
+		{
+			"type": "spotlight",
+			"item": "quark:tiny_potato",
+			"title": "Крихітна картопля",
+			"text": "Декоративна картоплина. Її можна назвати, і вона говоритиме."
+		}
+	]
+}

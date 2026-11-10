@@ -1,0 +1,11 @@
+setIcon("galacticraftplanets:key_t3")
+setTranslatedTitle("advancements.triumph.femboysecret.bosses.venus_boss.title")
+setTranslatedDescription("advancements.triumph.femboysecret.bosses.venus_boss.description")
+addParent("triumph:femboysecret/exploration/solar_system/venus")
+setRequiresParents()
+
+criteria = addCriteria("venus_key", "minecraft:inventory_changed")
+criteria.addItem("galacticraftplanets:key_t3")
+
+setRequirements("all")
+setRewardExperience(450)

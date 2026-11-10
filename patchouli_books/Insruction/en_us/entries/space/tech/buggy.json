@@ -1,0 +1,23 @@
+{
+	"name": "Moon Buggy",
+	"icon": "galacticraftcore:buggy",
+	"category": "space_tech",
+	"advancement": "galacticraftcore:galacticraft/moon_buggy_schematic",
+	"sortnum": 4,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Moon Buggy",
+			"text": "Chassis, wheels, seat and storage on the buggy workbench. It runs on rocket fuel from the landing site to the dungeon. Tanks fit in its storage. It does not fly between planets."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:buggy",
+			"title": "Moon Buggy",
+			"text": "Fast transport for planet surfaces."
+		}
+	]
+}

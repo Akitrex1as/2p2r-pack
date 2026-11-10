@@ -1,0 +1,10 @@
+// Europa
+setIcon(<galaxyspace:europablocks, meta:0>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.europa.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.europa.description")
+addParent("triumph:femboysecret/exploration/solar_system/jupiter")
+
+criteria = addCriteria("entered_europa", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.europa")
+
+setRewardExperience(280)

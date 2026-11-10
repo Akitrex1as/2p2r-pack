@@ -1,0 +1,137 @@
+{
+	"name": "Management",
+	"icon": "galacticraftcore:standard_wrench",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/root",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "This module adds inventory and item management features."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/arrow-scrolling.jpg"
+			],
+			"title": "Arrow Scrolling",
+			"border": true,
+			"text": "Sneaking with a bow and scrolling the mouse wheel cycles arrows."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/auto-tool-restock.jpg"
+			],
+			"title": "Auto Tool Restock",
+			"border": true,
+			"text": "Automatically replaces broken tools with new ones."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/better-craft-shifting.jpg"
+			],
+			"title": "Improved Crafting",
+			"border": true,
+			"text": "Shift + right-click transfers an item into the crafting grid."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/chest-buttons.jpg"
+			],
+			"title": "Chest Buttons",
+			"border": true,
+			"text": "Buttons added to organize items in chests."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/boat-chests.jpg"
+			],
+			"title": "Chests in Boats",
+			"border": true,
+			"text": "Right-click a boat to place a chest inside it."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dropoff.jpg"
+			],
+			"title": "Item Dropoff",
+			"border": true,
+			"text": "Click this button to deposit items into nearby chests."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/f-swap.jpg"
+			],
+			"title": "F Key Swap",
+			"border": true,
+			"text": "The F key now works inside the inventory."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/favorites.jpg"
+			],
+			"title": "Favorite Items",
+			"border": true,
+			"text": "Alt + right-click to protect items from being deposited."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/hotbar-changer.jpg"
+			],
+			"title": "Hotbar Swapper",
+			"border": true,
+			"text": "Press Z to open/close the expanded hotbar."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/link-items.jpg"
+			],
+			"title": "Item Sharing",
+			"border": true,
+			"text": "Press Shift + T to showcase an item in chat."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/right-click-shulker-box.jpg"
+			],
+			"title": "Quick Shulkers",
+			"border": true,
+			"text": "Put items into a shulker box directly in your inventory."
+		},
+		{
+			"type": "text",
+			"title": "Sorting Button",
+			"text": "Sorting is handled using a category system (food, weapons, armor, blocks, etc.). Each category has its own sorting rules: for example, food is sorted by saturation, and tools are sorted by"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/sorting-button.jpg"
+			],
+			"title": "Sorting Button",
+			"border": true,
+			"text": "tier quality or remaining durability."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/backpack.jpg"
+			],
+			"title": "Backpacks",
+			"border": true,
+			"text": "Can be bought from leatherworkers; opened on right-click."
+		}
+	]
+}

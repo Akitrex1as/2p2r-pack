@@ -1,0 +1,18 @@
+// Jupiter: map only, reached through any moon
+setIcon(<contenttweaker:icon_jupiter>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.jupiter.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.jupiter.description")
+addParent("triumph:femboysecret/rockets/rocket_t4")
+
+criteria1 = addCriteria("entered_io", "minecraft:changed_dimension")
+criteria1.setDimensionDestination("moon.io")
+criteria2 = addCriteria("entered_europa", "minecraft:changed_dimension")
+criteria2.setDimensionDestination("moon.europa")
+criteria3 = addCriteria("entered_ganymede", "minecraft:changed_dimension")
+criteria3.setDimensionDestination("moon.ganymede")
+criteria4 = addCriteria("entered_callisto", "minecraft:changed_dimension")
+criteria4.setDimensionDestination("moon.callisto")
+
+setRequiresParents()
+setRequirements("any", ["completedParent"])
+setRewardExperience(300)

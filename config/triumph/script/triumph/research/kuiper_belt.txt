@@ -1,0 +1,13 @@
+// Granted by scripts/planet_research.zs, or by landing there.
+setIcon(<galacticraftplanets:dense_ice, meta:0>)
+setTranslatedTitle("advancements.triumph.research.kuiper_belt.title")
+setTranslatedDescription("advancements.triumph.research.kuiper_belt.description")
+addParent("triumph:research/root")
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("researched", "minecraft:impossible")
+criteria = addCriteria("landed_0", "minecraft:changed_dimension")
+criteria.setDimensionDestination("planet.kuiperbelt")
+
+setRequirements("any")

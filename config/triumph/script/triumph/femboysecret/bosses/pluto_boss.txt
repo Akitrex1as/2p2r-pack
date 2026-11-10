@@ -1,0 +1,15 @@
+// Pluto's vault guard; the location keeps the kill to that world
+setIcon("minecraft:bone")
+setTranslatedTitle("advancements.triumph.femboysecret.bosses.pluto_boss.title")
+setTranslatedDescription("advancements.triumph.femboysecret.bosses.pluto_boss.description")
+addParent("triumph:femboysecret/exploration/solar_system/pluto")
+setRequiresParents()
+
+criteria = addCriteria("pluto_wolf", "minecraft:player_killed_entity")
+criteria.setEntityType("galacticraftcore:astro_wolf")
+entityData = criteria.getEntityData()
+location = entityData.getLocationData()
+location.setDimensionType("planet.pluto")
+
+setRequirements("all")
+setRewardExperience(600)

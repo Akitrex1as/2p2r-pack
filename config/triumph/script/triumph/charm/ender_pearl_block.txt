@@ -1,0 +1,11 @@
+// Ender Pearl Block
+setIcon(<charm:ender_pearl_block>)
+setTranslatedTitle("advancements.triumph.charm.ender_pearl_block.title")
+setTranslatedDescription("advancements.triumph.charm.ender_pearl_block.description")
+addParent("triumph:charm/bookshelf_chest")
+
+criteria = addCriteria("ender_pearl_block", "minecraft:inventory_changed")
+criteria.addItem(<charm:ender_pearl_block>)
+
+setRequirements("any")
+setRewardExperience(75)

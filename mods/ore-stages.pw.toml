@@ -1,0 +1,25 @@
+filename = 'OreStages-1.12.2-2.0.38.jar'
+name = 'Ore Stages'
+side = "both"
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '2.0.38'
+
+[download]
+hash = '6076b9f829a362d4b9812031b07a269515364b8c02a3ccabf10d97c960d4bf024ed248c426422c52fdac7b99adadab4173fe9e278d80a29f36b2fe7f46969042'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8t8aOeb7/versions/e2TSOT0U/OreStages-1.12.2-2.0.38.jar'
+
+[update.modrinth]
+mod-id = '8t8aOeb7'
+version = 'e2TSOT0U'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Xg35A4rS'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'iAlZk5aS'
+type = 'REQUIRED'

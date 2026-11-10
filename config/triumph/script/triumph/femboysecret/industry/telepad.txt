@@ -1,0 +1,11 @@
+// Short Range Telepad
+setIcon("galacticraftplanets:telepad_short")
+setTranslatedTitle("advancements.triumph.femboysecret.industry.telepad.title")
+setTranslatedDescription("advancements.triumph.femboysecret.industry.telepad.description")
+addParent("triumph:femboysecret/exploration/solar_system/asteroids")
+criteria = addCriteria("telepad_short", "minecraft:inventory_changed")
+criteria.addItem("galacticraftplanets:telepad_short")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(250)

@@ -1,0 +1,176 @@
+{
+	"name": "Decoration",
+	"icon": "quark:custom_bookshelf:3",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/upgrade_tools",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "This module adds new decorative building blocks and improves vanilla ones."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/bookshelves.jpg"
+			],
+			"title": "Bookshelves",
+			"border": true,
+			"text": "Craft bookshelves from any wood type."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/pressure-plates-buttons.jpg"
+			],
+			"title": "Buttons and Plates",
+			"border": true,
+			"text": "Craft buttons and pressure plates from any wood type."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/chests.jpg"
+			],
+			"title": "Chests",
+			"border": true,
+			"text": "Craft chests from any wood type."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/blaze-lantern.jpg"
+			],
+			"title": "Blaze Lantern",
+			"border": true,
+			"text": "Crafted from 5 blaze powder and 4 blaze rods."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/charcoal-block.jpg"
+			],
+			"title": "Charcoal Block",
+			"border": true,
+			"text": "Like netherrack, fire burns forever on it."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/glass-item-frame.jpg"
+			],
+			"title": "Glass Item Frames",
+			"border": true,
+			"text": "Crafted from an item frame and 8 glass panes."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/iron-ladders.jpg"
+			],
+			"title": "Iron Ladders",
+			"border": true,
+			"text": "Crafted from 6 iron rods."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/more-banner-layers.jpg"
+			],
+			"title": "More Banner Layers",
+			"border": true,
+			"text": "Banners now support up to 16 layers instead of 6."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/banner-icons.jpg"
+			],
+			"title": "New Patterns",
+			"border": true,
+			"text": "New materials can be used for banner patterns."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/paper-lamps.jpg"
+			],
+			"title": "Paper Lantern",
+			"border": true,
+			"text": "Crafted from paper, sticks, and glowstone."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/paper-walls.jpg"
+			],
+			"title": "Paper Walls",
+			"border": true,
+			"text": "Crafted from paper, sticks, and a sapling."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/place-blaze-rods.jpg"
+			],
+			"title": "Placeable Blaze Rods",
+			"border": true,
+			"text": "Blaze rods can be placed in the world."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/tie-leads.jpg"
+			],
+			"title": "Lead Connections",
+			"border": true,
+			"text": "Fences can now be connected to each other with leads."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/better-flower-pots.jpg"
+			],
+			"title": "Better Flower Pots",
+			"border": true,
+			"text": "Flower pots now accept almost any type of vegetation."
+		},
+		{
+			"type": "spotlight",
+			"item": "futuremc:composter",
+			"text": "Right-click the composter with organic items to add them. When full, you will receive bone meal."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/BEDSYO.png"
+			],
+			"title": "Custom Bed Covers",
+			"border": true,
+			"text": "You can remove a banner from a bed by placing it back into a crafting table."
+		},
+		{
+			"type": "text",
+			"title": "Sign Pictures",
+			"text": "You can place signs displaying custom pictures and GIFs.$(br2)1. Press the $(k:signpic.key.gui) key.$(br2)2. Paste the image URL (preferably Imgur) or file path.$(br2)3. Click \"Place\".$(br2)4. Place the sign!",
+			"anchor": "signs"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/Astolfo.png"
+			],
+			"title": "Sign Pictures",
+			"border": true,
+			"text": "            UwU"
+		},
+		{
+			"type": "spotlight",
+			"item": "charm:bookshelf_chest",
+			"title": "Bookshelf Chest",
+			"text": "A bookshelf with 9 slots for storing books. Provides the same enchanting power as a standard bookshelf as long as it contains at least one book."
+		}
+	]
+}

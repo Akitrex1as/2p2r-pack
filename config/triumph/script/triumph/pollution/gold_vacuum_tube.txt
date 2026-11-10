@@ -1,0 +1,12 @@
+// Gold Vacuum Tube
+setIcon("adpother:gold_vacuum_tube")
+setTranslatedTitle("advancements.triumph.pollution.gold_vacuum_tube.title")
+setTranslatedDescription("advancements.triumph.pollution.gold_vacuum_tube.description")
+addParent("triumph:pollution/gold_vacuum_bag")
+
+criteria = addCriteria("gold_vacuum_tube", "minecraft:inventory_changed")
+criteria.addItem("adpother:gold_vacuum_tube")
+
+setRequirements("any")
+setRewardExperience(150)
+setPos(108,0)

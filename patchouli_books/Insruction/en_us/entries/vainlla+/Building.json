@@ -1,0 +1,217 @@
+{
+	"name": "Building",
+	"icon": "quark:duskbound_lantern",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/upgrade_tools",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "This module adds new building blocks and construction tools."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/bark-blocks.jpg"
+			],
+			"title": "Bark Blocks",
+			"border": true,
+			"text": "Crafted from 4 of their respective logs."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/carved-wood.jpg"
+			],
+			"title": "Carved Wood",
+			"border": true,
+			"text": "Crafted from 4 of their respective slabs."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/duskbound-blocks.jpg"
+			],
+			"title": "Duskbound Blocks",
+			"border": true,
+			"text": "Crafted from purpur and obsidian."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/framed-glass.jpg"
+			],
+			"title": "Framed Glass",
+			"border": true,
+			"text": "Crafted from iron and glass."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/iron-plates.jpg"
+			],
+			"title": "Iron Plates",
+			"border": true,
+			"text": "Crafted from iron plates."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/midori.jpg"
+			],
+			"title": "Midori Blocks",
+			"border": true,
+			"text": "Crafted from cactus green."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/new-sandstone.jpg"
+			],
+			"title": "More Sandstone",
+			"border": true,
+			"text": "Crafted from their respective sand."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/stone-bricks.jpg"
+			],
+			"title": "More Stone Bricks",
+			"border": true,
+			"text": "Crafted from their respective $(l:vainlla+/World#stone)stone$()."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/polished-stone.jpg"
+			],
+			"title": "Polished Stone",
+			"border": true,
+			"text": "Crafted from 4 stone slabs."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/sandy-bricks.jpg"
+			],
+			"title": "Sandy Bricks",
+			"border": true,
+			"text": "Crafted from sand and bricks."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/snow-bricks.jpg"
+			],
+			"title": "Snow Bricks",
+			"border": true,
+			"text": "Crafted from snow."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/pavement.jpg"
+			],
+			"title": "Pavement",
+			"border": true,
+			"text": "Crafted from 9 of their respective stone blocks."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/sturdy-stone.jpg"
+			],
+			"title": "Sturdy Stone",
+			"border": true,
+			"text": "Crafted from 4 stone blocks and 4 cobblestone blocks."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/reed-blocks.jpg"
+			],
+			"title": "Sugar Cane Block",
+			"border": true,
+			"text": "Crafted from 9 sugar canes."
+		},
+		{
+			"type": "spotlight",
+			"item": "quark:trowel",
+			"title": "Trowel",
+			"link_recipe": true,
+			"text": "Using iron and sticks, you can craft a trowel. Right-clicking with it places a random block from your hotbar, making it useful for building ruins or paths."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/turf.jpg"
+			],
+			"title": "Turf",
+			"border": true,
+			"text": "Crafted from 4 grass."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/vanilla-stairs-slabs.jpg"
+			],
+			"title": "Stairs and Slabs",
+			"border": true,
+			"text": "Most blocks now have their own stairs or slabs."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/vanilla-walls.jpg"
+			],
+			"title": "Walls",
+			"border": true,
+			"text": "Most blocks now also have their own walls."
+		},
+		{
+			"type": "text",
+			"title": "Pavlo Tychyna – Rain",
+			"text": "And on the water in someone’s hand$(br)Snakes strive… Sleep. To the bottom.$(br)Breathed, sighed, scattered millet —$(br)And sparrows began to dance!..$(br)— Run! — whispered to the shores.$(br)— Lie down… — swayed the campions.$(br)A cloud lowered upon the meadows$(br)Its lace hems.$(br)1918"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/charred-nether-bricks.jpg"
+			],
+			"title": "Charred Nether Bricks",
+			"border": true,
+			"text": "Crafted from nether bricks and a fire charge."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/netherwrought-stone.jpg"
+			],
+			"title": "Nether Decor",
+			"border": true,
+			"text": "Crafted from 4 netherrack blocks."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/soul-sandstone.jpg"
+			],
+			"title": "Soul Sandstone",
+			"border": true,
+			"text": "Crafted from 4 soul sand blocks."
+		},
+		{
+			"type": "spotlight",
+			"item": "charm:ender_pearl_block",
+			"text": "Ender pearl storage block. Eating a chorus fruit will teleport you to the nearest ender pearl block. If a silverfish enters an ender pearl block, it will turn into an endermite."
+		},
+		{
+			"type": "spotlight",
+			"item": "charm:rotten_flesh_block",
+			"text": "Block of rot that provides nourishment for plants when placed under soil, and can easily turn into dirt if placed next to water."
+		}
+	]
+}

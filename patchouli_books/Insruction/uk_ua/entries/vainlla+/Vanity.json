@@ -1,0 +1,68 @@
+{
+	"name": "Марнославство",
+	"icon": "quark:witch_hat",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/smelt_iron",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Цей модуль додає марнославство для вашого персонажа."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/boat-sails.jpg"
+			],
+			"title": "Вітрила для човнів",
+			"border": true,
+			"text": "Вітрило встановлюється на ПКМ."
+		},
+		{
+			"type": "text",
+			"title": "Пофарбовані назви",
+			"text": "Поєднання предмета з барвником у ковадлі призводить до того, що підказка до назви предмета набуває кольору барвника. Це коштує 3 рівні."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dyed-item-names.jpg"
+			],
+			"title": "Пофарбовані назви",
+			"border": true
+		},
+		{
+			"type": "text",
+			"title": "Дублікація феєрверку",
+			"text": "Порожні феєрверки можна створювати з уже готових феєрверків, щоб дублювати їх. Це працює подібно до стягів, в яких початковий феєрверк не буде витрачатися. Для цього обидва феєрверки повинні мати однакову тривалість польоту."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/firework-dupe.jpg"
+			],
+			"title": "Дублікація феєрверку",
+			"border": true
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/benches.jpg"
+			],
+			"title": "Стільці зі сходів",
+			"border": true,
+			"text": "Клацнувши ПКМ по сходах, ви сядете на них."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/witch-hat.jpg"
+			],
+			"title": "Капелюх відьми",
+			"border": true,
+			"text": "Додає трохи броні і зменшує шкоду від відьом."
+		}
+	]
+}

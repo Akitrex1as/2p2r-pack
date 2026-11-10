@@ -1,0 +1,25 @@
+filename = 'pollutantpump-1.12.2-1.3.0.jar'
+name = 'Pollutant Pump'
+side = "both"
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'pollutantpump-1.12.2-1.3.0.jar'
+
+[download]
+hash = '9e9a50d411ad23d6a42999c0bbdb87bcc442276e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3190007
+project-id = 305122
+
+[[x-prismlauncher-dependencies]]
+addonId = '244844'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '269973'
+type = 'REQUIRED'

@@ -1,0 +1,18 @@
+//Set icon item
+setIcon(<galaxyspace:gs_basic, meta:11>)
+
+//Set title String
+setTranslatedTitle("advancements.triumph.femboysecret.2.title")
+
+//Set description String
+setTranslatedDescription("advancements.triumph.femboysecret.2.description")
+addParent("triumph:femboysecret/4")
+
+//Add parent
+
+//Add criteria for the achievement
+criteria = addCriteria("solarwind_panel", "minecraft:inventory_changed")
+criteria.addItem(<galaxyspace:gs_basic, meta:11>)
+
+setRequiresParents()
+setRequirements("all")

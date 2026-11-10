@@ -1,0 +1,18 @@
+filename = 'CollisionDamage-1.2.2.jar'
+name = 'Collision Damage'
+side = "both"
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CollisionDamage-1.2.2.jar'
+
+[download]
+hash = 'f1619bf823b8533039c78e6fddfb1a52641170b6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4442257
+project-id = 494559

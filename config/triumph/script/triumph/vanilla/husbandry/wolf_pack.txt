@@ -1,0 +1,11 @@
+Parser.addRequiredMod("wolfarmor")
+
+setIcon("minecraft:chest")
+setTranslatedTitle("advancements.triumph.vanilla.husbandry.wolf_pack.title")
+setTranslatedDescription("advancements.triumph.vanilla.husbandry.wolf_pack.description")
+addParent("triumph:vanilla/husbandry/tame_an_animal")
+
+criteria = addCriteria("wolf_backpack", "wolfarmor:equip_wolf_backpack")
+
+setRequirements("any")
+setRewardExperience(50)

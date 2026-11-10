@@ -1,0 +1,8 @@
+{
+	"name": "Перші кроки",
+	"description": "Від першого генератора до першого польоту.",
+	"icon": "galacticraftcore:rocket_t1",
+	"parent": "space",
+	"sortnum": 0,
+	"secret": false
+}

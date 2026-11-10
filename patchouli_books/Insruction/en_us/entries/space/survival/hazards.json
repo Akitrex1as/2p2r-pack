@@ -1,0 +1,109 @@
+{
+	"name": "Radiation, Pressure, Heat",
+	"icon": "galaxyspace:space_suit_head",
+	"category": "space_survival",
+	"advancement": "galacticraftcore:galacticraft/moon",
+	"sortnum": 1,
+	"priority": true,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Radiation",
+			"text": "By day under open sky the scale rises about one step every 2 seconds and reaches the danger line in under 2 minutes. Then the radiation effect starts. Under a roof or underground it falls, but only to three quarters of the scale. Tablets clear the rest.",
+			"anchor": "radiation"
+		},
+		{
+			"type": "text",
+			"title": "Radiation protection",
+			"text": "Wear a $(l:space/survival/space_suit)heavy spacesuit$() or stay inside a Magnetic Field Generator's field. A light one does not stop radiation. The $(l:space/survival/hazards#expander)Expander module$() increases its range."
+		},
+		{
+			"type": "text",
+			"title": "Pressure",
+			"text": "On planets with thick air, high pressure causes nausea, blindness and slowness. Higher still costs health, and the maximum kills at once. Only a $(l:space/survival/space_suit)heavy spacesuit$() or a Gravity Module with Stabilization holds it.",
+			"anchor": "pressure"
+		},
+		{
+			"type": "text",
+			"title": "Vacuum",
+			"text": "On space worlds without breathable air, you take 18 damage every 3 seconds without a full $(l:space/survival/space_suit)spacesuit$(). Breathable air also keeps you safe: a sealed room or an oxygen bubble. Outside such air on Venus, you need a heavy spacesuit."
+		},
+		{
+			"type": "text",
+			"title": "A base without suits",
+			"text": "The simplest way is to fill the base with oxygen: no suit is needed in a sealed room or a bubble. Where there is no air, use a powered Gravity Module with a Stabilization module. Put it low: the zone reaches 16 blocks up and only a few down. It spans 8 blocks to each side, and each Expander module adds 2 more.",
+			"anchor": "base"
+		},
+		{
+			"type": "text",
+			"title": "Temperature",
+			"text": "Heat and cold hurt without Thermal Padding. $(l:space/planets/mercury)Mercury$() is hot, and it gets colder further from the Sun: $(l:space/planets/neptune#triton)Triton$(), $(l:space/planets/haumea)Haumea$(), $(l:space/planets/saturn#enceladus)Enceladus$() and the $(l:space/planets/kuiper_belt)Kuiper Belt$() are the harshest. Prepare tier 3 and 4 thermal suits for them.",
+			"anchor": "heat"
+		},
+		{
+			"type": "text",
+			"title": "Food and plants",
+			"text": "In a vacuum you can only eat canned food. Normal food works where there is oxygen: in a bubble or a sealed room. Plants die outdoors, so isolate your farm. Liquids freeze or boil away on planets."
+		},
+		{
+			"type": "text",
+			"title": "Gas and weather",
+			"text": "Natural gas, ethane and helium-hydrogen explode in a chain from fire, lava, torches and blasts, while oil and ethane-methane burn across the surface. Nothing burns without oxygen, and burning gives off carbon and sulfur. Some planets have storms, toxic rain, meteors and corrosion. Wind only exists where there is air. Read the target's description on the map before landing."
+		},
+		{
+			// БЛАНК СКРІНШОТУ: замініть файл blank_suit_hud.png. Що зняти: екран гравця у скафандрі на планеті GalaxySpace із видимими всіма шкалами HUD; бажано зняти, коли радіація вже підбирається до червоної межі, щоб було зрозуміло, де вона проходить
+			"type": "image",
+			"images": [
+				"testbook:images/blank_suit_hud.png"
+			],
+			"title": "Suit gauges",
+			"border": true,
+			"text": "Oxygen, radiation, pressure and heat on screen."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:gs_basic:9",
+			"title": "Antiradiation Tablets",
+			"text": "Clear accumulated radiation."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:radiation_stabiliser",
+			"title": "Magnetic Field Generator",
+			"text": "Protects a base from radiation."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:upgrades:0",
+			"title": "Expander Module",
+			"text": "Increases the Magnetic Field's range.",
+			"anchor": "expander"
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:gravitation_module",
+			"title": "Gravity Module",
+			"text": "Gives Earth gravity within a set radius."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:upgrades:1",
+			"title": "Stabilization Module",
+			"text": "With it, the Gravity Module holds pressure."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:thermal_padding",
+			"title": "Thermal Padding",
+			"text": "Protect from heat and cold."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:food:9",
+			"title": "Canned Food",
+			"text": "This food can be eaten in a vacuum."
+		}
+	]
+}

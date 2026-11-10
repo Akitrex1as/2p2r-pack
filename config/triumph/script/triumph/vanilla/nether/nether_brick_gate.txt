@@ -1,0 +1,11 @@
+// Quark nether brick fence gate
+setIcon(<quark:nether_brick_fence_gate>)
+setTranslatedTitle("advancements.triumph.vanilla.nether.nether_brick_gate.title")
+setTranslatedDescription("advancements.triumph.vanilla.nether.nether_brick_gate.description")
+addParent("triumph:vanilla/nether/find_fortress")
+
+criteria = addCriteria("nether_brick_fence_gate", "minecraft:inventory_changed")
+criteria.addItem(<quark:nether_brick_fence_gate>)
+
+setRequirements("any")
+setRewardExperience(50)

@@ -1,0 +1,12 @@
+// Diamond Filter
+setIcon("adpother:diamond_filter")
+setTranslatedTitle("advancements.triumph.pollution.diamond_filter.title")
+setTranslatedDescription("advancements.triumph.pollution.diamond_filter.description")
+addParent("triumph:pollution/gold_filter")
+
+criteria = addCriteria("diamond_filter", "minecraft:inventory_changed")
+criteria.addItem("adpother:diamond_filter")
+
+setRequirements("any")
+setRewardExperience(200)
+setPos(108,36)

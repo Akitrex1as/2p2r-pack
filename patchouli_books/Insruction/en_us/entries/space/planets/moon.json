@@ -1,0 +1,66 @@
+{
+	"name": "The Moon",
+	"icon": "galacticraftcore:basic_block_moon:5",
+	"category": "space_planets",
+	"advancement": "triumph:research/moon",
+	"sortnum": 0,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "About",
+			"text": "Earth's natural satellite. Tier 1 rocket. Gravity is about 22% of Earth's, so you jump high and land softly. There is no air, but there is $(l:space/survival/hazards#radiation)solar radiation$()."
+		},
+		{
+			"type": "text",
+			"title": "Landing",
+			"text": "You descend in a lander: follow the on-screen hint, then take your rocket and cargo out of it. First check your oxygen and remember the spot, as finding the lander at night is hard."
+		},
+		{
+			"type": "text",
+			"title": "Dangers",
+			"text": "At night, tougher space monsters come out. Falling meteors break blocks. Normal torches do not burn, so bring glowstone torches."
+		},
+		{
+			"type": "text",
+			"title": "What to look for",
+			"text": "Copper, tin and sapphires. Cheese ore is turned off here. Meteoric iron falls from the sky and you need at least a stack: $(l:space/survival/oxygen#airlock)air locks$() and later rockets need it. There are also Moon villages."
+		},
+		{
+			"type": "text",
+			"title": "The dungeon",
+			"text": "A skeleton boss lives under the surface. It is tougher than normal: it regenerates, summons monsters and blocks flying in its room. It drops a key. Use it to open the treasure room with the tier 2 schematic."
+		},
+		{
+			"type": "text",
+			"title": "Next",
+			"text": "Beating the boss opens the GalaxySpace advancement branch and the way to $(l:space/planets/mars)Mars$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:glowstone_torch",
+			"title": "Glowstone Torch",
+			"text": "Burns in a vacuum."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:meteoric_iron_raw",
+			"title": "Meteoric Iron",
+			"text": "Falls from the sky with meteors."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:dungeonfinder",
+			"title": "Dungeon Locator",
+			"text": "Points the way to the dungeon."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:key",
+			"title": "Tier 1 Key",
+			"text": "Opens the Moon's treasure room."
+		}
+	]
+}

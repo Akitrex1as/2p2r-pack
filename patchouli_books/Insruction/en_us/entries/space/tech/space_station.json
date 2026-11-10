@@ -1,0 +1,39 @@
+{
+	"name": "Space Station",
+	"icon": "galacticraftcore:spin_thruster",
+	"category": "space_tech",
+	"advancement": "galacticraftcore:galacticraft/moon",
+	"sortnum": 1,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Why build one",
+			"text": "Solar panels on a station make twice as much power. It helps find objects on the planet below and works well as a staging base."
+		},
+		{
+			"type": "text",
+			"title": "How to build it",
+			"text": "Open the map during a rocket flight, choose the planet and press the station button. The map lists the materials: carry them in the rocket or your inventory."
+		},
+		{
+			"type": "text",
+			"title": "Life on board",
+			"text": "There is no air on a station, so build a $(l:space/survival/oxygen#sealer)sealed room$() first. Without Spin Thrusters there is no gravity. GalaxySpace also lets you build stations around $(l:space/planets/mars)Mars$() and $(l:space/planets/venus)Venus$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:spin_thruster",
+			"title": "Spin Thruster",
+			"text": "Gives a station artificial gravity."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:solar:4",
+			"title": "Advanced Solar Panel",
+			"text": "Makes twice the power on a station."
+		}
+	]
+}

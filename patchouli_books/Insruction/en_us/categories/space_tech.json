@@ -1,0 +1,8 @@
+{
+	"name": "Technology",
+	"description": "High tier rockets, stations and bases.",
+	"icon": "galaxyspace:assembly_machine",
+	"parent": "space",
+	"sortnum": 2,
+	"secret": false
+}

@@ -1,0 +1,23 @@
+{
+	"name": "Місячне багі",
+	"icon": "galacticraftcore:buggy",
+	"category": "space_tech",
+	"advancement": "galacticraftcore:galacticraft/moon_buggy_schematic",
+	"sortnum": 4,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Місячне багі",
+			"text": "Шасі, колеса, сидіння і ящик на верстаті багі. Їде на ракетному паливі від посадки до підземелля. У ящик кладуть балони. Між планетами не літає."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:buggy",
+			"title": "Багі",
+			"text": "Швидкий транспорт для поверхні планет."
+		}
+	]
+}

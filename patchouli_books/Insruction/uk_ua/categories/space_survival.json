@@ -1,0 +1,8 @@
+{
+	"name": "Виживання",
+	"description": "Кисень, радіація, тиск і скафандри.",
+	"icon": "galacticraftcore:oxygen_mask",
+	"parent": "space",
+	"sortnum": 1,
+	"secret": false
+}

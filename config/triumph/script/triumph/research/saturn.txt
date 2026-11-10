@@ -1,0 +1,15 @@
+// Granted by scripts/planet_research.zs, or by landing there.
+setIcon(<contenttweaker:icon_saturn>)
+setTranslatedTitle("advancements.triumph.research.saturn.title")
+setTranslatedDescription("advancements.triumph.research.saturn.description")
+addParent("triumph:research/root")
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("researched", "minecraft:impossible")
+criteria = addCriteria("landed_0", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.enceladus")
+criteria = addCriteria("landed_1", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.titan")
+
+setRequirements("any")

@@ -1,0 +1,20 @@
+// Titanium Armor
+setIcon("galacticraftplanets:titanium_chestplate")
+setTranslatedTitle("advancements.triumph.femboysecret.armor.titanium_armor.title")
+setTranslatedDescription("advancements.triumph.femboysecret.armor.titanium_armor.description")
+addParent("triumph:femboysecret/exploration/solar_system/asteroids")
+criteria1 = addCriteria("titanium_helmet", "minecraft:inventory_changed")
+criteria1.addItem("galacticraftplanets:titanium_helmet")
+
+criteria2 = addCriteria("titanium_chestplate", "minecraft:inventory_changed")
+criteria2.addItem("galacticraftplanets:titanium_chestplate")
+
+criteria3 = addCriteria("titanium_leggings", "minecraft:inventory_changed")
+criteria3.addItem("galacticraftplanets:titanium_leggings")
+
+criteria4 = addCriteria("titanium_boots", "minecraft:inventory_changed")
+criteria4.addItem("galacticraftplanets:titanium_boots")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(300)

@@ -1,0 +1,12 @@
+// Diamond Vacuum Bag
+setIcon("adpother:diamond_vacuum_bag")
+setTranslatedTitle("advancements.triumph.pollution.diamond_vacuum_bag.title")
+setTranslatedDescription("advancements.triumph.pollution.diamond_vacuum_bag.description")
+addParent("triumph:pollution/gold_vacuum_bag")
+
+criteria = addCriteria("diamond_vacuum_bag", "minecraft:inventory_changed")
+criteria.addItem("adpother:diamond_vacuum_bag")
+
+setRequirements("any")
+setRewardExperience(200)
+setPos(108,-36)

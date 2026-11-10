@@ -1,0 +1,18 @@
+filename = 'scarper-1.1.jar'
+name = 'Scarper'
+side = "both"
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'scarper-1.1.jar'
+
+[download]
+hash = 'fd8e2ba093747e755e4f27b80257640324ec977f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2626921
+project-id = 299263

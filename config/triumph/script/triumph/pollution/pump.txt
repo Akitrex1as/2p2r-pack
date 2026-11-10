@@ -1,0 +1,12 @@
+// Pollutant Pump
+setIcon("pollutantpump:pump")
+setTranslatedTitle("advancements.triumph.pollution.pump.title")
+setTranslatedDescription("advancements.triumph.pollution.pump.description")
+addParent("triumph:pollution/iron_filter")
+
+criteria = addCriteria("pollution_pump", "minecraft:inventory_changed")
+criteria.addItem("pollutantpump:pump")
+
+setRequirements("any")
+setRewardExperience(150)
+setPos(72,72)

@@ -1,0 +1,20 @@
+// Cobalt Armor
+setIcon("galaxyspace:cobalt_chest")
+setTranslatedTitle("advancements.triumph.femboysecret.armor.cobalt_armor.title")
+setTranslatedDescription("advancements.triumph.femboysecret.armor.cobalt_armor.description")
+addParent("triumph:femboysecret/exploration/solar_system/miranda")
+criteria1 = addCriteria("cobalt_helmet", "minecraft:inventory_changed")
+criteria1.addItem("galaxyspace:cobalt_helmet")
+
+criteria2 = addCriteria("cobalt_chest", "minecraft:inventory_changed")
+criteria2.addItem("galaxyspace:cobalt_chest")
+
+criteria3 = addCriteria("cobalt_legs", "minecraft:inventory_changed")
+criteria3.addItem("galaxyspace:cobalt_legs")
+
+criteria4 = addCriteria("cobalt_boots", "minecraft:inventory_changed")
+criteria4.addItem("galaxyspace:cobalt_boots")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(250)

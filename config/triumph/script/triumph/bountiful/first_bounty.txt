@@ -1,0 +1,11 @@
+// First Bounty
+setIcon("bountiful:bounty")
+setTranslatedTitle("advancements.triumph.bountiful.first_bounty.title")
+setTranslatedDescription("advancements.triumph.bountiful.first_bounty.description")
+addParent("triumph:bountiful/root")
+
+criteria = addCriteria("first_bounty", "minecraft:inventory_changed")
+criteria.addItem("bountiful:bounty")
+
+setRequirements("any")
+setRewardExperience(75)

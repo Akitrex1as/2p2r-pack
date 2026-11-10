@@ -1,0 +1,87 @@
+{
+	"name": "Паливо і майданчик",
+	"icon": "galacticraftcore:fuel_loader",
+	"category": "space_start",
+	"advancement": "galacticraftcore:galacticraft/oil",
+	"sortnum": 2,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Нафта",
+			"text": "Нафта лежить під землею чорними озерами. Наберіть її відром або каністрою для рідини й покладіть у слот нафтопереробника."
+		},
+		{
+			"type": "text",
+			"title": "Нафтопереробник",
+			"text": "Заживіть нафтопереробник і залийте нафту. Він повільний і дуже прожерливий, тож дайте йому кілька батарей або сонячних панелей. На виході отримаєте паливо: наберіть його в порожні каністри."
+		},
+		{
+			"type": "multiblock",
+			"name": "Стартовий майданчик",
+			"text": "Дев'ять майданчиків квадратом 3x3. Ракету ставте в центр.",
+			"multiblock": {
+				"pattern": [
+					[
+						"PPP",
+						"P0P",
+						"PPP"
+					]
+				],
+				"mapping": {
+					"P": "galacticraftcore:landing_pad",
+					"0": "galacticraftcore:landing_pad"
+				}
+			}
+		},
+		{
+			"type": "text",
+			"title": "Заправник",
+			"text": "Поставте заправник впритул до майданчика, дайте енергію і покладіть каністру. Заправка йде сама. Сідайте в ракету, натискайте $(k:Відкрити інвентар космічного корабля), щоб побачити паливо, вантаж і інвентар, а тоді $(k:jump) для старту.",
+			"anchor": "loader"
+		},
+		{
+			// БЛАНК СКРІНШОТУ: замініть файл blank_launch_pad.png. Що зняти: ракета першого рівня в центрі майданчика 3x3, поруч заправник із підведеним живленням; якщо можливо, відкритий екран ракети після натискання F зі шкалою палива
+			"type": "image",
+			"images": [
+				"testbook:images/blank_launch_pad.png"
+			],
+			"title": "Готова ракета",
+			"border": true,
+			"text": "Майданчик, ракета і заправник із каністрою."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:bucket_oil",
+			"title": "Нафта",
+			"text": "Чорна рідина під землею. Сировина для палива."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:refinery",
+			"title": "Нафтопереробник",
+			"text": "Перетворює нафту на ракетне паливо."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:bucket_fuel",
+			"title": "Паливо",
+			"text": "Жовте паливо для ракет, багі й генераторів."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:fuel_loader",
+			"title": "Заправник",
+			"text": "Переливає паливо з каністри в ракету.",
+			"anchor": "loader"
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:landing_pad",
+			"title": "Стартовий майданчик",
+			"text": "Для ракети потрібно 9 таких блоків."
+		}
+	]
+}

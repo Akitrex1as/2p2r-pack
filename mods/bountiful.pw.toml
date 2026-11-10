@@ -1,0 +1,21 @@
+filename = 'Bountiful-1.12.2-2.2.3.jar'
+name = 'Bountiful'
+side = "both"
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Bountiful-1.12.2-2.2.3.jar'
+
+[download]
+hash = 'a009f763526247268e70a737a5a75f6cbbdfadd1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3570157
+project-id = 309516
+
+[[x-prismlauncher-dependencies]]
+addonId = '351264'
+type = 'REQUIRED'

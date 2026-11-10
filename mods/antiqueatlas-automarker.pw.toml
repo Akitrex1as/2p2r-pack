@@ -1,0 +1,25 @@
+filename = 'AntiqueAtlasAutoMarker-1.6.1.4.jar'
+name = 'AntiqueAtlasAutoMarker'
+side = "both"
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.6.1.4'
+
+[download]
+hash = '09616199366178bd6ad57d9ee2f8ad88cf0bbfca03b6660fe51803ad3b7a04bcf8335d247dea0c4e4246acbbf1f00a517d4d415372fbe2bc118c0b99752e3551'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DkjIVFYv/versions/ulu6e1GB/AntiqueAtlasAutoMarker-1.6.1.4.jar'
+
+[update.modrinth]
+mod-id = 'DkjIVFYv'
+version = 'ulu6e1GB'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'e00stJKZ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'wHODup9j'
+type = 'REQUIRED'

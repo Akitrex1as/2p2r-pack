@@ -1,0 +1,11 @@
+// Nether Gold Deposit
+setIcon(<charm:nether_gold_deposit>)
+setTranslatedTitle("advancements.triumph.vanilla.nether.nether_gold.title")
+setTranslatedDescription("advancements.triumph.vanilla.nether.nether_gold.description")
+addParent("triumph:vanilla/nether/root")
+
+criteria = addCriteria("nether_gold_deposit", "minecraft:inventory_changed")
+criteria.addItem(<charm:nether_gold_deposit>)
+
+setRequirements("any")
+setRewardExperience(100)

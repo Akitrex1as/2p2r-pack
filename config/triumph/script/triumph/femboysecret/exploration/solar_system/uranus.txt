@@ -1,0 +1,12 @@
+// Uranus: map only, Miranda is the landing site
+setIcon(<contenttweaker:icon_uranus>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.uranus.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.uranus.description")
+addParent("triumph:femboysecret/rockets/rocket_t5")
+
+criteria = addCriteria("entered_miranda", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.miranda")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(380)

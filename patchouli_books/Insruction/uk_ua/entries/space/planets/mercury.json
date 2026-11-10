@@ -1,0 +1,28 @@
+{
+	"name": "Меркурій",
+	"icon": "galaxyspace:mercuryblocks",
+	"category": "space_planets",
+	"advancement": "triumph:research/mercury",
+	"sortnum": 4,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Про світ",
+			"text": "Найближча до Сонця планета. За картою потрібна ракета 3 рівня. Гравітація близько 39% земної. Атмосфери немає, тому тиску теж немає, але дуже спекотно. Беріть $(l:space/survival/hazards#heat)термозахист 4 рівня$()."
+		},
+		{
+			"type": "text",
+			"title": "Ресурси",
+			"text": "Залізо, нікель і магній. Магній іде на модуль гравітації скафандра та інші деталі GalaxySpace. Якщо потрібен лише магній, його також можна знайти на $(l:space/planets/jupiter#ganymede)Ганімеді$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:ingots:1",
+			"title": "Магній",
+			"text": "Руда є на Меркурії й Ганімеді."
+		}
+	]
+}

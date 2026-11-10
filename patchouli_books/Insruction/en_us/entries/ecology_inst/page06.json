@@ -1,0 +1,40 @@
+{
+	"name": "Chimneys",
+	"icon": "adchimneys:concrete_cyan",
+	"category": "ecology",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "To prevent emissions from spreading around the $(l:ecology_inst/page01)furnace$(), place a chimney nearby. If your furnace generates too many emissions, place more chimneys.$(br)If a chimney is blocked by a block (except a $(l:ecology_inst/page02)filter$()), it will eventually explode."
+		},
+		{
+			"type": "multiblock",
+			"text": "\"I would add a block, but I'll leave it to you)\"",
+			"name": "Usage Example",
+			"multiblock": {
+				"pattern": [
+					[
+						" B "
+					],
+					[
+						" B "
+					],
+					[
+						" BA"
+					],
+					[
+						" 0 "
+					]
+				],
+				"mapping": {
+					"A": "minecraft:furnace",
+					"B": "adchimneys:cobblestone"
+				}
+			}
+		}
+	],
+	"advancement": "triumph:vanilla/story/smelt_iron"
+}

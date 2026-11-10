@@ -1,0 +1,68 @@
+{
+	"name": "Vanity",
+	"icon": "quark:witch_hat",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/smelt_iron",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "This module adds vanity features and cosmetics for your character."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/boat-sails.jpg"
+			],
+			"title": "Boat Sails",
+			"border": true,
+			"text": "Right-click a boat with a banner to equip a sail."
+		},
+		{
+			"type": "text",
+			"title": "Dyed Item Names",
+			"text": "Combining an item with dye in an anvil colors its name tooltip. This costs 3 experience levels."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dyed-item-names.jpg"
+			],
+			"title": "Dyed Item Names",
+			"border": true
+		},
+		{
+			"type": "text",
+			"title": "Firework Duplication",
+			"text": "Blank fireworks can be crafted with crafted fireworks to clone them, similar to banners. The original is not consumed; both must have equal flight duration."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/firework-dupe.jpg"
+			],
+			"title": "Firework Duplication",
+			"border": true
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/benches.jpg"
+			],
+			"title": "Stair Chairs",
+			"border": true,
+			"text": "Right-clicking a stair block lets you sit on it."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/witch-hat.jpg"
+			],
+			"title": "Witch Hat",
+			"border": true,
+			"text": "Provides minor armor and reduces incoming witch damage."
+		}
+	]
+}

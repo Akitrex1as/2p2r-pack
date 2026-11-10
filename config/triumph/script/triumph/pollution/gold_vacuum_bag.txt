@@ -1,0 +1,12 @@
+// Gold Vacuum Bag
+setIcon("adpother:gold_vacuum_bag")
+setTranslatedTitle("advancements.triumph.pollution.gold_vacuum_bag.title")
+setTranslatedDescription("advancements.triumph.pollution.gold_vacuum_bag.description")
+addParent("triumph:pollution/iron_vacuum_bag")
+
+criteria = addCriteria("gold_vacuum_bag", "minecraft:inventory_changed")
+criteria.addItem("adpother:gold_vacuum_bag")
+
+setRequirements("any")
+setRewardExperience(150)
+setPos(72,-36)

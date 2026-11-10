@@ -1,0 +1,12 @@
+// Laser turret
+setIcon("galacticraftplanets:laser_turret")
+setTranslatedTitle("advancements.triumph.femboysecret.laser_turret.title")
+setTranslatedDescription("advancements.triumph.femboysecret.laser_turret.description")
+addParent("triumph:femboysecret/root")
+
+criteria = addCriteria("laser_turret", "minecraft:inventory_changed")
+criteria.addItem("galacticraftplanets:laser_turret")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(100)

@@ -1,0 +1,12 @@
+// Diamond Vacuum Tube
+setIcon("adpother:diamond_vacuum_tube")
+setTranslatedTitle("advancements.triumph.pollution.diamond_vacuum_tube.title")
+setTranslatedDescription("advancements.triumph.pollution.diamond_vacuum_tube.description")
+addParent("triumph:pollution/diamond_vacuum_bag")
+
+criteria = addCriteria("diamond_vacuum_tube", "minecraft:inventory_changed")
+criteria.addItem("adpother:diamond_vacuum_tube")
+
+setRequirements("any")
+setRewardExperience(200)
+setPos(144,0)

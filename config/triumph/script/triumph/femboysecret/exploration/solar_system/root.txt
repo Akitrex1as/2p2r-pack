@@ -1,0 +1,8 @@
+// Solar System Root
+setIcon(<contenttweaker:icon_sol>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.root.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.root.description")
+addParent("triumph:femboysecret/root")
+
+setRequiresParents()
+setRewardExperience(0)

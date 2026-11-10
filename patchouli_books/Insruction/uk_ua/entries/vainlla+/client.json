@@ -1,0 +1,87 @@
+{
+	"name": "Клієнт",
+	"icon": "minecraft:carrot",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/root",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Цей модуль додає функції, які змінюють клієнт, не потребуючи завантаження Quark на сервер."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/autojump-keybind.jpg"
+			],
+			"title": "Автострибок",
+			"border": true,
+			"text": "Натисніть $(k:quark.keybind.toggleAutojump), щоб перемкнути режим автострибка."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/shulker-box-tooltip.jpg"
+			],
+			"title": "Шалкери",
+			"border": true,
+			"text": "При наведенні відображається вміст шалкера."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/chest-search.jpg"
+			],
+			"title": "Скриньошук",
+			"border": true,
+			"text": "При використанні пошуку всі незгадані предмети будуть затемнені."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/enchanted-book-icons.jpg"
+			],
+			"title": "Іконки зачарувань",
+			"border": true,
+			"text": "Іконки відображають предмети, до яких застосовується книга."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/food-tooltip.jpg"
+			],
+			"title": "Їжа-Інфо",
+			"border": true,
+			"text": "Кожна їжа відображатиме, скільки ситості вона відновлює."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/items-flashing.jpg"
+			],
+			"title": "Зникаюче блимання",
+			"border": true,
+			"text": "За 10 секунд до зникнення предмет почне блимати."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/map-tooltip.jpg"
+			],
+			"title": "Мапа-Інфо",
+			"border": true,
+			"text": "При наведенні курсору на мапу ви зможете її побачити."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/highlight-inventory-slots.jpg"
+			],
+			"title": "Стоп-слот",
+			"border": true,
+			"text": "При наведенні ви побачите, де не можна використовувати предмет."
+		}
+	]
+}

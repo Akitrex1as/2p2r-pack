@@ -1,0 +1,11 @@
+// Quark Pipes
+setIcon(<quark:pipe>)
+setTranslatedTitle("advancements.triumph.quark.pipe.title")
+setTranslatedDescription("advancements.triumph.quark.pipe.description")
+addParent("triumph:quark/root")
+
+criteria = addCriteria("quark_pipe", "minecraft:inventory_changed")
+criteria.addItem(<quark:pipe>)
+
+setRequirements("any")
+setRewardExperience(50)

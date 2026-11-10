@@ -1,0 +1,11 @@
+// Variable Redstone Lamp
+setIcon(<charm:variable_redstone_lamp>)
+setTranslatedTitle("advancements.triumph.charm.variable_lamp.title")
+setTranslatedDescription("advancements.triumph.charm.variable_lamp.description")
+addParent("triumph:charm/root")
+
+criteria = addCriteria("variable_redstone_lamp", "minecraft:inventory_changed")
+criteria.addItem(<charm:variable_redstone_lamp>)
+
+setRequirements("any")
+setRewardExperience(50)

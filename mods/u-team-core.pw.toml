@@ -1,0 +1,21 @@
+filename = 'u_team_core-forge-1.12.2-2.2.5.375.jar'
+name = 'U Team Core'
+side = "both"
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'U-Team-Core-Forge-1.12.2-2.2.5.375'
+
+[download]
+hash = '400ae6a12369b71806ff76d73d05a0aeae209f5f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6548186
+project-id = 273744
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'

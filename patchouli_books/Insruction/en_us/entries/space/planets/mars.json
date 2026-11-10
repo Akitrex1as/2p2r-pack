@@ -1,0 +1,61 @@
+{
+	"name": "Mars",
+	"icon": "galacticraftplanets:mars:5",
+	"category": "space_planets",
+	"advancement": "triumph:research/mars",
+	"sortnum": 1,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "About",
+			"text": "A cold desert planet. Tier 2 rocket. Gravity is about 27% of Earth's. There is nothing to breathe: the real Martian air is almost all carbon dioxide. You need a $(l:space/survival/oxygen)mask, tanks$() and $(l:space/survival/hazards#heat)Thermal Padding$()."
+		},
+		{
+			"type": "text",
+			"title": "Landing",
+			"text": "You come down here on Landing Balloons, not a lander. Take your rocket and cargo out of them after touchdown."
+		},
+		{
+			"type": "text",
+			"title": "Dust storms",
+			"text": "Mars has dust storms: thick fog rolls in, and you only hear the noise with a Frequency Module, which goes in the last gear slot. You can wait a storm out in a $(l:space/survival/oxygen#sealer)sealed base$()."
+		},
+		{
+			"type": "text",
+			"title": "Resources and life",
+			"text": "Desh, iron, copper and tin. Slimelings live here and can be tamed. Underground sludge is dangerous, as Sludgelings live in it. You can also build a $(l:space/tech/space_station)space station$() around Mars."
+		},
+		{
+			"type": "text",
+			"title": "The dungeon",
+			"text": "The boss here is a giant creeper. It fires explosives, and fire breaks out around it. The treasure room holds the tier 3 rocket schematic."
+		},
+		{
+			"type": "text",
+			"title": "Phobos",
+			"text": "A moon of Mars. Tier 2 rocket. Gravity is only 17% of Earth's, so jump carefully. It is barely cold. Phobos has iron, nickel, desh and meteoric iron, which makes it handy for a first meteoric supply. Phobos regolith goes into the heavy plate of the $(l:space/tech/high_rockets)tier 4 rocket$().",
+			"anchor": "phobos"
+		},
+		{
+			"type": "text",
+			"title": "Deimos",
+			"text": "The second moon. In this game it only stays on the map, and you cannot land on it.",
+			"anchor": "deimos"
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:item_basic_mars:2",
+			"title": "Desh",
+			"text": "The main metal of Mars for parts and armor."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftplanets:key",
+			"title": "Tier 2 Key",
+			"text": "Opens the Mars treasure room."
+		}
+	]
+}

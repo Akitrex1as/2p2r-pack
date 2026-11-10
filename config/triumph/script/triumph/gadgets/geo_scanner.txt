@@ -1,0 +1,11 @@
+// Geo Scanner
+setIcon("galaxyspace:geo_scanner")
+setTranslatedTitle("advancements.triumph.gadgets.geo_scanner.title")
+setTranslatedDescription("advancements.triumph.gadgets.geo_scanner.description")
+addParent("triumph:femboysecret/root")
+
+criteria = addCriteria("geo_scanner", "minecraft:inventory_changed")
+criteria.addItem("galaxyspace:geo_scanner")
+
+setRequirements("any")
+setRewardExperience(100)

@@ -1,0 +1,23 @@
+{
+	"name": "Джерела викидів",
+	"icon": "minecraft:furnace",
+	"category": "ecology",
+	"advancement": "triumph:vanilla/story/smelt_iron",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(li)Печі$(li)Факели$(li)Вогонь$(li)Лава$(li)Вибухи$(li)$(l:space/start/researching)Механізми$()$(li)Транспортні засоби$(li)Тварини"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/image19.png"
+			],
+			"border": true,
+			"text": "Приклад джерела викидів"
+		}
+	]
+}

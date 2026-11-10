@@ -1,0 +1,17 @@
+{
+	"name": "Хаумеа",
+	"icon": "galaxyspace:haumeablocks",
+	"category": "space_planets",
+	"advancement": "triumph:research/haumea",
+	"sortnum": 11,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Про світ",
+			"text": "Витягнута карликова планета, що крутиться надзвичайно швидко. Ракета 6 рівня. Гравітація близько 21% земної. Дуже холодно й немає атмосфери. Є алюміній. Звідси телескоп бачить $(l:space/planets/proxima)Proxima B$()."
+		}
+	]
+}

@@ -1,0 +1,12 @@
+// Asteroids
+setIcon(<galacticraftplanets:asteroids_block, meta:0>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.asteroids.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.asteroids.description")
+addParent("triumph:femboysecret/rockets/rocket_t3")
+
+criteria = addCriteria("entered_asteroids", "minecraft:changed_dimension")
+criteria.setDimensionDestination("planet.asteroids")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(250)

@@ -1,0 +1,28 @@
+{
+	"name": "Mercury",
+	"icon": "galaxyspace:mercuryblocks",
+	"category": "space_planets",
+	"advancement": "triumph:research/mercury",
+	"sortnum": 4,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "About",
+			"text": "The closest planet to the Sun. The map asks for a tier 3 rocket. Gravity is about 39% of Earth's. With no air there is no pressure, but it is very hot. Bring $(l:space/survival/hazards#heat)tier 4 thermal protection$()."
+		},
+		{
+			"type": "text",
+			"title": "Resources",
+			"text": "Iron, nickel and magnesium. Magnesium goes into the suit's Gravity module and other GalaxySpace parts. If you only need magnesium, $(l:space/planets/jupiter#ganymede)Ganymede$() has it too."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:ingots:1",
+			"title": "Magnesium",
+			"text": "Its ore is on Mercury and Ganymede."
+		}
+	]
+}

@@ -1,0 +1,11 @@
+Parser.addRequiredMod("wolfarmor")
+
+setIcon(<wolfarmor:iron_wolf_armor>)
+setTranslatedTitle("advancements.triumph.vanilla.husbandry.wolf_armor.title")
+setTranslatedDescription("advancements.triumph.vanilla.husbandry.wolf_armor.description")
+addParent("triumph:vanilla/husbandry/tame_an_animal")
+
+criteria = addCriteria("wolf_equipped", "wolfarmor:equip_wolf_armor")
+
+setRequirements("any")
+setRewardExperience(50)

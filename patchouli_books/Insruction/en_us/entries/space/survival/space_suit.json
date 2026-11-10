@@ -1,0 +1,72 @@
+{
+	"name": "Spacesuits",
+	"icon": "galaxyspace:space_suit_light_head",
+	"category": "space_survival",
+	"advancement": "triumph:femboysecret/root",
+	"sortnum": 2,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Light or heavy",
+			"text": "A light spacesuit protects from vacuum, but not from radiation. A heavy one also protects from radiation and pressure, so get it as soon as you can. You need the full set: helmet, chest, legs and boots."
+		},
+		{
+			"type": "text",
+			"title": "Modification Table",
+			"text": "Modules go into a suit at the table. First make an Assembly Machine and a Blank Module. Some are active and toggled with keys. Right now they are $(k:keybind.togglehelmet.name), $(k:keybind.togglechest.name), $(k:keybind.togglelegs.name), $(k:keybind.toggleboots.name)."
+		},
+		{
+			"type": "text",
+			"title": "Modules: awareness",
+			"text": "$(li)Sensor Glasses: show ores and monsters.$(li)Night Vision.$(li)Water Breathing.$(li)Autofeeding.$(li)Electric Jetpack.$(li)Advanced Battery."
+		},
+		{
+			"type": "text",
+			"title": "Modules: movement",
+			"text": "$(li)Speed Boosters.$(li)High Jump.$(li)Bigger Step for climbing blocks.$(li)Gravity Force: easier walking on planets.$(li)$(l:space/planets/uranus#miranda)Cobalt$() Protection inserts."
+		},
+		{
+			// БЛАНК СКРІНШОТУ: замініть файл blank_modification.png. Що зняти: відкритий інтерфейс Modification Table із покладеним шоломом або курткою скафандра та кількома модулями, щоб було видно перелік можливих модулів
+			"type": "image",
+			"images": [
+				"testbook:images/blank_modification.png"
+			],
+			"title": "Modification table",
+			"border": true,
+			"text": "A suit in the table with available modules."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:space_suit_light_head",
+			"title": "Light Spacesuit",
+			"text": "Protects from vacuum, not radiation."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:space_suit_head",
+			"title": "Heavy Spacesuit",
+			"text": "Protects from vacuum and radiation, and holds pressure."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:assembly_machine",
+			"title": "Assembly Machine",
+			"text": "Welds next level parts with a laser."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:modification_table",
+			"title": "Modification Table",
+			"text": "Modules are installed in gear here."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:gs_basic:11",
+			"title": "Blank Module",
+			"text": "The blank for all modules."
+		}
+	]
+}

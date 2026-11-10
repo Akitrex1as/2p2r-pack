@@ -1,0 +1,8 @@
+{
+	"name": "Космос",
+	"description": "Частина що описує те, як почати вивчати всесвіт.",
+	"icon": "galacticraftcore:rocket_t1",
+	"sortnum": 3,
+	"advancement": "galacticraftcore:galacticraft/coal_generator",
+	"secret": false
+}

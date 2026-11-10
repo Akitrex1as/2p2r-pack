@@ -1,0 +1,23 @@
+{
+	"name": "Pollution Sources",
+	"icon": "minecraft:furnace",
+	"category": "ecology",
+	"advancement": "triumph:vanilla/story/smelt_iron",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(li)Furnaces$(li)Torches$(li)Fire$(li)Lava$(li)Explosions$(li)$(l:space/start/researching)Mechanisms$()$(li)Vehicles$(li)Animals"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/image19.png"
+			],
+			"border": true,
+			"text": "Example of a pollution source"
+		}
+	]
+}

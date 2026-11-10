@@ -1,0 +1,22 @@
+{
+	"name": "Альфа Центавра",
+	"icon": "contenttweaker:icon_proxima",
+	"category": "space_planets",
+	"advancement": "triumph:femboysecret/exploration/alpha_centauri/root",
+	"sortnum": 13,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Шлях",
+			"text": "Найближча до Сонця зоряна система. Після $(l:space/planets/kuiper_belt)поясу Койпера$() ціль — Proxima B. Знайдіть її телескопом з краю системи: з $(l:space/planets/pluto)Плутона$(), $(l:space/planets/haumea)Хаумеа$() або поясу Койпера. Потрібна ракета 5 рівня, а значить і $(l:space/tech/high_rockets#advanced_pad)посилений майданчик 5x5$()."
+		},
+		{
+			"type": "text",
+			"title": "Proxima B",
+			"text": "Тут є золото, олово, мідь, вугілля, кремній та алмази, а ще грибні гейзери. Proxima C і D увімкнені на карті. Назад далеко, тож візьміть майданчик 5x5, заправник і каністри."
+		}
+	]
+}

@@ -1,0 +1,12 @@
+// Mercury
+setIcon(<galaxyspace:mercuryblocks, meta:0>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.mercury.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.mercury.description")
+addParent("triumph:femboysecret/rockets/rocket_t3")
+
+criteria = addCriteria("entered_mercury", "minecraft:changed_dimension")
+criteria.setDimensionDestination("planet.mercury")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(250)

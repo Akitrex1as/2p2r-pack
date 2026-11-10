@@ -1,0 +1,10 @@
+// Titan
+setIcon(<galaxyspace:titanblocks, meta:0>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.titan.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.titan.description")
+addParent("triumph:femboysecret/exploration/solar_system/saturn")
+
+criteria = addCriteria("entered_titan", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.titan")
+
+setRewardExperience(320)

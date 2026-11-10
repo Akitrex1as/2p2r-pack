@@ -1,0 +1,8 @@
+{
+	"name": "Ecology",
+	"description": "This is a guide about ecology and how to prevent your house from exploding :3",
+	"icon": "pollutantpump:pump",
+	"sortnum": 2,
+	"advancement": "triumph:vanilla/story/smelt_iron",
+	"secret": false
+}

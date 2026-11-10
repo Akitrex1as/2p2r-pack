@@ -1,0 +1,18 @@
+//Set icon item
+setIcon("galaxyspace:adv_wind_generator")
+
+//Set title String
+setTranslatedTitle("advancements.triumph.femboysecret.coolwinderginer.title")
+
+//Set description String
+setTranslatedDescription("advancements.triumph.femboysecret.coolwinderginer.description")
+addParent("triumph:femboysecret/winderginer")
+
+//Add parent
+
+//Add criteria for the achievement
+criteria = addCriteria("solarwind_panel", "minecraft:inventory_changed")
+criteria.addItem("galaxyspace:adv_wind_generator")
+
+setRequiresParents()
+setRequirements("all")

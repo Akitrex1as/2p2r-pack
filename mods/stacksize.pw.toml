@@ -1,0 +1,18 @@
+filename = 'stacksize-1.12.2-1.0.jar'
+name = 'Stacksize'
+side = "both"
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'stacksize-1.12.2-1.0.jar'
+
+[download]
+hash = 'b0dedf890244f4d7abab582f01059036a609b0ec'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2511850
+project-id = 247843

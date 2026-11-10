@@ -1,0 +1,17 @@
+{
+	"name": "Пояс Койпера",
+	"icon": "galacticraftplanets:dense_ice",
+	"category": "space_planets",
+	"advancement": "triumph:research/kuiper_belt",
+	"sortnum": 12,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Про світ",
+			"text": "Крижаний пояс за Нептуном. Ракета 6 рівня. Це найхолодніше місце Сонячної системи в грі. Звідси, як і з Плутона та Хаумеа, телескоп бачить Альфу Центавра."
+		}
+	]
+}

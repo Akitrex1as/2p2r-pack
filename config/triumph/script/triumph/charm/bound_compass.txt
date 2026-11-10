@@ -1,0 +1,11 @@
+// Bound Compass
+setIcon(<charm:bound_compass>)
+setTranslatedTitle("advancements.triumph.charm.bound_compass.title")
+setTranslatedDescription("advancements.triumph.charm.bound_compass.description")
+addParent("triumph:charm/root")
+
+criteria = addCriteria("bound_compass", "minecraft:inventory_changed")
+criteria.addItem(<charm:bound_compass>)
+
+setRequirements("any")
+setRewardExperience(75)

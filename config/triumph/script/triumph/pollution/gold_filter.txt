@@ -1,0 +1,12 @@
+// Gold Filter
+setIcon("adpother:gold_filter")
+setTranslatedTitle("advancements.triumph.pollution.gold_filter.title")
+setTranslatedDescription("advancements.triumph.pollution.gold_filter.description")
+addParent("triumph:pollution/iron_filter")
+
+criteria = addCriteria("gold_filter", "minecraft:inventory_changed")
+criteria.addItem("adpother:gold_filter")
+
+setRequirements("any")
+setRewardExperience(150)
+setPos(72,36)

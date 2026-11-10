@@ -1,0 +1,11 @@
+setIcon("galaxyspace:dungeon_keys")
+setTranslatedTitle("advancements.triumph.femboysecret.bosses.galaxyspace_boss_t1.title")
+setTranslatedDescription("advancements.triumph.femboysecret.bosses.galaxyspace_boss_t1.description")
+addParent("triumph:femboysecret/exploration/solar_system/ceres")
+setRequiresParents()
+
+criteria = addCriteria("gs_key_t1", "minecraft:inventory_changed")
+criteria.addItem(<galaxyspace:dungeon_keys, meta:0>)
+
+setRequirements("all")
+setRewardExperience(500)

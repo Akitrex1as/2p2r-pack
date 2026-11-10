@@ -1,0 +1,11 @@
+// Nuke
+setIcon("funtnt:tnt_nuke")
+setTranslatedTitle("advancements.triumph.femboysecret.nuke.title")
+setTranslatedDescription("advancements.triumph.femboysecret.nuke.description")
+addParent("triumph:femboysecret/exploration/solar_system/venus")
+criteria = addCriteria("tnt_nuke", "minecraft:inventory_changed")
+criteria.addItem("funtnt:tnt_nuke")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(500)

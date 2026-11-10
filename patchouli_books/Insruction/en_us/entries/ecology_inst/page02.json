@@ -1,0 +1,51 @@
+{
+	"name": "Filters",
+	"icon": "adpother:iron_filter",
+	"category": "ecology",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "If you want harmful emissions not to enter the atmosphere or $(l:ecology_inst/page05)greenhouse$(), place a filter on top or in the middle of the $(l:ecology_inst/page06)chimney$().$(br)Each filter can protect against a specific emission, but it requires filter material and also"
+		},
+		{
+			"type": "text",
+			"text": "purification from byproducts to work.$(br)This process can be fully automated using hoppers.$(br)A hopper on any side of the filter loads it with materials. A hopper attached to the bottom extracts all byproducts.$(br)Note that you can use"
+		},
+		{
+			"type": "text",
+			"text": "a single hopper attached to the bottom of the entire chimney/filter/pump pipe to collect byproducts from all filters above.$(br)Each filter also generates a redstone signal. This can be used to control connected $(l:ecology_inst/page04#pump)pumps$() or to activate an \"alarm\" when the filter is full."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/sulfurchim.png"
+			],
+			"title": "Sulfur",
+			"border": true,
+			"text": "Converting sulfur emission to sulfur dust."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dustchim.png"
+			],
+			"title": "Dust",
+			"border": true,
+			"text": "Converting dust to clay."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/carbonchim.png"
+			],
+			"title": "Carbon",
+			"border": true,
+			"text": "Converting carbon emission to crushed coal.",
+			"anchor": "carbon"
+		}
+	],
+	"advancement": "triumph:pollution/iron_filter"
+}

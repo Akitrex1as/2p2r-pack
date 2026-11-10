@@ -1,0 +1,21 @@
+//Set icon item
+setIcon(<forge:bucketfilled, nbt:{FluidName:"heliumhydrogen", Amount:1000}>)
+
+//Set title String
+setTranslatedTitle("advancements.triumph.femboysecret.7.title")
+
+//Set description String
+setTranslatedDescription("advancements.triumph.femboysecret.7.description")
+addParent("triumph:femboysecret/gaygen")
+
+//Add parent
+
+//Add criteria for the achievement
+criteria1 = addCriteria("solarwind_panel", "minecraft:inventory_changed")
+criteria1.addItem(<forge:bucketfilled, nbt:{FluidName:"heliumhydrogen", Amount:1000}>)
+
+criteria2 = addCriteria("has_upgrades", "minecraft:inventory_changed")
+criteria2.addItem(<galaxyspace:hh_canister, meta:1>)
+
+setRequiresParents()
+setRequirements("any", ["completedParent"])

@@ -1,0 +1,11 @@
+// Witch Hat
+setIcon(<quark:witch_hat>)
+setTranslatedTitle("advancements.triumph.quark.witch_hat.title")
+setTranslatedDescription("advancements.triumph.quark.witch_hat.description")
+addParent("triumph:quark/root")
+
+criteria = addCriteria("witch_hat", "minecraft:inventory_changed")
+criteria.addItem(<quark:witch_hat>)
+
+setRequirements("any")
+setRewardExperience(75)

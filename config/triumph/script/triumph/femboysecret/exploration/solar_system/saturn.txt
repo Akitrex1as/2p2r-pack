@@ -1,0 +1,14 @@
+// Saturn: map only
+setIcon(<contenttweaker:icon_saturn>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.saturn.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.saturn.description")
+addParent("triumph:femboysecret/rockets/rocket_t5")
+
+criteria1 = addCriteria("entered_enceladus", "minecraft:changed_dimension")
+criteria1.setDimensionDestination("moon.enceladus")
+criteria2 = addCriteria("entered_titan", "minecraft:changed_dimension")
+criteria2.setDimensionDestination("moon.titan")
+
+setRequiresParents()
+setRequirements("any", ["completedParent"])
+setRewardExperience(340)

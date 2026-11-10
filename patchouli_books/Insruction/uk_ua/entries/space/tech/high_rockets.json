@@ -1,0 +1,119 @@
+{
+	"name": "Ракети 4-6",
+	"icon": "galaxyspace:rocket_tier_5",
+	"category": "space_tech",
+	"advancement": "triumph:femboysecret/rockets/rocket_t3",
+	"sortnum": 0,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Схеми",
+			"text": "Ракети вищих рівнів не мають окремої схеми. Вони збираються з деталей: ніс, корпус, двигун, прискорювач, стабілізатори й балон. Кожну деталь робить верстат NASA за своєю схемою. Корпус тримають важкі пластини: для 4 рівня з реголітом $(l:space/planets/mars#phobos)Фобоса$(), для 5 з каменем $(l:space/planets/jupiter#callisto)Каллісто$(), для 6 з каменем $(l:space/planets/jupiter#ganymede)Ганімеда$()."
+		},
+		{
+			"type": "text",
+			"title": "Посадкові модулі",
+			"text": "Для ракет 4 рівня знадобиться ще три посадкові модулі: без третього ракета не злетить. Шукайте схеми у скарбницях і стежте за деревом досягнень. На $(l:space/planets/ceres)Церері$() й $(l:space/planets/jupiter#io)Іо$() є власні підземелля з кращим лутом.",
+			"anchor": "landers"
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:rocket_assembler",
+			"title": "Збирач ракет",
+			"text": "Збирає ракети з готових деталей верстата NASA."
+		},
+		{
+			"type": "multiblock",
+			"name": "Посилений майданчик",
+			"text": "Ракети 5 і 6 рівня стоять лише на квадраті 5x5.",
+			"multiblock": {
+				"pattern": [
+					[
+						"PPPPP",
+						"PPPPP",
+						"PP0PP",
+						"PPPPP",
+						"PPPPP"
+					]
+				],
+				"mapping": {
+					"P": "galaxyspace:advanced_landing_pad",
+					"0": "galaxyspace:advanced_landing_pad"
+				}
+			},
+			"anchor": "advanced_pad"
+		},
+		{
+			"type": "text",
+			"title": "Дальність",
+			"text": "У цій збірці важлива відстань до цілі, тож рівень залежить і від старту. Часом вигідно летіти через ближчу планету: дивіться вимогу на карті перед кожним вильотом."
+		},
+		{
+			"type": "text",
+			"title": "Паливо для них",
+			"text": "Сепаратор рідин розділяє воду. Далі метан, етан, гелій і водень дають кращі суміші палива. Газ видобувайте збирачем газу, а рідини перетворюйте через зріджувач і синтезатор метану."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:rocket_tier_4",
+			"title": "Ракета 4 рівня",
+			"text": "Для супутників Юпітера."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:rocket_tier_5",
+			"title": "Ракета 5 рівня",
+			"text": "Для Сатурна, Урана і Альфи Центавра."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:rocket_tier_6",
+			"title": "Ракета 6 рівня",
+			"text": "Для Плутона і Тау Кита."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:schematics:0",
+			"title": "Схема носа",
+			"text": "Одна зі схем деталей для верстата NASA."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:rocket_modules:2",
+			"title": "Посадковий модуль 3",
+			"text": "Без нього ракета 4 рівня не злетить."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:advanced_landing_pad",
+			"title": "Посилений майданчик",
+			"text": "Потрібен для ракет 5 і 6 рівня.",
+			"anchor": "advanced_pad"
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:liquid_separator",
+			"title": "Сепаратор рідин",
+			"text": "Розділяє рідини і поєднує їх у паливо."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:gas_collector",
+			"title": "Збирач газу",
+			"text": "Збирає гази в радіусі своєї роботи."
+		},
+		{
+			"type": "text",
+			"title": "Газовий екстрактор",
+			"text": "Натисніть ПКМ по природному газу: блок зникне, а в каністру природного газу в інвентарі піде 200 мБ. Порожня каністра для нафти теж підійде, вона стане газовою. Одне вилучення коштує 100 енергії, а запас становить 6000. Покращений акумулятор на столі модифікацій піднімає його до 18000."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:gas_extractor",
+			"text": "ПКМ по природному газу наповнює каністру в інвентарі."
+		}
+	]
+}

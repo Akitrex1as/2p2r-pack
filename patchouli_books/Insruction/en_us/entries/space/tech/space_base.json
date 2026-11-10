@@ -1,0 +1,84 @@
+{
+	"name": "Space Base",
+	"icon": "galaxyspace:hydroponic_base",
+	"category": "space_tech",
+	"advancement": "triumph:femboysecret/fuelgen",
+	"sortnum": 2,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Power",
+			"text": "$(li)Fuel Generator burns rocket fuel.$(li)Gas Generator burns gases.$(li)Wind Turbine only works where there is air.$(li)Solar Wind Panel, by contrast, only works without it.$(li)Hybrid Panel makes twice as much as an advanced one."
+		},
+		{
+			"type": "text",
+			"title": "Protecting a base",
+			"text": "$(li)Planetary Shield stops meteors.$(li)$(l:space/survival/hazards)Magnetic Field Generator$() protects from radiation.$(li)Gravity Module gives Earth gravity and, with Stabilization, pressure."
+		},
+		{
+			"type": "text",
+			"title": "Hydroponics",
+			"text": "Power the Hydroponic Base from below and put up to three farm blocks above it. It grows food where normal plants die. A Liquid Collector drains the layer below it, so a base can get water automatically."
+		},
+		{
+			// БЛАНК СКРІНШОТУ: замініть файл blank_hydroponics.png. Що зняти: гідропонна ферма в герметичній кімнаті: основа внизу, над нею три блоки ферми, знизу підведений дріт; бажано з вирощеними рослинами
+			"type": "image",
+			"images": [
+				"testbook:images/blank_hydroponics.png"
+			],
+			"title": "Farm in a box",
+			"border": true,
+			"text": "A base, three farm blocks and power from below."
+		},
+		{
+			"type": "text",
+			"title": "Machines",
+			"text": "The advanced Circuit Fabricator and Electric Compressor are twice as effective and take Speed and Energy modules. Oxygen and energy clusters hold more, so a base survives longer breaks."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:fuel_generator",
+			"title": "Fuel Generator",
+			"text": "Turns fuel into power."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:gas_generator",
+			"title": "Gas Generator",
+			"text": "Burns gases for power."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:solarwind_panel",
+			"title": "Solar Wind Panel",
+			"text": "Only works without air."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:planet_shield",
+			"title": "Planetary Shield",
+			"text": "Protects a base from meteors."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:hydroponic_base",
+			"title": "Hydroponic Base",
+			"text": "Powered from below, with the farm on top."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:hydroponic_farm",
+			"title": "Hydroponic Farm Block",
+			"text": "Put up to three above the base."
+		},
+		{
+			"type": "spotlight",
+			"item": "galaxyspace:liquid_extractor",
+			"title": "Liquid Collector",
+			"text": "Drains the layer of liquid below it."
+		}
+	]
+}

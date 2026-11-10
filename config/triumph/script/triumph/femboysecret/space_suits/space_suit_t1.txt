@@ -1,0 +1,20 @@
+// Space Suit T1 (Light)
+setIcon("galaxyspace:space_suit_light_head")
+setTranslatedTitle("advancements.triumph.femboysecret.space_suits.space_suit_t1.title")
+setTranslatedDescription("advancements.triumph.femboysecret.space_suits.space_suit_t1.description")
+addParent("triumph:femboysecret/root")
+criteria1 = addCriteria("space_light_head", "minecraft:inventory_changed")
+criteria1.addItem("galaxyspace:space_suit_light_head")
+
+criteria2 = addCriteria("space_light_chest", "minecraft:inventory_changed")
+criteria2.addItem("galaxyspace:space_suit_light_chest")
+
+criteria3 = addCriteria("space_light_legs", "minecraft:inventory_changed")
+criteria3.addItem("galaxyspace:space_suit_light_legs")
+
+criteria4 = addCriteria("space_light_feet", "minecraft:inventory_changed")
+criteria4.addItem("galaxyspace:space_suit_light_feet")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(150)

@@ -1,0 +1,23 @@
+{
+	"name": "Теплиці",
+	"icon": "minecraft:wheat",
+	"category": "ecology",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Попри те, що $(l:ecology_inst/page02#carbon)викиди вуглецю$() є отруйними для тварин і гравців, вони життєво важливі для рослин, оскільки вони поглинають вуглець і починають краще рости. Таким чином, ви можете отримати вигоду від забруднених районів, будуючи теплиці та $(l:ecology_inst/page04#pump)закачуючи$() в них вуглець."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/image10.png"
+			],
+			"border": true,
+			"title": "Приклад системи"
+		}
+	],
+	"advancement": "triumph:pollution/root"
+}

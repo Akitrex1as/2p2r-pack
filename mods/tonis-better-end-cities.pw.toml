@@ -1,0 +1,25 @@
+filename = 'betterendcities-1.1.1-forge-1.12.2.jar'
+name = 'Better End Cities'
+side = "both"
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Better End Cities 1.1.1 (Forge 1.12.2)'
+
+[download]
+hash = '85ba03c08200b7e03d0dd667fbd3e1d2a748d558'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9475584
+project-id = 1745442
+
+[[x-prismlauncher-dependencies]]
+addonId = '1785763'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1749059'
+type = 'REQUIRED'

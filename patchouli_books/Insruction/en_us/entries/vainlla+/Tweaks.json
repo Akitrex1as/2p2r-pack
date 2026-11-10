@@ -1,0 +1,288 @@
+{
+	"name": "Tweaks",
+	"icon": "quark:glass_shards:16",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/mine_stone",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "This module tweaks various gameplay elements."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/armor-stand.jpg"
+			],
+			"title": "Armor Stands",
+			"border": true,
+			"text": "Armor stands now have arms and can hold weapons."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/axes-break-leaves.jpg"
+			],
+			"title": "Axes Break Leaves",
+			"border": true,
+			"text": "Axes break leaves as effectively as shears."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/flint-tools.jpg"
+			],
+			"title": "Stone Crafting",
+			"border": true,
+			"text": "Craft stone tools from any stone type."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/burning-baby.jpg"
+			],
+			"title": "Baby Zombies Burn",
+			"border": true,
+			"text": "Baby zombies burn in sunlight just like adults."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/burning-torches.jpg"
+			],
+			"title": "Torches as Fuel",
+			"border": true,
+			"text": "Torches can smelt 2 items each in a furnace."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/chicken-shear.jpg"
+			],
+			"title": "Shearing Chickens",
+			"border": true,
+			"text": "Chickens can be sheared for feathers."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/chicken-shed.jpg"
+			],
+			"title": "Chicken Shedding",
+			"border": true,
+			"text": "Chickens periodically shed feathers like eggs."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/clay-conversion.jpg"
+			],
+			"title": "Clay Conversion",
+			"border": true,
+			"text": "Clay blocks can be crafted back into clay balls."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dirt-path.jpg"
+			],
+			"title": "Dirt to Path",
+			"border": true,
+			"text": "Right-clicking dirt with a shovel creates a path."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dye-any-wool.jpg"
+			],
+			"title": "Dye Any Wool",
+			"border": true,
+			"text": "You can dye colored wool directly."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/ender-cheese.jpg"
+			],
+			"title": "Smart Endermen",
+			"border": true,
+			"text": "On Hard difficulty, you cannot hide under 2-block ceilings."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/glass-shards.jpg"
+			],
+			"title": "Glass Shards",
+			"border": true,
+			"text": "4 glass shards craft into a glass block."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/hoe-sickle.jpg"
+			],
+			"title": "Hoe Harvesting",
+			"border": true,
+			"text": "Better hoes clear more grass and plants at once."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/knock-knock.jpg"
+			],
+			"title": "Knock Knock",
+			"border": true,
+			"text": "Knocking on doors plays a louder sound."
+		},
+		{
+			"type": "spotlight",
+			"item": "antiqueatlas:antique_atlas",
+			"title": "Antique Atlas",
+			"text": "A handy book map allowing comfortable land navigation."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/feellikeainvisible.png"
+			],
+			"title": "Invisibility",
+			"border": true,
+			"text": "With invisibility active, mobs cannot detect you."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/drop-down-ladders.jpg"
+			],
+			"title": "Drop-down Ladders",
+			"border": true,
+			"text": "Ladders can be placed downwards from the top block."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/look-down-ladders.jpg"
+			],
+			"title": "Fast Descent",
+			"border": true,
+			"text": "Looking down allows faster descent down ladders."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/cart-interactions.jpg"
+			],
+			"title": "Minecarts",
+			"border": true,
+			"text": "Chests and furnaces can be placed directly into minecarts."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/pat-the-dogs.jpg"
+			],
+			"title": "Pet the Dogs",
+			"border": true,
+			"text": "Pet your tamed dogs with Shift + right-click."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/quick-armor-swapping.jpg"
+			],
+			"title": "Quick Armor Swap",
+			"border": true,
+			"text": "Shift + right-click armor stands to swap equipped gear."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/right-click-harvest.jpg"
+			],
+			"title": "Crop Harvesting",
+			"border": true,
+			"text": "Better hoes harvest and replant larger crop areas."
+		},
+		{
+			"type": "text",
+			"title": "Double Doors",
+			"text": "Double doors open together automatically, even by villagers."
+		},
+		{
+			"type": "text",
+			"title": "Improved Sleep",
+			"text": "Night skips when all non-AFK players sleep. Players idle for two minutes count as AFK."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/shave-snow.jpg"
+			],
+			"title": "Shave Snow",
+			"border": true,
+			"text": "Right-clicking snow with a shovel shaves off layers."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/sign-edit.jpg"
+			],
+			"title": "Sign Editing",
+			"border": true,
+			"text": "Right-click a $(l:vainlla+/Decoration#signs)sign$() with an empty hand to edit it."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/slabs-to-blocks.jpg"
+			],
+			"title": "Slabs to Blocks",
+			"border": true,
+			"text": "Slabs can be combined back into full blocks."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/springy-slime.jpg"
+			],
+			"title": "Springy Slime",
+			"border": true,
+			"text": "Dropped items bounce off $(l:vainlla+/Automation#colored_slime)slime blocks$()."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/squid-inking.jpg"
+			],
+			"title": "Squid Inking",
+			"border": true,
+			"text": "When attacked, squids emit blinding ink clouds."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/compaSS.png"
+			],
+			"title": "Beacon Compass",
+			"text": "Shift + right-click to bind.$(br)Anvil + iron ingot to unbind."
+		},
+		{
+			"type": "spotlight",
+			"item": "wolfarmor:diamond_wolf_armor",
+			"title": "Wolf Armor",
+			"text": "Wolves have access to full armor tiers with equivalent defensive perks. Dispensers can equip armor onto them, and wolves can also carry storage chests."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/furrywolf.png"
+			],
+			"title": "Wolf Armor",
+			"border": true,
+			"text": "The true alpha boss of the pack."
+		}
+	]
+}

@@ -1,0 +1,19 @@
+// Granted by scripts/planet_research.zs, or by landing there.
+setIcon(<contenttweaker:icon_jupiter>)
+setTranslatedTitle("advancements.triumph.research.jupiter.title")
+setTranslatedDescription("advancements.triumph.research.jupiter.description")
+addParent("triumph:research/root")
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("researched", "minecraft:impossible")
+criteria = addCriteria("landed_0", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.io")
+criteria = addCriteria("landed_1", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.europa")
+criteria = addCriteria("landed_2", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.ganymede")
+criteria = addCriteria("landed_3", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.callisto")
+
+setRequirements("any")

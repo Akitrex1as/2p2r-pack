@@ -1,0 +1,10 @@
+// Phobos
+setIcon(<galaxyspace:phobosblocks, meta:0>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.phobos.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.phobos.description")
+addParent("triumph:femboysecret/exploration/solar_system/mars")
+
+criteria = addCriteria("entered_phobos", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.phobos")
+
+setRewardExperience(220)

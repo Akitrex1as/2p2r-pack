@@ -1,0 +1,10 @@
+// Triton
+setIcon(<galaxyspace:tritonblocks, meta:0>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.triton.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.triton.description")
+addParent("triumph:femboysecret/exploration/solar_system/neptune")
+
+criteria = addCriteria("entered_triton", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.triton")
+
+setRewardExperience(400)

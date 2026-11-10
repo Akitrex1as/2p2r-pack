@@ -1,0 +1,11 @@
+// Quark polished netherrack
+setIcon(<quark:polished_netherrack>)
+setTranslatedTitle("advancements.triumph.vanilla.nether.polished_netherrack.title")
+setTranslatedDescription("advancements.triumph.vanilla.nether.polished_netherrack.description")
+addParent("triumph:vanilla/nether/root")
+
+criteria = addCriteria("polished_netherrack", "minecraft:inventory_changed")
+criteria.addItem(<quark:polished_netherrack>)
+
+setRequirements("any")
+setRewardExperience(50)

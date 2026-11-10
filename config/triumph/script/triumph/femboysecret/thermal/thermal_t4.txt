@@ -1,0 +1,21 @@
+// Thermal Padding T4 (Full Set)
+setIcon("galaxyspace:thermal_padding_t4")
+setTranslatedTitle("advancements.triumph.femboysecret.thermal.thermal_t4.title")
+setTranslatedDescription("advancements.triumph.femboysecret.thermal.thermal_t4.description")
+addParent("triumph:femboysecret/thermal/tremalsuit")
+
+criteria1 = addCriteria("thermal_t4_0", "minecraft:inventory_changed")
+criteria1.addItem("galaxyspace:thermal_padding_t4")
+
+criteria2 = addCriteria("thermal_t4_1", "minecraft:inventory_changed")
+criteria2.addItem("galaxyspace:thermal_padding_t4")
+
+criteria3 = addCriteria("thermal_t4_2", "minecraft:inventory_changed")
+criteria3.addItem("galaxyspace:thermal_padding_t4")
+
+criteria4 = addCriteria("thermal_t4_3", "minecraft:inventory_changed")
+criteria4.addItem("galaxyspace:thermal_padding_t4")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(200)

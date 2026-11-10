@@ -1,0 +1,18 @@
+filename = 'namepain-1.5.0 forge-1.12.x.jar'
+name = 'Name Pain'
+side = "client"
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'namepain-1.5.0 forge-1.12.x'
+
+[download]
+hash = '05c7bc56ab20f3f532f7375315aa20c2cc9c0882'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4629526
+project-id = 366263

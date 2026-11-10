@@ -1,0 +1,11 @@
+// Bookshelf Chest
+setIcon(<charm:bookshelf_chest>)
+setTranslatedTitle("advancements.triumph.charm.bookshelf_chest.title")
+setTranslatedDescription("advancements.triumph.charm.bookshelf_chest.description")
+addParent("triumph:charm/root")
+
+criteria = addCriteria("bookshelf_chest", "minecraft:inventory_changed")
+criteria.addItem(<charm:bookshelf_chest>)
+
+setRequirements("any")
+setRewardExperience(50)

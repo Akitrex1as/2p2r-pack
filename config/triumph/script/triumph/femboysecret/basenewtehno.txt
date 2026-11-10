@@ -1,0 +1,18 @@
+//Set icon item
+setIcon("galaxyspace:assembly_machine")
+
+//Set title String
+setTranslatedTitle("advancements.triumph.femboysecret.basenewtehno.title")
+
+//Set description String
+setTranslatedDescription("advancements.triumph.femboysecret.basenewtehno.description")
+addParent("triumph:femboysecret/newwaffle")
+
+//Add parent
+
+//Add criteria for the achievement
+criteria = addCriteria("fuel_generator", "minecraft:inventory_changed")
+criteria.addItem("galaxyspace:assembly_machine")
+
+setRequiresParents()
+setRequirements("all")

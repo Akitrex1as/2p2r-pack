@@ -1,0 +1,11 @@
+setIcon("galacticraftplanets:key")
+setTranslatedTitle("advancements.triumph.femboysecret.bosses.mars_boss.title")
+setTranslatedDescription("advancements.triumph.femboysecret.bosses.mars_boss.description")
+addParent("triumph:femboysecret/exploration/solar_system/mars")
+setRequiresParents()
+
+criteria = addCriteria("mars_key", "minecraft:inventory_changed")
+criteria.addItem("galacticraftplanets:key")
+
+setRequirements("all")
+setRewardExperience(400)

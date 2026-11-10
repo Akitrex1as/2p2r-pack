@@ -1,0 +1,11 @@
+// Quark soul sandstone
+setIcon(<quark:soul_sandstone>)
+setTranslatedTitle("advancements.triumph.vanilla.nether.soul_sandstone.title")
+setTranslatedDescription("advancements.triumph.vanilla.nether.soul_sandstone.description")
+addParent("triumph:vanilla/nether/polished_netherrack")
+
+criteria = addCriteria("soul_sandstone", "minecraft:inventory_changed")
+criteria.addItem(<quark:soul_sandstone>)
+
+setRequirements("any")
+setRewardExperience(50)

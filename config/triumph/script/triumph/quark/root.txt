@@ -1,0 +1,11 @@
+// Quark Root
+setIcon("minecraft:book")
+setTranslatedTitle("advancements.triumph.quark.root.title")
+setTranslatedDescription("advancements.triumph.quark.root.description")
+addParent("triumph:vanilla/story/root")
+
+criteria = addCriteria("quark_root", "minecraft:inventory_changed")
+criteria.addItem("minecraft:book")
+
+setRequirements("any")
+setRewardExperience(50)

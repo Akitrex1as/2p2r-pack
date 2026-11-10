@@ -1,0 +1,350 @@
+{
+	"name": "World",
+	"icon": "quark:archaeologist_hat",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/smelt_iron",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "This module adds world generation features and subterranean discoveries."
+		},
+		{
+			"type": "text",
+			"title": "Archaeologist",
+			"text": "Archaeologists rarely settle within cave walls. You will know they are near when you hear the familiar \"Hmmmm\" sound.$(br)These villagers trade bones and expedition supplies. You can also purchase their hat, which grants Fortune."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/archaeologist.jpg"
+			],
+			"title": "Archaeologist",
+			"border": true,
+			"text": "\"$(o)Hmmmmmmmmmmmm...$()\""
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/swamp-shrooms.jpg"
+			],
+			"title": "Swamp Shrooms",
+			"border": true,
+			"text": "Generate naturally in swamps just like in console edition."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dieinfire.png"
+			],
+			"title": "Burn in Fire!",
+			"border": true,
+			"text": "Traps like this are effective against incoming zombies."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/nether-blazes.jpg"
+			],
+			"title": "Nether Arson",
+			"border": true,
+			"text": "An arsonist visited the Nether, spreading wild fire patches."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/broken-portals.jpg"
+			],
+			"title": "Ruined Portals",
+			"border": true,
+			"text": "Who knows where they lead..."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/bigblackoleg.png"
+			],
+			"title": "The Ark",
+			"border": true,
+			"text": "To survive harsh environments, build fortified bases."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/buried-treasure.jpg"
+			],
+			"title": "Buried Treasure",
+			"border": true,
+			"text": "Dungeons occasionally contain explorer maps marked with an X."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/cave-roots.jpg"
+			],
+			"title": "Cave Roots",
+			"border": true,
+			"text": "Hang from cave ceilings; eating them gives various perks."
+		},
+		{
+			"type": "entity",
+			"entity": "quark:crab",
+			"scale": 0.8,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"title": "Crabs",
+			"text": "Drop crab legs used for food and brewing, and they have hilarious... [REDACTED]"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/crystal-caves.jpg"
+			],
+			"title": "Crystal Caves",
+			"border": true,
+			"text": "Crystals found in deep caverns can be crafted into $(l:vainlla+/Msic#runes)runes$()."
+		},
+		{
+			"type": "text",
+			"title": "Depth Mobs",
+			"text": "These mobs spawn rarely in the deepest caves. The Ashen is a skeleton that shoots Blindness arrows, while the Dweller is an armored zombie that spawns invisible until damaged or attacking."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/depth-mobs.jpg"
+			],
+			"title": "Depth Mobs",
+			"border": true,
+			"text": "The Ashen (left) and the Dweller (right)."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dank-dungeons.jpg"
+			],
+			"title": "Varied Dungeons",
+			"border": true,
+			"text": "You will stumble upon new, varied dungeon layouts."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/biotite.jpg"
+			],
+			"title": "Biotite",
+			"border": true,
+			"text": "Grows in the End, and after the dragon dies it also appears on the main island. A Block of Biotite repairs elytra in an anvil.",
+			"anchor": "biotite"
+		},
+		{
+			"type": "entity",
+			"entity": "outfox:fox",
+			"scale": 0.6,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"title": "Fox",
+			"text": "Feed it rabbit meat, and then let it sniff out ores."
+		},
+		{
+			"type": "entity",
+			"entity": "charm:spectre",
+			"scale": 1.0,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"title": "Spectre",
+			"text": "An eerie spirit that spawns in dim areas with creepy abilities."
+		},
+		{
+			"type": "entity",
+			"entity": "quark:frog",
+			"scale": 1.0,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"title": "Frog",
+			"text": "They eat fish and spider eyes; golden frog legs brew jump potions."
+		},
+		{
+			"type": "entity",
+			"entity": "aqua_creepers:aqua_creeper",
+			"scale": 0.8,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"title": "Aqua Creeper",
+			"text": "It's a creeper, but underwater."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/ocean-guardians.jpg"
+			],
+			"title": "Ocean Guardians",
+			"border": true,
+			"text": "Guardians can now spawn occasionally in open ocean waters."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/monster-box.jpg"
+			],
+			"title": "Monster Boxes",
+			"border": true,
+			"text": "Be cautious when opening these ominous underground boxes."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/nether-fossils.jpg"
+			],
+			"title": "Nether Fossils",
+			"border": true,
+			"text": "Remnants of ancient colossal beasts."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/obsidian-spikes.jpg"
+			],
+			"title": "Obsidian Spikes",
+			"border": true,
+			"text": "Towering obsidian spikes with glowstone contain hidden treasures."
+		},
+		{
+			"type": "text",
+			"title": "Pathfinder Maps",
+			"text": "Cartographer villagers now sell Pathfinder Maps for various biomes, pointing to the nearest corresponding biome. Unlike standard trades, each cartographer stocks a randomized selection that"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/pathfinder-maps.jpg"
+			],
+			"title": "Pathfinder Maps",
+			"border": true,
+			"text": "expands as the villager levels up."
+		},
+		{
+			"type": "text",
+			"title": "Stone Revamp",
+			"text": "Diorite, granite, and andesite generate in massive, distinct geological clusters rather than scattered pockets. Four new stone types join the mix: marble, limestone, jasper, and slate.",
+			"anchor": "stone"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/stone-revamp.jpg"
+			],
+			"title": "Stone Revamp",
+			"border": true,
+			"text": "The four new stones share the same utility as the original three."
+		},
+		{
+			"type": "text",
+			"title": "Stonelings",
+			"text": "These are small passive mobs native to deep caves. They spawn carrying a random item and will get startled if approached without sneaking. When startled, they run away and eventually vanish into the ground."
+		},
+		{
+			"type": "text",
+			"title": "Stonelings",
+			"text": "If you manage to catch or sneak up on one, you can claim their carried item.$(br)They also rarely drop a Heart of Diamond, which can be placed onto any stone block to bring forth your"
+		},
+		{
+			"type": "text",
+			"title": "Stonelings",
+			"text": "very own tamed stoneling! Tamed stonelings can hold items for you, eat cobblestone (they love it!), and will follow you when you hold a diamond."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/stonelings.jpg"
+			],
+			"title": "Stonelings",
+			"border": true
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/extra-trees.jpg"
+			],
+			"title": "Extra Trees",
+			"border": true,
+			"text": "Your world features blossom trees and swamp oaks."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/underground-biomes.jpg"
+			],
+			"title": "Underground Biomes",
+			"border": true,
+			"text": "Explore 9 unique underground cavern biomes."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/cave-clay.jpg"
+			],
+			"title": "Cave Clay",
+			"border": true,
+			"text": "Spawns underground slightly less frequently than dirt patches."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/endarteleport.png"
+			],
+			"title": "Portal Linking",
+			"border": true,
+			"text": "Try filling two complete End portal frames with matching $(l:vainlla+/Msic#runes)runes$()."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/cumcake_X3.png"
+			],
+			"border": true,
+			"text": "Oh! You found another cupcake!"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/basalt.jpg"
+			],
+			"title": "Basalt",
+			"border": true,
+			"text": "The Nether's volcanic equivalent to granite, diorite, and andesite."
+		},
+		{
+			"type": "text",
+			"title": "Foxhounds",
+			"text": "These fierce canine mobs spawn in the Nether. They attack players and inflict fire. If brave enough, drink a Fire Resistance potion and feed them coal to tame them. Tamed foxhounds behave like wolves, with bonus"
+		},
+		{
+			"type": "text",
+			"title": "Foxhounds",
+			"text": "perks: they sleep comfortably on magma blocks. Sitting a foxhound atop a furnace speeds up its smelting, though stacking multiple foxhounds is not recommended."
+		},
+		{
+			"type": "entity",
+			"entity": "quark:foxhound",
+			"scale": 0.6,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"title": "Foxhound",
+			"text": "Cute, but fiery..."
+		},
+		{
+			"type": "spotlight",
+			"item": "charm:charged_emerald",
+			"text": "An emerald infused with lightning energy. Used in advanced crafts and special mechanisms."
+		}
+	]
+}

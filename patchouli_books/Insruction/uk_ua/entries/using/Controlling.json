@@ -1,0 +1,24 @@
+{
+	"name": "Клавіші",
+	"icon": "minecraft:noteblock",
+	"category": "using",
+	"advancement": "triumph:vanilla/story/root",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Майстер Клавіатури",
+			"text": "У грі є додаткова опція в налаштуваннях управління, яка допомагає вирішувати конфлікти клавіш та знаходити незв'язані клавіші."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/controls.png"
+			],
+			"title": "Майстер Клавіатури",
+			"border": true
+		}
+	]
+}

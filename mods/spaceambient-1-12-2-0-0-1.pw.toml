@@ -1,0 +1,12 @@
+name = "SpaceAmbient-1.12.2-0.0.1"
+filename = "SpaceAmbient-1.12.2-0.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1XOtmpAD/versions/VZPV1D8h/SpaceAmbient-1.12.2-0.0.1.jar"
+hash-format = "sha512"
+hash = "cc4f7794338a4e3622e02732163e3b57d32453e535f7ee313fe157b84ce3573a7ffdacf4b02a7fd19725d9763e153e317533064b724ecb99dfb1519175469afb"
+
+[update.modrinth]
+mod-id = "1XOtmpAD"
+version = ""

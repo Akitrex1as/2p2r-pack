@@ -1,0 +1,24 @@
+{
+	"name": "Controlling",
+	"icon": "minecraft:noteblock",
+	"category": "using",
+	"advancement": "triumph:vanilla/story/root",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Keybinding Wizard",
+			"text": "The game has an additional option in controls settings that helps resolve key conflicts and find unbound keys."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/controls.png"
+			],
+			"title": "Keybinding Wizard",
+			"border": true
+		}
+	]
+}

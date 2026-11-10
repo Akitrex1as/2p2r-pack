@@ -1,0 +1,21 @@
+// Space Suit T2 (Regular)
+setIcon("galaxyspace:space_suit_head")
+setTranslatedTitle("advancements.triumph.femboysecret.space_suits.space_suit_t2.title")
+setTranslatedDescription("advancements.triumph.femboysecret.space_suits.space_suit_t2.description")
+addParent("triumph:femboysecret/space_suits/space_suit_t1")
+
+criteria1 = addCriteria("space_head", "minecraft:inventory_changed")
+criteria1.addItem("galaxyspace:space_suit_head")
+
+criteria2 = addCriteria("space_chest", "minecraft:inventory_changed")
+criteria2.addItem("galaxyspace:space_suit_chest")
+
+criteria3 = addCriteria("space_legs", "minecraft:inventory_changed")
+criteria3.addItem("galaxyspace:space_suit_legs")
+
+criteria4 = addCriteria("space_feet", "minecraft:inventory_changed")
+criteria4.addItem("galaxyspace:space_suit_feet")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(200)

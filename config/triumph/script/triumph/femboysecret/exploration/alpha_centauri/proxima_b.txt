@@ -1,0 +1,12 @@
+// Proxima B
+setIcon(<galaxyspace:proxima_b_blocks, meta:0>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.alpha_centauri.proxima_b.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.alpha_centauri.proxima_b.description")
+addParent("triumph:femboysecret/exploration/alpha_centauri/root")
+
+criteria = addCriteria("entered_proxima_b", "minecraft:changed_dimension")
+criteria.setDimensionDestination("planet.proxima_b")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(450)

@@ -1,0 +1,10 @@
+// Quark foxhound
+setIcon("minecraft:coal")
+setTranslatedTitle("advancements.triumph.vanilla.nether.foxhound.title")
+setTranslatedDescription("advancements.triumph.vanilla.nether.foxhound.description")
+addParent("triumph:vanilla/nether/root")
+
+criteria = addCriteria("tamed_foxhound", "minecraft:tame_animal")
+criteria.setEntityType("quark:foxhound")
+
+setRewardExperience(75)

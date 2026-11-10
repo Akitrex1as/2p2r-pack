@@ -1,0 +1,22 @@
+{
+	"name": "Alpha Centauri",
+	"icon": "contenttweaker:icon_proxima",
+	"category": "space_planets",
+	"advancement": "triumph:femboysecret/exploration/alpha_centauri/root",
+	"sortnum": 13,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "The path",
+			"text": "The closest star system to the Sun. After the $(l:space/planets/kuiper_belt)Kuiper Belt$(), the target is Proxima B. Find it with a telescope from the edge of the system: $(l:space/planets/pluto)Pluto$(), $(l:space/planets/haumea)Haumea$() or the Kuiper Belt. It takes a tier 5 rocket and so the $(l:space/tech/high_rockets#advanced_pad)5x5 advanced pad$()."
+		},
+		{
+			"type": "text",
+			"title": "Proxima B",
+			"text": "It has gold, tin, copper, coal, silicon and diamonds, plus mushroom geysers. Proxima C and D are enabled on the map. Home is far away, so bring a 5x5 pad, a fuel loader and canisters."
+		}
+	]
+}

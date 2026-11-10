@@ -1,0 +1,44 @@
+
+#determines how certain "infinite" fluids (ie. water not lava) can spread between fluidloggable blocks
+#case 0: fluids cannot flow into fluidloggable blocks
+#case 1: fluids can flow into fluidloggable blocks, but only from fluidlogged blocks (legacy mod behavior)
+#case 2: fluids can flow into fluidloggable blocks from fluidlogged blocks & normal fluid blocks (1.13 behavior)
+fluidloggedFluidSpread:2,
+
+#flowing fluid blocks break torches (vanilla behavior)
+fluidsBreakTorches:true,
+
+#this mod by default allows certain blocks to be fluidlogged
+applyDefaults:true,
+
+#true if flammable blocks should be destroyed when fluidlogged with a hot or burning liquid (like lava)
+lavalogVaporizeFlammable:false,
+
+#whitelist for adding new fluidloggable blocks (this is in addition to the defaults)
+#info about the format for this can be found on this mod's wiki:
+#https://github.com/jbredwards/Fluidlogged-API/wiki/Config
+whitelist:[{blockId:"galaxyspace:enceladus_crystal"}, {blockId:"galaxyspace:advanced_landing_pad"}, {blockId:"galaxyspace:modern_single_solarpanel"}, {blockId:"galaxyspace:single_solarpanel"}, {blockId:"galaxyspace:energy_pad"}, {blockId:"galaxyspace:gravitation_module"}, {blockId:"galacticresearch:telescope"}, {blockId:"galacticresearch:mission_control_station"}, {blockId:"galacticraftplanets:laser_turret"}, {blockId:"galacticraftplanets:solar_array_controller"}, {blockId:"galacticraftplanets:solar_array_module"}, {blockId:"galacticraftplanets:mars_machine, metadata:[0, 1, 2, 3, 4]"}, {blockId:"galacticraftplanets:walkway, metadata:[0, 1, 2]"}, {blockId:"galacticraftplanets:beam_reflector"}, {blockId:"galacticraftplanets:beam_receiver"}, {blockId:"galacticraftplanets:telepad_short"}, {blockId:"galacticraftplanets:miner_base"}, {blockId:"galacticraftplanets:treasure_t3"}, {blockId:"galacticraftplanets:slimeling_egg", metadata:[0, 1, 2]}, {blockId:"galacticraftcore:wall_gc", metadata:[0, 1, 2, 3, 4, 5]}, {blockId:"galacticraftcore:spin_thruster"}, {blockId:"galacticraftcore:cheese"}, {blockId:"galacticraftcore:fluid_tank"}, {blockId:"galacticraftcore:aluminum_wire"}, {blockId:"galacticraftcore:fallen_meteor"}, {blockId:"galacticraftcore:arclamp"}, {blockId:"galacticraftcore:landing_pad"}, {blockId:"galacticraftcore:landing_pad"}, {blockId:"galacticraftcore:dishbase"}, {blockId:"galacticraftcore:space_glass_clear", metadata:[0, 1]}, {blockId:"galacticraftcore:space_glass_vanilla", metadata:[0, 1]}, {blockId:"galacticraftcore:space_glass_strong", metadata:[0, 1]}, {blockId:"quark:rain_detector"}, {blockId:"quark:redstone_randomizer"}, {blockId:"quark:chute"}, {blockId:"quark:iron_rod"}, {blockId:"quark:redstone_inductor"}, {blockId:"quark:iron_rod"}, {blockId:"futuremc:grindstone"}, {blockId:"tektopia:chair"}, {blockId:"quark:polished_netherrack_bricks_wall"}, {blockId:"quark:soul_sandstone_wall"}, {blockId:"quark:snow_bricks_wall"}, {blockId:"quark:reed_block_wall"}, {blockId:"quark:duskbound_block_wall"}, {blockId:"quark:midori_block_wall"}, {blockId:"quark:stone_slate_bricks_wall"}, {blockId:"quark:paper_wall"}, {blockId:"quark:paper_lantern", metadata:[0, 1]}, {blockId:"quark:iron_ladder"}, {blockId:"quark:paper_wall_sakura"}, {blockId:"quark:paper_wall_big"}, {blockId:"quark:bark_dark_oak_wall"}, {blockId:"quark:sandy_bricks_wall"}, {blockId:"quark:stone_granite_bricks_wall"}, {blockId:"quark:stone_diorite_bricks_wall"}, {blockId:"quark:stone_andesite_bricks_wall"}, {blockId:"quark:stone_basalt_bricks_wall"}, {blockId:"quark:stone_marble_bricks_wall"}, {blockId:"quark:stone_limestone_bricks_wall"}, {blockId:"quark:stone_jasper_bricks_wall"}, {blockId:"quark:purpur_block_wall"}, {blockId:"quark:dark_prismarine_wall"}, {blockId:"quark:end_bricks_wall"}, {blockId:"quark:stonebrick_mossy_wall"}, {blockId:"quark:bark_oak_wall"}, {blockId:"quark:bark_spruce_wall"}, {blockId:"quark:bark_jungle_wall"}, {blockId:"quark:bark_birch_wall"}, {blockId:"quark:bark_acacia_wall"}, {blockId:"quark:stone_andesite_wall"}, {blockId:"quark:stone_diorite_wall"}, {blockId:"quark:sandstone_wall"}, {blockId:"quark:red_sandstone_wall"}, {blockId:"quark:stonebrick_wall"}, {blockId:"quark:quartz_wall"}, {blockId:"quark:brick_wall"}, {blockId:"quark:prismarine_rough_wall"}, {blockId:"quark:prismarine_bricks_wall"}, {blockId:"quark:icy_stone_wall"}, {blockId:"quark:fire_stone_brick_wall"}, {blockId:"quark:cobbed_stone_wall"}, {blockId:"quark:icy_stone_brick_wall"}, {blockId:"quark:elder_prismarine_wall"}, {blockId:"quark:elder_prismarine_bricks_wall"}, {blockId:"quark:elder_prismarine_dark_wall"}, {blockId:"quark:stone_wall"}, {blockId:"quark:stone_granite_wall"}, {blockId:"quark:fire_stone_wall"}, {blockId:"quark:slate_wall"}, {blockId:"quark:jasper_wall"}, {blockId:"quark:limestone_wall"}, {blockId:"quark:marble_wall"}, {blockId:"quark:basalt_wall"}, {blockId:"quark:biotite_wall"}, {blockId:"quark:slate_speleothem"}, {blockId:"quark:jasper_speleothem"}, {blockId:"quark:limestone_speleothem"}, {blockId:"quark:marble_speleothem"}, {blockId:"quark:basalt_speleothem"}, {blockId:"quark:netherrack_speleothem"}, {blockId:"quark:andesite_speleothem"}, {blockId:"quark:diorite_speleothem"}, {blockId:"quark:granite_speleothem"}, {blockId:"quark:stone_speleothem"}, {blockId:"quark:rope"}, {blockId:"galacticraftcore:fluid_pipe"}, {blockId:"galacticraftcore:fluid_pipe"}],
+
+
+#blacklist blocks from the defaults
+#info about the format for this can be found on this mod's wiki:
+#https://github.com/jbredwards/Fluidlogged-API/wiki/Config
+blacklist:[],
+
+#used by the whitelist & blacklist to easily define fluid groups for fluidlogging
+#info about the format for this can be found on this mod's wiki:
+#https://github.com/jbredwards/Fluidlogged-API/wiki/Config
+fluidTags:[],
+
+#otuput to the console for every ASM transformation, useful for debugging
+debugASMPlugins:false,
+
+#when a flammable fluidloggable block is placed in a lava-like fluid, the block is vaporized
+lavalogVaporizeFlammable:false,
+
+#remove the ability for "infinite" fluids to fluidlog blocks below
+removeVerticalFluidloggedFluidSpread:false,
+
+#fluid-entity collision is exact, taking corner heights into account
+#WARNING: enabling this may result in worse performance
+fancyFluidEntityCollision:false

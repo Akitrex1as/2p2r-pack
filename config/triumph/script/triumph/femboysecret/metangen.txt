@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<galacticraftplanets:mars_machine_t2, meta:4>)
+
+//Set title String
+setTranslatedTitle("advancements.triumph.femboysecret.metangen.title")
+
+//Set description String
+setTranslatedDescription("advancements.triumph.femboysecret.metangen.description")
+addParent("triumph:femboysecret/6")
+addParent("triumph:femboysecret/exploration/solar_system/mars")
+
+//Add parent
+
+//Add criteria for the achievement
+criteria = addCriteria("solarwind_panel", "minecraft:inventory_changed")
+criteria.addItem(<galacticraftplanets:mars_machine_t2, meta:4>)
+
+setRequiresParents()
+setRequirements("all")

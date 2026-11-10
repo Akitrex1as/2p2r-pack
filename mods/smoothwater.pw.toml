@@ -1,0 +1,18 @@
+filename = 'SmoothWater-0.1.4.jar'
+name = 'SmoothWater'
+side = "client"
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'SmoothWater 0.1.4 (1.12.2)'
+
+[download]
+hash = '39e58a864b8a3dac34d8685be5ec5ea3e6330a1c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2537363
+project-id = 286352

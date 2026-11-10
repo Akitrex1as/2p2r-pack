@@ -1,0 +1,11 @@
+// Rocket T3
+setIcon("galacticraftplanets:rocket_t3")
+setTranslatedTitle("advancements.triumph.femboysecret.rockets.rocket_t3.title")
+setTranslatedDescription("advancements.triumph.femboysecret.rockets.rocket_t3.description")
+addParent("triumph:femboysecret/exploration/solar_system/mars")
+criteria = addCriteria("rocket_t3", "minecraft:inventory_changed")
+criteria.addItem("galacticraftplanets:rocket_t3")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(250)

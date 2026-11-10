@@ -1,0 +1,12 @@
+name = "QuarkOddities-1.12.2"
+filename = "QuarkOddities-1.12.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qeEEslrN/versions/1hfd6PrK/QuarkOddities-1.12.2.jar"
+hash-format = "sha512"
+hash = "80d6b5a5338aa49064fd3666fe8331223d5c5966f533afad536fc2e961970c3f3d57310ca751b3d221a9cbd145c18279e6ab86b12bd22798e1bec9f734903207"
+
+[update.modrinth]
+mod-id = "qeEEslrN"
+version = ""

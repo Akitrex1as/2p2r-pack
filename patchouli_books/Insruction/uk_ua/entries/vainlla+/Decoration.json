@@ -1,0 +1,176 @@
+{
+	"name": "Декорації",
+	"icon": "quark:custom_bookshelf:3",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/upgrade_tools",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Цей модуль додає нові декоративні будівельні блоки та покращує ванільні."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/bookshelves.jpg"
+			],
+			"title": "Книжкові полиці",
+			"border": true,
+			"text": "Створюйте книжкові полиці з будь-якого дерева."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/pressure-plates-buttons.jpg"
+			],
+			"title": "Кнопки і плити",
+			"border": true,
+			"text": "Створюйте кнопки і натискні плити з будь-якого дерева."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/chests.jpg"
+			],
+			"title": "Скрині",
+			"border": true,
+			"text": "Створюйте скрині з будь-якого дерева."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/blaze-lantern.jpg"
+			],
+			"title": "Ліхтар Блейза",
+			"border": true,
+			"text": "Виготовляється з 5 порошків блейза і 4 жезлів блейза."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/charcoal-block.jpg"
+			],
+			"title": "Блок деревного вугілля",
+			"border": true,
+			"text": "Подібно до незераку, на ньому вічно горить вогонь."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/glass-item-frame.jpg"
+			],
+			"title": "Прозорі рамки",
+			"border": true,
+			"text": "Виготовляється з рамки і 8 скляних панелей."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/iron-ladders.jpg"
+			],
+			"title": "Залізна драбина",
+			"border": true,
+			"text": "Виготовляється з 6 залізних ломок."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/more-banner-layers.jpg"
+			],
+			"title": "Більше банерів",
+			"border": true,
+			"text": "Тепер банери мають 16 шарів, а не 6."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/banner-icons.jpg"
+			],
+			"title": "Нові візерунки",
+			"border": true,
+			"text": "Нові матеріали для візерунків."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/paper-lamps.jpg"
+			],
+			"title": "Паперовий ліхтар",
+			"border": true,
+			"text": "Виготовляється з паперу, паличок і вітлокаменю."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/paper-walls.jpg"
+			],
+			"title": "Паперові стіни",
+			"border": true,
+			"text": "Виготовляються з паперу, паличок і саджанця (візерунок)."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/place-blaze-rods.jpg"
+			],
+			"title": "Матеріальний жезл",
+			"border": true,
+			"text": "Жезл блейза можна поставити."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/tie-leads.jpg"
+			],
+			"title": "Лінії поводків",
+			"border": true,
+			"text": "Тепер можна зв'язувати паркани."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/better-flower-pots.jpg"
+			],
+			"title": "Горщики без обмежень",
+			"border": true,
+			"text": "Горщики тепер приймають майже будь-яку рослинність."
+		},
+		{
+			"type": "spotlight",
+			"item": "futuremc:composter",
+			"text": "Натисніть правою кнопкою миші на компостер органічними предметами, щоб додати їх. Коли він заповнений, ви отримаєте кісткове борошно."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/BEDSYO.png"
+			],
+			"title": "Свої покривала",
+			"border": true,
+			"text": "Прибрати стяг з ліжка можна, вставивши його назад у верстак."
+		},
+		{
+			"type": "text",
+			"title": "Таблички",
+			"text": "Тут можна встановити таблички з зображенням і гіфками.$(br2)1. Натисніть клавішу $(k:signpic.key.gui).$(br2)2. Вставте URL зображення (краще з imgur) або файл.$(br2)3. Натисніть «Розташувати».$(br2)4. Поставте табличку!",
+			"anchor": "signs"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/Astolfo.png"
+			],
+			"title": "Таблички",
+			"border": true,
+			"text": "            UwU"
+		},
+		{
+			"type": "spotlight",
+			"item": "charm:bookshelf_chest",
+			"title": "Книжкова полиця",
+			"text": "Книжкова полиця з 9 слотами для зберігання книг. Забезпечує таку ж силу чарування, як і звичайна книжкова полиця, якщо на полиці є хоча б одна книга."
+		}
+	]
+}

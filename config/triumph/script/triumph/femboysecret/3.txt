@@ -1,0 +1,33 @@
+// Встановлюємо іконку для досягнення
+setIcon("galaxyspace:upgrades")
+
+// Встановлюємо назву досягнення
+setTranslatedTitle("advancements.triumph.femboysecret.3.title")
+
+// Встановлюємо опис досягнення
+setTranslatedDescription("advancements.triumph.femboysecret.3.description")
+
+// Додаємо батьківське досягнення (якщо необхідно, змініть на відповідне батьківське досягнення)
+addParent("triumph:femboysecret/2")
+
+// Додаємо критерії для досягнення, які вимагають наявності всіх зазначених предметів
+
+// Критерій для предмету galaxyspace:upgrades
+criteria1 = addCriteria("has_upgrades", "minecraft:inventory_changed")
+criteria1.addItem("galaxyspace:upgrades")
+
+// Критерій для предмету galaxyspace:upgrades з метаданими 1
+criteria2 = addCriteria("has_upgrades_meta1", "minecraft:inventory_changed")
+criteria2.addItem(<galaxyspace:upgrades, meta:1>)
+
+// Критерій для предмету galaxyspace:upgrades з метаданими 2
+criteria3 = addCriteria("has_upgrades_meta2", "minecraft:inventory_changed")
+criteria3.addItem(<galaxyspace:upgrades, meta:2>)
+
+// Критерій для предмету galaxyspace:upgrades з метаданими 3
+criteria4 = addCriteria("has_upgrades_meta3", "minecraft:inventory_changed")
+criteria4.addItem(<galaxyspace:upgrades, meta:3>)
+
+// Встановлюємо вимогу, що для завершення досягнення необхідно здобути всі предмети
+setRequiresParents()
+setRequirements("all")

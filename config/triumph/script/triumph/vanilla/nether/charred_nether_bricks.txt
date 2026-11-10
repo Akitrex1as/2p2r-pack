@@ -1,0 +1,11 @@
+// Quark charred nether bricks
+setIcon(<quark:charred_nether_bricks>)
+setTranslatedTitle("advancements.triumph.vanilla.nether.charred_nether_bricks.title")
+setTranslatedDescription("advancements.triumph.vanilla.nether.charred_nether_bricks.description")
+addParent("triumph:vanilla/nether/obtain_blaze_rod")
+
+criteria = addCriteria("charred_nether_bricks", "minecraft:inventory_changed")
+criteria.addItem(<quark:charred_nether_bricks>)
+
+setRequirements("any")
+setRewardExperience(50)

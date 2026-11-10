@@ -1,0 +1,23 @@
+{
+	"name": "Greenhouses",
+	"icon": "minecraft:wheat",
+	"category": "ecology",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Although $(l:ecology_inst/page02#carbon)carbon emissions$() are toxic to animals and players, they are vital for plants as they absorb carbon and start growing better. Thus, you can benefit from polluted areas by building greenhouses and $(l:ecology_inst/page04#pump)pumping$() carbon into them."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/greenhouse.png"
+			],
+			"border": true,
+			"title": "System Example"
+		}
+	],
+	"advancement": "triumph:pollution/root"
+}

@@ -1,0 +1,10 @@
+// Miranda
+setIcon(<galaxyspace:mirandablocks, meta:0>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.miranda.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.miranda.description")
+addParent("triumph:femboysecret/exploration/solar_system/uranus")
+
+criteria = addCriteria("entered_miranda", "minecraft:changed_dimension")
+criteria.setDimensionDestination("moon.miranda")
+
+setRewardExperience(360)

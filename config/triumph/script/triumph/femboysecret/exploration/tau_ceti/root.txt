@@ -1,0 +1,8 @@
+// Tau Ceti Root
+setIcon(<contenttweaker:icon_tauceti>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.tau_ceti.root.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.tau_ceti.root.description")
+addParent("triumph:femboysecret/rockets/rocket_t6")
+
+setRequiresParents()
+setRewardExperience(0)

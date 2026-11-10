@@ -1,0 +1,12 @@
+// Haumea
+setIcon(<galaxyspace:haumeablocks, meta:0>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.haumea.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.haumea.description")
+addParent("triumph:femboysecret/rockets/rocket_t6")
+
+criteria = addCriteria("entered_haumea", "minecraft:changed_dimension")
+criteria.setDimensionDestination("planet.haumea")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(450)

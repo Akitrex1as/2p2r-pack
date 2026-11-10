@@ -1,0 +1,87 @@
+{
+	"name": "Fuel and Launch Pad",
+	"icon": "galacticraftcore:fuel_loader",
+	"category": "space_start",
+	"advancement": "galacticraftcore:galacticraft/oil",
+	"sortnum": 2,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Oil",
+			"text": "Oil sits underground in black pools. Collect it with a bucket or a liquid canister and put it in the refinery's slot."
+		},
+		{
+			"type": "text",
+			"title": "Refinery",
+			"text": "Power the refinery and pour in the oil. It is slow and very hungry, so give it several batteries or solar panels. It outputs fuel: collect that in empty canisters."
+		},
+		{
+			"type": "multiblock",
+			"name": "Launch pad",
+			"text": "Nine pads in a 3x3 square. Place the rocket in the center.",
+			"multiblock": {
+				"pattern": [
+					[
+						"PPP",
+						"P0P",
+						"PPP"
+					]
+				],
+				"mapping": {
+					"P": "galacticraftcore:landing_pad",
+					"0": "galacticraftcore:landing_pad"
+				}
+			}
+		},
+		{
+			"type": "text",
+			"title": "Fuel Loader",
+			"text": "Place the loader right next to the pad, power it and insert a canister. Fueling runs on its own. Get in, press $(k:Open Spaceship Inventory) to see fuel, cargo and your inventory, then $(k:jump) to launch.",
+			"anchor": "loader"
+		},
+		{
+			// БЛАНК СКРІНШОТУ: замініть файл blank_launch_pad.png. Що зняти: ракета першого рівня в центрі майданчика 3x3, поруч заправник із підведеним живленням; якщо можливо, відкритий екран ракети після натискання F зі шкалою палива
+			"type": "image",
+			"images": [
+				"testbook:images/blank_launch_pad.png"
+			],
+			"title": "Rocket ready",
+			"border": true,
+			"text": "Pad, rocket and a loader with a canister."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:bucket_oil",
+			"title": "Oil",
+			"text": "Black liquid underground. The raw material for fuel."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:refinery",
+			"title": "Refinery",
+			"text": "Turns oil into rocket fuel."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:bucket_fuel",
+			"title": "Fuel",
+			"text": "Yellow fuel for rockets, buggies and generators."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:fuel_loader",
+			"title": "Fuel Loader",
+			"text": "Moves fuel from a canister into the rocket.",
+			"anchor": "loader"
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:landing_pad",
+			"title": "Launch Pad",
+			"text": "A rocket needs 9 of these blocks."
+		}
+	]
+}

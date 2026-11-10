@@ -1,0 +1,11 @@
+setIcon("galaxyspace:schematics")
+setTranslatedTitle("advancements.triumph.femboysecret.schematics.schematic_gs_t4.title")
+setTranslatedDescription("advancements.triumph.femboysecret.schematics.schematic_gs_t4.description")
+addParent("triumph:femboysecret/schematics/schematic_gs_t3")
+setRequiresParents()
+
+criteria = addCriteria("schematic_gs_t4", "minecraft:inventory_changed")
+criteria.addItem(<galaxyspace:schematics, meta:3>)
+
+setRequirements("all")
+setRewardExperience(350)

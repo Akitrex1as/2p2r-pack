@@ -1,0 +1,11 @@
+// Charm Root
+setIcon(<charm:redstone_sand>)
+setTranslatedTitle("advancements.triumph.charm.root.title")
+setTranslatedDescription("advancements.triumph.charm.root.description")
+addParent("triumph:vanilla/story/root")
+
+criteria = addCriteria("redstone_sand", "minecraft:inventory_changed")
+criteria.addItem(<charm:redstone_sand>)
+
+setRequirements("any")
+setRewardExperience(50)

@@ -1,0 +1,217 @@
+{
+	"name": "Будівництво",
+	"icon": "quark:duskbound_lantern",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/upgrade_tools",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Цей модуль додає нові блоки для будівництва та будівельне обладнання."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/bark-blocks.jpg"
+			],
+			"title": "Блоки кори",
+			"border": true,
+			"text": "Виготовляються з 4 блоків відповідних колод."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/carved-wood.jpg"
+			],
+			"title": "Різьблене дерево",
+			"border": true,
+			"text": "Виготовляється з 4 блоків відповідних плит."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/duskbound-blocks.jpg"
+			],
+			"title": "Сутінкові блоки",
+			"border": true,
+			"text": "Виготовляються з пурпуру та обсидіану."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/framed-glass.jpg"
+			],
+			"title": "Обрамлене скло",
+			"border": true,
+			"text": "Виготовляється із заліза та скла."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/iron-plates.jpg"
+			],
+			"title": "Залізні пластини",
+			"border": true,
+			"text": "Виготовляються із залізних пластин."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/midori.jpg"
+			],
+			"title": "Блоки мідорі",
+			"border": true,
+			"text": "Виготовляються із зелені кактуса."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/new-sandstone.jpg"
+			],
+			"title": "Більше пісковику",
+			"border": true,
+			"text": "Виготовляються із відповідного піску."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/stone-bricks.jpg"
+			],
+			"title": "Більше кам'яної цегли",
+			"border": true,
+			"text": "Виготовляються із відповідного $(l:vainlla+/World#stone)каменю$()."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/polished-stone.jpg"
+			],
+			"title": "Полірований камінь",
+			"border": true,
+			"text": "Виготовляється з 4 кам'яних плит."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/sandy-bricks.jpg"
+			],
+			"title": "Піщані цеглини",
+			"border": true,
+			"text": "Виготовляються з піску та цегли."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/snow-bricks.jpg"
+			],
+			"title": "Снігова цегла",
+			"border": true,
+			"text": "Виготовляються зі снігу."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/pavement.jpg"
+			],
+			"title": "Кам'яна бруківка",
+			"border": true,
+			"text": "Виготовляється з 9 блоків відповідного каменю."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/sturdy-stone.jpg"
+			],
+			"title": "Міцний камінь",
+			"border": true,
+			"text": "Виготовляється з 4 блоків каменю і 4 блоків кругляку."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/reed-blocks.jpg"
+			],
+			"title": "Блок цукрової тростини",
+			"border": true,
+			"text": "Виготовляється з 9 цукрової тростини."
+		},
+		{
+			"type": "spotlight",
+			"item": "quark:trowel",
+			"title": "Кельма",
+			"link_recipe": true,
+			"text": "За допомогою заліза та палиць можна створити кельму. Якщо клацнути нею правою кнопкою миші, ви розмістите випадковий блок з вашої нижньої панелі інвентарю, що робить її корисною для створення руїн або стежок."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/turf.jpg"
+			],
+			"title": "Дерен",
+			"border": true,
+			"text": "Виготовляється з 4 трави."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/vanilla-stairs-slabs.jpg"
+			],
+			"title": "Сходи та плити",
+			"border": true,
+			"text": "Більшість блоків мають свої сходи або плити."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/vanilla-walls.jpg"
+			],
+			"title": "Стіни",
+			"border": true,
+			"text": "Більшість блоків також мають свої стіни."
+		},
+		{
+			"type": "text",
+			"title": "Павло Тичина – Дощ",
+			"text": "А на воді в чиїйсь руці$(br)Гадюки пнуться… Сон. До дна.$(br)Війнув, дихнув, сипнув пшона —$(br)І заскакали горобці!..$(br)— Тікай! — шепнуло в береги.$(br)— Лягай… — хитнуло смолки.$(br)Спустила хмарка на луги$(br)Мережані подолки.$(br)1918"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/charred-nether-bricks.jpg"
+			],
+			"title": "Обвуглена пекельна цегла",
+			"border": true,
+			"text": "Виготовляється з пекельної цегли і заряду полум'я."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/netherwrought-stone.jpg"
+			],
+			"title": "Пекельний декор",
+			"border": true,
+			"text": "Виготовляється з 4 блоків незераку."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/soul-sandstone.jpg"
+			],
+			"title": "Пісковик душі",
+			"border": true,
+			"text": "Виготовляються з 4 блоків піску душ."
+		},
+		{
+			"type": "spotlight",
+			"item": "charm:ender_pearl_block",
+			"text": "Блок для зберігання ендерперлів. Якщо з'їсти плід хору, ви телепортуєтеся до найближчого блоку ендерперлів. Якщо сріблястий рудий залізе в блок ендерперлів, він перетвориться на ендерміта."
+		},
+		{
+			"type": "spotlight",
+			"item": "charm:rotten_flesh_block",
+			"text": "Блок гнилі, що є поживним для рослин, коли розміщений під ґрунтом і може дуже легко перетворитися на землю, якщо буде поряд з водою."
+		}
+	]
+}

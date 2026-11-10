@@ -1,0 +1,11 @@
+// Backpack
+setIcon(<quark:backpack>)
+setTranslatedTitle("advancements.triumph.quark.backpack.title")
+setTranslatedDescription("advancements.triumph.quark.backpack.description")
+addParent("triumph:quark/root")
+
+criteria = addCriteria("backpack", "minecraft:inventory_changed")
+criteria.addItem(<quark:backpack>)
+
+setRequirements("any")
+setRewardExperience(75)

@@ -1,0 +1,12 @@
+// Pluto
+setIcon(<galaxyspace:plutoblocks, meta:0>)
+setTranslatedTitle("advancements.triumph.femboysecret.exploration.solar_system.pluto.title")
+setTranslatedDescription("advancements.triumph.femboysecret.exploration.solar_system.pluto.description")
+addParent("triumph:femboysecret/rockets/rocket_t6")
+
+criteria = addCriteria("entered_pluto", "minecraft:changed_dimension")
+criteria.setDimensionDestination("planet.pluto")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(400)

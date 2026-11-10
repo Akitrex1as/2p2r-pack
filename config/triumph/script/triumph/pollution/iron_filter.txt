@@ -1,0 +1,12 @@
+// Iron Filter
+setIcon("adpother:iron_filter")
+setTranslatedTitle("advancements.triumph.pollution.iron_filter.title")
+setTranslatedDescription("advancements.triumph.pollution.iron_filter.description")
+addParent("triumph:pollution/root")
+
+criteria = addCriteria("iron_filter", "minecraft:inventory_changed")
+criteria.addItem("adpother:iron_filter")
+
+setRequirements("any")
+setRewardExperience(100)
+setPos(36,36)

@@ -1,0 +1,12 @@
+// Aerometer
+setIcon("adpother:aerometer")
+setTranslatedTitle("advancements.triumph.pollution.aerometer.title")
+setTranslatedDescription("advancements.triumph.pollution.aerometer.description")
+addParent("triumph:pollution/root")
+
+criteria = addCriteria("aerometer", "minecraft:inventory_changed")
+criteria.addItem("adpother:aerometer")
+
+setRequirements("any")
+setRewardExperience(75)
+setPos(36,108)

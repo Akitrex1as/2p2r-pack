@@ -1,0 +1,20 @@
+// Tremalsuit (T3 Thermal Suit Full Set)
+setIcon("galaxyspace:thermal_padding_t3")
+setTranslatedTitle("advancements.triumph.femboysecret.thermal.tremalsuit.title")
+setTranslatedDescription("advancements.triumph.femboysecret.thermal.tremalsuit.description")
+addParent("triumph:femboysecret/space_suits/space_suit_t1")
+criteria1 = addCriteria("thermal_t3_0", "minecraft:inventory_changed")
+criteria1.addItem("galaxyspace:thermal_padding_t3")
+
+criteria2 = addCriteria("thermal_t3_1", "minecraft:inventory_changed")
+criteria2.addItem("galaxyspace:thermal_padding_t3")
+
+criteria3 = addCriteria("thermal_t3_2", "minecraft:inventory_changed")
+criteria3.addItem("galaxyspace:thermal_padding_t3")
+
+criteria4 = addCriteria("thermal_t3_3", "minecraft:inventory_changed")
+criteria4.addItem("galaxyspace:thermal_padding_t3")
+
+setRequiresParents()
+setRequirements("all")
+setRewardExperience(100)

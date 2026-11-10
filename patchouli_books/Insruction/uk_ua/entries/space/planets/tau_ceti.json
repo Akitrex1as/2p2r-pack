@@ -1,0 +1,17 @@
+{
+	"name": "Тау Кита",
+	"icon": "contenttweaker:icon_tauceti",
+	"category": "space_planets",
+	"advancement": "triumph:femboysecret/exploration/tau_ceti/root",
+	"sortnum": 14,
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"title": "Шлях",
+			"text": "Сусідня сонцеподібна зоря. Після $(l:space/planets/proxima)Proxima B$() ціль — Tau Ceti F. Її видно в телескоп лише з Proxima B. Тут ростуть корали: тільки з них виходить око Енду. Потрібна ракета 6 рівня. Це остання ціль на шляху до «Параду планет»."
+		}
+	]
+}

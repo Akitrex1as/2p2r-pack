@@ -1,0 +1,345 @@
+{
+	"name": "Світ",
+	"icon": "quark:archaeologist_hat",
+	"category": "vainlla+",
+	"advancement": "triumph:vanilla/story/smelt_iron",
+	"priority": false,
+	"secret": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Цей модуль додає функції світової генерації."
+		},
+		{
+			"type": "text",
+			"title": "Археолог",
+			"text": "Археологи рідко влаштовуються в стінах печер. Ви зрозумієте, де вони, коли почуєте класичний звук «Хмммм». $(br)Ці селяни торгують кістками та іншими предметами, які вони використовують у своїх експедиціях. Крім того, ви можете придбати їх капелюх, який дає Фортуну."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/archaeologist.jpg"
+			],
+			"title": "Археолог",
+			"border": true,
+			"text": "\"$(o)Хммммммммммммммм...$()\""
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/swamp-shrooms.jpg"
+			],
+			"title": "Болотяні гриби",
+			"border": true,
+			"text": "Генеруються як в консольній версії."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dieinfire.png"
+			],
+			"title": "Гори у вогні!",
+			"border": true,
+			"text": "Проти зомбі діють такі пастки"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/nether-blazes.jpg"
+			],
+			"title": "Палій",
+			"border": true,
+			"text": "До пекла завітав палій, через що там стало більше вогнищ."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/broken-portals.jpg"
+			],
+			"title": "Зруйновані портали",
+			"border": true,
+			"text": "Хто знає, куди вони ведуть..."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/bigblackoleg.png"
+			],
+			"title": "Ковчег",
+			"border": true,
+			"text": "Щоб вижити будуйте великі укриття або бази."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/buried-treasure.jpg"
+			],
+			"title": "Закопаний скарб",
+			"border": true,
+			"text": "В данжах час від часу можна знайти мапи з міткою X."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/cave-roots.jpg"
+			],
+			"title": "Печерні корінці",
+			"border": true,
+			"text": "Який корінь з'їси, таким і будеш."
+		},
+		{
+			"type": "entity",
+			"entity": "quark:crab",
+			"scale": 0.8,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"title": "Краби",
+			"text": "З них роблять їжу та зілля, а також вони смішно... [ВИДАЛЕНО]"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/crystal-caves.jpg"
+			],
+			"title": "Кришталеві печери",
+			"border": true,
+			"text": "З кришталю можна зробити $(l:vainlla+/Msic#runes)руни$()."
+		},
+		{
+			"type": "text",
+			"title": "Глибинні моби",
+			"text": "Ці моби з'являються дуже рідко і глибоко. Попілець — це скелет, який стріляє стрілами Сліпоти, а Шахтівець — це зомбі, який з'являється невидимим, але втрачає невидимість після того, як атакує або зазнає шкоди. Крім того, він має більше броні."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/depth-mobs.jpg"
+			],
+			"title": "Глибинні моби",
+			"border": true,
+			"text": "Попілець (зліва) та Шахтівець (праворуч)."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/dank-dungeons.jpg"
+			],
+			"title": "Різноманітні підземелля",
+			"border": true,
+			"text": "Час від часу ви можете зустріти нові підземелля."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/biotite.jpg"
+			],
+			"title": "Біотит",
+			"border": true,
+			"text": "Росте в Енді, а після смерті дракона з'являється ще й на головному острові. Блок біотиту лагодить елітри на ковадлі.",
+			"anchor": "biotite"
+		},
+		{
+			"type": "entity",
+			"entity": "outfox:fox",
+			"scale": 0.6,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"title": "Лисиця",
+			"text": "Дайте їй крольчатину, а потім дайте понюхати руду."
+		},
+		{
+			"type": "entity",
+			"entity": "charm:spectre",
+			"scale": 1.0,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"title": "Примара",
+			"text": "Моб, який з'являється в різних місцях і має моторошні здібності."
+		},
+		{
+			"type": "entity",
+			"entity": "quark:frog",
+			"scale": 1.0,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"title": "Жаба",
+			"text": "Вони їдять рибу та павучі очі, а з позолоченої лапки роблять зілля."
+		},
+		{
+			"type": "entity",
+			"entity": "aqua_creepers:aqua_creeper",
+			"scale": 0.8,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"title": "Водяний кріпер",
+			"text": "Це кріпер, але під водою."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/ocean-guardians.jpg"
+			],
+			"title": "Охоронці океану",
+			"border": true,
+			"text": "Охоронці іноді можуть з'явитися поза підводною фортецею."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/monster-box.jpg"
+			],
+			"title": "Коробки монстрів",
+			"border": true,
+			"text": "Будьте обережні з цими коробками."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/nether-fossils.jpg"
+			],
+			"title": "Скам'янілості пекла",
+			"border": true,
+			"text": "Мертві колоси."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/obsidian-spikes.jpg"
+			],
+			"title": "Обсидіанові шипи",
+			"border": true,
+			"text": "Дуже великі шипи зі світлокаменем мають цікавинки."
+		},
+		{
+			"type": "text",
+			"title": "Мапа слідопитів",
+			"text": "Тепер селяни-картографи продаватимуть мапи слідопитів різних типів біомів, які вказують на найближчий біом до селянина. На відміну від інших видів торгівлі, де присутні всі варіанти, будь-який картограф матиме лише випадковий набір цих карт, який"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/pathfinder-maps.jpg"
+			],
+			"title": "Мапа слідопитів",
+			"border": true,
+			"text": "розширюватиметься з підвищенням рівня."
+		},
+		{
+			"type": "text",
+			"title": "Оновлення каменю",
+			"text": "Діорит, граніт і андезит тепер з'являтимуться дійсно великими, рідкісними скупченнями, а не розкиданими дрібними шматочками. Крім того, до міксу додано чотири нових камені: мармур і вапняк, а також яшма і сланець.",
+			"anchor": "stone"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/stone-revamp.jpg"
+			],
+			"title": "Оновлення каменю",
+			"border": true,
+			"text": "Останні чотири використовують як перші три."
+		},
+		{
+			"type": "text",
+			"title": "Камнелиси",
+			"text": "Це нові пасивні моби, які народжуються в глибокому підземеллі. Ці маленькі хлопці народжуються, коли ви несете якийсь предмет, і злякаються, якщо ви підійдете до них надто близько, не підкрадаючись. Злякавшись, вони втечуть від вас і врешті-решт зникнуть з лиця землі."
+		},
+		{
+			"type": "text",
+			"title": "Камнелиси",
+			"text": "Якщо вам вдасться вбити одного з них, ви отримаєте предмет, який він носив. $(br)Крім того, з камнелисів може випасти діамантове серце — новий предмет, який ви можете використати на будь-якому кам'яному блоці, щоб створити свого"
+		},
+		{
+			"type": "text",
+			"title": "Камнелиси",
+			"text": "власного прирученого камнелиса! Приручені камнелиси можуть тримати предмети, які ви їм даєте, їсти камінь (вони його обожнюють!) і слідувати за вами, якщо у вас є діамант."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/stonelings.jpg"
+			],
+			"title": "Камнелиси",
+			"border": true
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/extra-trees.jpg"
+			],
+			"title": "Нові дерева",
+			"border": true,
+			"text": "У вашому світі є болотні дуби і сакури."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/underground-biomes.jpg"
+			],
+			"title": "Підземні біоми",
+			"border": true,
+			"text": "Існує 9 підземних біомів."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/cave-clay.jpg"
+			],
+			"title": "Підземна глина",
+			"border": true,
+			"text": "Зустрічається трохи рідше, ніж земля."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/endarteleport.png"
+			],
+			"title": "Зв'язок порталів",
+			"border": true,
+			"text": "Спробуйте заповнити однаковими $(l:vainlla+/Msic#runes)рунами$() два повних ендер-портали."
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/cumcake_X3.png"
+			],
+			"border": true,
+			"text": "О! Ти знайшов ще один кексик!"
+		},
+		{
+			"type": "image",
+			"images": [
+				"testbook:images/basalt.jpg"
+			],
+			"title": "Базальт",
+			"border": true,
+			"text": "Це пекельний аналог граніту, діориту і андезиту."
+		},
+		{
+			"type": "text",
+			"title": "Лисичар",
+			"text": "Це нові ворожі моби, які з'являються в пеклі. Ці люті песики нападуть на вас і підпалять. Якщо ви достатньо хоробрі, випийте зілля вогнестійкості та нагодуйте їх вугіллям, щоб приручити. Приручені лисичари поводяться так само, як звичайні вовки, але з деякими додатковими"
+		},
+		{
+			"type": "text",
+			"title": "Лисичар",
+			"text": "перевагами: Вони будуть спати на розпечених, як магма, брилах. Якщо їх посадити на піч, вони прискорять її роботу, однак краще не ставити на піч кілька лисичарів, щоб прискорити її роботу."
+		},
+		{
+			"type": "entity",
+			"entity": "quark:foxhound",
+			"scale": 0.6,
+			"offset": 0.0,
+			"rotate": true,
+			"default_rotation": -45,
+			"title": "Лисичар",
+			"text": "Мило, але палко..."
+		}
+	]
+}

@@ -1,0 +1,13 @@
+// Pollution System Root
+setIcon("adpother:iron_respirator")
+setTranslatedTitle("advancements.triumph.pollution.root.title")
+setTranslatedDescription("advancements.triumph.pollution.root.description")
+setBackground("custom:textures/gui/background2.png")
+setShowToast(false)
+setAnnounceToChat(true)
+setPos(0, 0)
+
+criteria = addCriteria("has_pollution_item", "minecraft:inventory_changed")
+criteria.addItem("adpother:iron_respirator")
+
+setRequirements("any")
