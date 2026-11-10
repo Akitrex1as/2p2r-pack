@@ -1,0 +1,13 @@
+name = "Room For Two"
+filename = "roomfortwo-forge-1.21.2-0.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YZlvzIFq/versions/cIa5repJ/roomfortwo-forge-1.21.2-0.3.0.jar"
+hash-format = "sha512"
+hash = "1de3f5a01184af80b4e57773a69ee70bf8f1ae06830d21c661e94a3afe5343ce6d10df7e45e1848358b2bbd651100796982c217d5bab93b5c1f99dc8fe6d4a07"
+
+[update]
+[update.modrinth]
+mod-id = "YZlvzIFq"
+version = "cIa5repJ"

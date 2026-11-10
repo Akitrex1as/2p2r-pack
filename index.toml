@@ -5658,7 +5658,7 @@ hash = "64b6f1921d2c7e2d0f5b76a383aa0e05107b1b1c9d0459a3f307bacc55557e55"
 
 [[files]]
 file = "mods/2P2Rcompat-1.0.0.jar"
-hash = "2d37c5ad8e5dbb4d50fbb4bdf51e7db89c5d6d6bf45c9914c418aa4c1848b3f6"
+hash = "b1b23d5190ff992b5710120aeadca03bcbc31a67199c1391b8ac5597553ed121"
 
 [[files]]
 file = "mods/antique-atlas.pw.toml"
@@ -6056,6 +6056,11 @@ hash = "a6c660ee33ce979d0ab373787536cb9cab637c6585cef749e2723a455bd79cde"
 metafile = true
 
 [[files]]
+file = "mods/room-for-two.pw.toml"
+hash = "8d25799d12313356fb1fcad1c9c1b35a9e735356c56cbfe51b33324ac6735670"
+metafile = true
+
+[[files]]
 file = "mods/sarosskinchanger-1-2.pw.toml"
 hash = "8d6b688c2e108dd5039e01cc83b2886a469ac3b27a287fb3223ecc2733e310f0"
 metafile = true
@@ -6148,6 +6153,11 @@ metafile = true
 [[files]]
 file = "mods/tumbleweed.pw.toml"
 hash = "da40cff22145da2c8ad716d2016657abe3ccd3ec1c78a21c1374613c2ce513cd"
+metafile = true
+
+[[files]]
+file = "mods/two-players-one-horse.pw.toml"
+hash = "30dc9421a89b6ba04319a39e863e8e7b6d264d4840b7f50e71b8bb4374da5535"
 metafile = true
 
 [[files]]

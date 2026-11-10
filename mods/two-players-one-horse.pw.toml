@@ -1,0 +1,13 @@
+name = "Two Players One Horse"
+filename = "twoplayersonehorse-1.12.2-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/c89BhsB1/versions/BzyeGqE0/twoplayersonehorse-1.12.2-1.0.3.jar"
+hash-format = "sha512"
+hash = "b85c0905ab6e17f725da1c38a4a28b45cffc497ee4ea524a31259306b72ac35bb3bc32688f0608b16c8f51934bf7306aa523480165945431d6106706af40c77f"
+
+[update]
+[update.modrinth]
+mod-id = "c89BhsB1"
+version = "BzyeGqE0"
