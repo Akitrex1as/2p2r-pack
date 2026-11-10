@@ -4101,10 +4101,6 @@ file = "config/badmobs.cfg"
 hash = "24f3c2c02a6645e3a16fbc31f7d386adb9c7a161541d9b187267edda62022f3d"
 
 [[files]]
-file = "config/betterchat.cfg"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/betterinvisibility.cfg"
 hash = "00032cb62a19819a82f0e8494d94d490a03a368e15f8fdca55df80cb05ab2311"
 
@@ -4163,10 +4159,6 @@ hash = "15b0d3b4882a810e08fbac562fbecebf65ba8e3bf600814395d49f3c500f95af"
 [[files]]
 file = "config/cleanroom_load_timings.dat"
 hash = "9c8e0a22b04e6fabaf603128a0f589a90f057ebf498b53de3e6d92bd36f0215a"
-
-[[files]]
-file = "config/cleanroom_mod_list_favourites.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/collective.cfg"
@@ -4421,10 +4413,6 @@ file = "config/customloadingscreen/sample/instruction/item_rotate_clockwise.json
 hash = "08b5c4698588a957660c39df2497b67888e24e00f575b8441044ace19b5a8138"
 
 [[files]]
-file = "config/customloadingscreen/test.json"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/customloadingscreen/textures/generic/darkened_blur.png"
 hash = "19bf25022d6586ef0fd9c0f320b4832db535bf0178eeaa85fbbef7797d46ee0f"
 
@@ -4451,10 +4439,6 @@ hash = "943c3dd643df42a13a873e73a8d39782318afbf6bf60593cf68eb30000436a6f"
 [[files]]
 file = "config/customloadingscreen_timings.nbt"
 hash = "d756c1932528d17fcd5efa5f6d96498449a5e3577b70ad236be72aca5a560642"
-
-[[files]]
-file = "config/customloadingscreen_tips.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/darkness.cfg"
@@ -4811,10 +4795,6 @@ hash = "6875267d25e99c3a3e29631921eeff122bddc6380272e87cdcbf004bac2d53dd"
 [[files]]
 file = "config/signpic.cfg"
 hash = "8d8f96b895ae7596bf1299235464256dffaed9f6793f568e428824ee8e4b3bf5"
-
-[[files]]
-file = "config/smoothwater.cfg"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/snowrealmagic.cfg"
