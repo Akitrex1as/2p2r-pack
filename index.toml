@@ -6110,11 +6110,6 @@ hash = "b820eb4a55f0c47ccb1adae53af8d41cb8376deb9665e5c9de497c9d54fd9472"
 metafile = true
 
 [[files]]
-file = "mods/sound-filters-continued.pw.toml"
-hash = "1d0c8c14fff707b2fe0dd537e804e6d45f6c78aa9d3c0af4bc9e1dabf9c40153"
-metafile = true
-
-[[files]]
 file = "mods/spaceambient-1-12-2-0-0-1.pw.toml"
 hash = "c7436a448dbc70bc0ffe98d791c0e6dbef106a4e100048f06bac2f83f1fce95b"
 metafile = true
