@@ -11,8 +11,6 @@ x-prismlauncher-version-number = 'despawningspawners-1.12-1.2.0-2.jar'
 hash = 'a9ded5b339ecaf6e3e399419a746fbbcbccff8a9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 2575608
 project-id = 274331

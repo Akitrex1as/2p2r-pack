@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'TradeStagesLegacy 1.1.2'
 hash = '2349a99de68328c92fc49b0f56931d53c4fdd262'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 9335180
 project-id = 1638884

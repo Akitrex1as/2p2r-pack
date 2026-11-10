@@ -11,8 +11,6 @@ x-prismlauncher-version-number = 'funtnt-1.12.2.0.jar'
 hash = '831190874b02d56321ef23bc5a451f2109b95dec'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 2567797
 project-id = 294963

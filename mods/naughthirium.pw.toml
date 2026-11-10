@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'naughthirium-3.0.0.jar'
 hash = '507d17846742f2552b18bed9b183881e23c68c73'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 9146950
 project-id = 1153019

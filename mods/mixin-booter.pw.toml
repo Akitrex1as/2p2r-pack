@@ -36,8 +36,6 @@ x-prismlauncher-version-number = '000mixinbooter-12.3.jar'
 hash = 'edb0ccb664f95b1a1a9d5ed56acaa4c00619dece'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 9453275
 project-id = 419286

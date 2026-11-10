@@ -11,8 +11,6 @@ x-prismlauncher-version-number = '4.24.0.1042 for Forge 1.12.2'
 hash = 'a9a7fbcb6715e3d68c91b4fe566af508f2f2c282'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 9407746
 project-id = 238222

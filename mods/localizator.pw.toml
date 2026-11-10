@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'v1.0.15 - JSON Paintings fix'
 hash = '4d4c879528fa7d18c0ac0bf6ea02006f3697ea47'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 7392357
 project-id = 948959

@@ -11,8 +11,6 @@ x-prismlauncher-version-number = "TONI's Structure Lib 1.2.0 (Forge 1.12.2)"
 hash = '8a5e84005f3321b6da0eba689448604cbef7c8de'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 9226527
 project-id = 1749059

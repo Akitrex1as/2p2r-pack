@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'BiomeSpecificDungeons-1.12.2-1.0.3.jar'
 hash = 'b3700ae819dfe4c773482f09b5c6107773c9b630'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 2685974
 project-id = 316696

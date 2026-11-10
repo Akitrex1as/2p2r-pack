@@ -11,8 +11,6 @@ x-prismlauncher-version-number = 'chibi-5.34.jar'
 hash = '2c02004c36cc1be3647ed22af23a84cfa9bf67bc'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 8957115
 project-id = 460609

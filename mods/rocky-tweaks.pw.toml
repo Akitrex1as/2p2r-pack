@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'rockytweaks-1.12.2-0.6.1.jar'
 hash = 'd4be5ab211febc802bb599efa91c03cbf6069443'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 3591441
 project-id = 265461

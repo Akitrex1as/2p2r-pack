@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'EntityCulling-1.12.2-6.5.0.jar'
 hash = 'cf4a4a6b11b1721fbda1edeb32bdc3b1ac3a8560'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 6215595
 project-id = 409087

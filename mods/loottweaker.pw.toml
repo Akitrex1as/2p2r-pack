@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'LootTweaker-0.5.1+MC1.12.2-DLS0.jar'
 hash = 'f27456cc07d6ec327e0e3333203bcdc8f010c2d9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 7684381
 project-id = 255257

@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'itlt-1.12.x-1.0.4.jar'
 hash = '046b21212d93acb02adf7bc240be3ee990bce3db'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 3330021
 project-id = 232791

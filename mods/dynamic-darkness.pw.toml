@@ -11,8 +11,6 @@ x-prismlauncher-version-number = 'darkness-forge-1.12.x-0.5.0.jar'
 hash = 'e305092922affc619e2a7206a4949c24363fbf3d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 4118829
 project-id = 363102

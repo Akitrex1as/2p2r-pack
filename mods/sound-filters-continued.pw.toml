@@ -11,8 +11,6 @@ x-prismlauncher-version-number = 'SoundFilters-0.14.0_for_1.12.jar'
 hash = '92e9b30eca74aa16c8a86cdd02f9afd9f12c215a'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 5275426
 project-id = 999884

@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'Tabulator-1.0.3'
 hash = 'cfda900d1cadbb8c3072ce2030495758c20a348f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 4028361
 project-id = 637556

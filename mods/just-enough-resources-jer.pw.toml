@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'JustEnoughResources-1.12.2-0.9.3.203'
 hash = 'cabcc7f31532215a6dd7c884ae281b59e0a53e2c'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 4440935
 project-id = 240630

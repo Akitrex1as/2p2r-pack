@@ -11,8 +11,6 @@ x-prismlauncher-version-number = 'Regrowth-1.12.2-0.0.1.1.jar'
 hash = 'a67cb3da55a2facbc0dc3b25f04a4d30f2de1530'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 3299987
 project-id = 381597

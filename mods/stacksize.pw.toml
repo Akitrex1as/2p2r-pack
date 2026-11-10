@@ -11,8 +11,6 @@ x-prismlauncher-version-number = 'stacksize-1.12.2-1.0.jar'
 hash = 'b0dedf890244f4d7abab582f01059036a609b0ec'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 2511850
 project-id = 247843

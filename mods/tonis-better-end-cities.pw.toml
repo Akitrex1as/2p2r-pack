@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'Better End Cities 1.1.1 (Forge 1.12.2)'
 hash = '85ba03c08200b7e03d0dd667fbd3e1d2a748d558'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 9475584
 project-id = 1745442

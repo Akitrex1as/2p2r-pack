@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'netherportalspread_1.12.2-5.4.jar'
 hash = 'f39f3306d33bee98d8f85518f4a633d996bbaa73'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 3448054
 project-id = 342097

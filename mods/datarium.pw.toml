@@ -11,8 +11,6 @@ x-prismlauncher-version-number = 'Datarium 1.12.2-0.6.1'
 hash = '6a4d39f2b641713ccaa91e7f55a05f6872302130'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 9110847
 project-id = 1727221

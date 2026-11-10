@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'Better Monuments 1.1.1 (Forge 1.12.2)'
 hash = 'cb0c8ad0506eb9e6c5edd2181cd058cf0ff153a9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 9475426
 project-id = 1743609

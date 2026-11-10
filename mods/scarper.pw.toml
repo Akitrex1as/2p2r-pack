@@ -11,8 +11,6 @@ x-prismlauncher-version-number = 'scarper-1.1.jar'
 hash = 'fd8e2ba093747e755e4f27b80257640324ec977f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 2626921
 project-id = 299263

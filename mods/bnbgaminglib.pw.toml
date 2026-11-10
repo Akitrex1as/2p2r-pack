@@ -11,8 +11,6 @@ x-prismlauncher-version-number = 'BNBGamingLib 1.12-2.17.6'
 hash = '06f0da5cf79645437ee5e666be23176eea1dfb94'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 2698688
 project-id = 229587

@@ -11,8 +11,6 @@ x-prismlauncher-version-number = 'Redstone++ ver1.3e'
 hash = 'be7d93c3e884a7013ce7f9c988992c9cea534b33'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 2912448
 project-id = 269379

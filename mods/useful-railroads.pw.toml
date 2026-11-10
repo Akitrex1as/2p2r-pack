@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'Useful-Railroads-1.12.2-1.1.3.24'
 hash = 'a8eb4e0fc3e191085afd23ec409308b008cd5af4'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 3032206
 project-id = 306475

@@ -10,8 +10,6 @@ x-prismlauncher-version-number = 'Charm-1.12.2-1.4.1.jar'
 hash = '0afddc46fe43970d4586f99f3266279f262f6de5'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
-
 [update.curseforge]
 file-id = 3146596
 project-id = 318872
