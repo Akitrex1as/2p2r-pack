@@ -7546,6 +7546,10 @@ file = "resources/triumph/lang/uk_ua.lang"
 hash = "a282437c8beae0c4c24692289bbd7290ee8c16b9b762be976f81df1b81192d07"
 
 [[files]]
+file = "scripts/compost.zs"
+hash = "ce0401300186826b35cd8778603743dc11a15dedddc800f851853c211c6cf7a9"
+
+[[files]]
 file = "scripts/creative_tabs.zs"
 hash = "80de983933ff025fea497d33fb80d0867cb98512dca5e8462c253caa53a60c14"
 
