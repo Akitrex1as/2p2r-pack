@@ -101,5 +101,5 @@
 			"text": "Temperature at altitude is low, this can happen."
 		}
 	],
-	"advancement": "triumph:pollution/iron_vacuum_tube"
+	"advancement": "triumph:pollution/root"
 }
