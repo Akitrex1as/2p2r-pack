@@ -101,5 +101,5 @@
 			"text": "Температура на висоті низька, може статися це."
 		}
 	],
-	"advancement": "triumph:pollution/root"
+	"advancement": "triumph:vanilla/story/smelt_iron"
 }
