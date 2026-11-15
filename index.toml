@@ -6319,7 +6319,7 @@ hash = "2d81466a6b80dfb92d0b61326aa399a21dcd06586631754230865ca84a5a08bf"
 
 [[files]]
 file = "patchouli_books/Insruction/en_us/entries/space/start/researching.json"
-hash = "c4fedf5fb32e6c5c4c3e70db30752c396c66c3c872e8c6c3f5a13582735138de"
+hash = "a3f3c3ff6ebf8dd731b2f12293809002e550bbc404913f599812b2e522c44414"
 
 [[files]]
 file = "patchouli_books/Insruction/en_us/entries/space/start/rocket.json"
@@ -6539,7 +6539,7 @@ hash = "c5a1c2423703223992f410cb738aff484a32ba3248fc5eb7d399a8acfd70d8fc"
 
 [[files]]
 file = "patchouli_books/Insruction/uk_ua/entries/space/start/researching.json"
-hash = "2b1f9060e89a5b9cb4132fc918ef8ff19d5a35985d224c462cff4e48584399da"
+hash = "ae6cff8c0039df36535b3f12c015e13300079f13cd7bce73650d6c96e5c1d542"
 
 [[files]]
 file = "patchouli_books/Insruction/uk_ua/entries/space/start/rocket.json"

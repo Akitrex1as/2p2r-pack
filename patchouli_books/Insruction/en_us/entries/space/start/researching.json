@@ -25,6 +25,24 @@
 		},
 		{
 			"type": "text",
+			"title": "Three kinds of wafers",
+			"text": "The fabricator takes a diamond, 2 silicon and redstone. The last slot decides the result:$(li)Redstone torch: 3 basic.$(li)Repeater: 1 advanced.$(li)Lapis: 9 solar.$(br2)Advanced wafers go into the Electric Compressor and rockets, solar ones into solar modules.",
+			"anchor": "wafers"
+		},
+		{
+			"type": "text",
+			"title": "Metal sheets",
+			"text": "The Compressor presses 2 ingots into one sheet: iron, copper, tin, aluminum.$(li)Steel: an iron sheet and 2 coal.$(li)Bronze: a copper and a tin sheet.$(li)Heavy duty plate for rockets: 2 steel, 2 aluminum and 2 bronze give 2 plates.",
+			"anchor": "sheets"
+		},
+		{
+			"type": "text",
+			"title": "Power",
+			"text": "The generator powers machines through aluminum wire. Batteries and the Energy Storage Module keep a reserve. A solar panel runs by day with no fuel or pollution: it needs solar modules, a basic wafer and steel. The advanced one also needs an advanced wafer and heavy wire.",
+			"anchor": "power"
+		},
+		{
+			"type": "text",
 			"title": "What to gather",
 			"text": "Space eats a lot of metal. Stock up on iron, copper, tin, aluminum, silicon, coal, redstone and diamonds early. Silicon lies deep, so look for it below the other ores."
 		},
@@ -57,6 +75,42 @@
 			"item": "galacticraftcore:basic_item:13",
 			"title": "Basic Wafer",
 			"text": "Needed for almost every space machine."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:basic_item:14",
+			"title": "Advanced Wafer",
+			"text": "Fabricator: diamond, 2 silicon, redstone and a repeater."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:basic_item:12",
+			"title": "Solar Wafer",
+			"text": "Fabricator: diamond, 2 silicon, redstone and lapis. Makes 9."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:basic_item:9",
+			"title": "Compressed Steel",
+			"text": "Compressor: an iron sheet and 2 coal."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:heavy_plating",
+			"title": "Heavy Duty Plate",
+			"text": "Compressor: steel, aluminum and bronze. The base of every rocket."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:aluminum_wire",
+			"title": "Aluminum Wire",
+			"text": "Carries power from the generator to machines."
+		},
+		{
+			"type": "spotlight",
+			"item": "galacticraftcore:solar",
+			"title": "Solar Panel",
+			"text": "Power by day with no fuel and no pollution."
 		}
 	]
 }
