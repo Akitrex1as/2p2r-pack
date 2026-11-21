@@ -5658,7 +5658,7 @@ hash = "64b6f1921d2c7e2d0f5b76a383aa0e05107b1b1c9d0459a3f307bacc55557e55"
 
 [[files]]
 file = "mods/2P2Rcompat-1.0.0.jar"
-hash = "8078998bf7429a573dc77a0fbbd06565cfa0a8e6f0f4a881c92d5a0b33873683"
+hash = "cd9d5ea35c34941125751dc2e578d7d78548fcbac677b6da23847902745103ab"
 
 [[files]]
 file = "mods/antique-atlas.pw.toml"
@@ -6756,6 +6756,74 @@ hash = "73427620d55bf4471de9cfe5949d30b9c3b7c0cecda22da2a2eb6046147cf841"
 [[files]]
 file = "resources/enhancedvisuals/lang/uk_ua.lang"
 hash = "db1f0fb951f98a35aa09129826bf0766f484aa216f880e4687eea1178e5003d0"
+
+[[files]]
+file = "resources/futuremc/blockstates/chiseled_polished_blackstone.json"
+hash = "64b4e8cabd233af7c58aaa56c0f0f66181ae3723c087fab7dfd8697710a57cd4"
+
+[[files]]
+file = "resources/futuremc/blockstates/gilded_blackstone.json"
+hash = "59fbb1d06b3160bff339498532e92f135d913395fad24a2c1d17b8ed0482a43a"
+
+[[files]]
+file = "resources/futuremc/blockstates/polished_blackstone_brick_stairs.json"
+hash = "d8653dff6cb0f3dceae0efe8b974a13019a18a3d92e602028f781f6dfe215671"
+
+[[files]]
+file = "resources/futuremc/blockstates/polished_blackstone_bricks.json"
+hash = "b8b2471fd4f67b4d825b172d62f9f8309052c0d84ca21f5e679071df1b095473"
+
+[[files]]
+file = "resources/futuremc/blockstates/polished_blackstone_button.json"
+hash = "42b7333a854dfe651a8730aa12e2efaeb7d05837f2c699e49496d9a860f10c96"
+
+[[files]]
+file = "resources/futuremc/models/block/blackstone_slab.json"
+hash = "ba5bef19035c9219a3e5e58021faef41cdc7972340574779c062c99c9c94d4db"
+
+[[files]]
+file = "resources/futuremc/models/block/blackstone_slab_top.json"
+hash = "1ed92908c124acc58085f608d8a391ef98c6b9e46534280e0c71203b1921ccc1"
+
+[[files]]
+file = "resources/futuremc/models/block/blackstone_wall_post.json"
+hash = "0ccf38bf6cb95b3d956eccdef91b8fbaed4330b8a0419dd8539925fc30e50ef3"
+
+[[files]]
+file = "resources/futuremc/models/block/blackstone_wall_side.json"
+hash = "4c7f68bf89a8918c830201b4c71f65d60500c7d84c8eb5b402f3f0043d2f5969"
+
+[[files]]
+file = "resources/futuremc/models/block/polished_blackstone_brick_slab.json"
+hash = "fadd91d5a0b1e66c2fa1b7c1670560900cd8b7bb91ac7be7febfe48f4d52ccd5"
+
+[[files]]
+file = "resources/futuremc/models/block/polished_blackstone_brick_slab_top.json"
+hash = "407284586bb53c1deb8799ad97b72a3532c3789e93eb6e5e7a2ed489fb2eaf11"
+
+[[files]]
+file = "resources/futuremc/models/block/polished_blackstone_brick_wall_post.json"
+hash = "5b12810971a45802cc77efcbe9b76e658680a68aa4b886975db0b901a56f07ce"
+
+[[files]]
+file = "resources/futuremc/models/block/polished_blackstone_brick_wall_side.json"
+hash = "f5176dbab370d8b158e91f3290df58efd3bea842671ff111e2c466f43373579f"
+
+[[files]]
+file = "resources/futuremc/models/block/polished_blackstone_slab.json"
+hash = "3cd8287328e9bd67eff39f7f7acf62177d078c7267395f370029f4d0c740fb5e"
+
+[[files]]
+file = "resources/futuremc/models/block/polished_blackstone_slab_top.json"
+hash = "dfbff84e61c1d84aa81b250b0a87be70dfdde155f1b462d1824fa95595efba7a"
+
+[[files]]
+file = "resources/futuremc/models/block/polished_blackstone_wall_post.json"
+hash = "1cfbb88c936d7ed588c514a30e85bf90517096d7fb74edf18a89880e758a427c"
+
+[[files]]
+file = "resources/futuremc/models/block/polished_blackstone_wall_side.json"
+hash = "ebb906978b1f737bc65d8cf539058ce2a479c8a6ee84c357f280f7350b44a84f"
 
 [[files]]
 file = "resources/pack.mcmeta"
