@@ -7547,7 +7547,7 @@ hash = "a282437c8beae0c4c24692289bbd7290ee8c16b9b762be976f81df1b81192d07"
 
 [[files]]
 file = "scripts/blackstone.zs"
-hash = "bc7702e1438dedfabb0f6feaf0f9fbb1d900119ca9ecdbb64cb6a40db1a5e6a1"
+hash = "348c09af95250df82c559b492c72dc6daec40819bb0ae2579b6ece0c78398845"
 
 [[files]]
 file = "scripts/compost.zs"
