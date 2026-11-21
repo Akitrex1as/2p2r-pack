@@ -4550,7 +4550,7 @@ hash = "6b2b7054d54d3992edc7af6f7925f0c36697ea70cc7d55f465fb57c80e798e44"
 
 [[files]]
 file = "config/futuremc/futuremc.cfg"
-hash = "8ef7e91c5c9ff692ec4bf6cd8706cc6ac3c696c850deecf8f75dbadd43374c7b"
+hash = "7e4f691dbf1071256c43f05705a238fe666a298f703f4bba04c666f314d3f991"
 
 [[files]]
 file = "config/galacticresearch.cfg"
@@ -7544,6 +7544,10 @@ hash = "95773b9d999225fd421a26c9fcc0ba8eb2f4ccd975cb8696fb7639bbb0912d87"
 [[files]]
 file = "resources/triumph/lang/uk_ua.lang"
 hash = "a282437c8beae0c4c24692289bbd7290ee8c16b9b762be976f81df1b81192d07"
+
+[[files]]
+file = "scripts/blackstone.zs"
+hash = "bc7702e1438dedfabb0f6feaf0f9fbb1d900119ca9ecdbb64cb6a40db1a5e6a1"
 
 [[files]]
 file = "scripts/compost.zs"
