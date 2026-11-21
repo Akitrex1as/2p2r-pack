@@ -5707,7 +5707,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-ocean-monuments.pw.toml"
-hash = "92a3d97a8117883e92cbc02edc158ec4ba6b3decec793d17f86c31837d4e004e"
+hash = "cd6cf104351336b474601083e5569c59379826440c26fd0fbb4595763712875d"
 metafile = true
 
 [[files]]
@@ -5752,7 +5752,7 @@ metafile = true
 
 [[files]]
 file = "mods/celeritas-extra.pw.toml"
-hash = "dc7388e2bed64c9bbc31aa90bdfa3ff8cfa8f02a703b1a29f6cbf28bdf638d6a"
+hash = "fc6eee9ac36574a0dd4dfd010cce61a897be983fafd490c31e39f52f66247840"
 metafile = true
 
 [[files]]
@@ -5847,7 +5847,7 @@ metafile = true
 
 [[files]]
 file = "mods/flare.pw.toml"
-hash = "1b651e04637f18bf69912d0e597c7fa76ab46b27d0744f32ddc15fceaf370704"
+hash = "3fc4cd835f6e8d10de704a4743a0337438080b2832d2a828fa6df0be03f25b09"
 metafile = true
 
 [[files]]
@@ -5912,7 +5912,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "a412aa7acaa24a5a373038369f46a064917cde7d27c2d7eaa658dd11c6df33db"
+hash = "64d250b33bcc18e2b32f1a4f09a0b7cda0e02e699864e41b88693ff7633cbbb2"
 metafile = true
 
 [[files]]
@@ -5942,7 +5942,7 @@ metafile = true
 
 [[files]]
 file = "mods/mixin-booter.pw.toml"
-hash = "13cb436cf0419e1fa2f6f85f0a28645db47347d9d074dbb1e0b8d8860dc97cfe"
+hash = "6da5843909faca481904853014a0990ae956e806687c713ec2d04e0699014908"
 metafile = true
 
 [[files]]
@@ -6007,7 +6007,7 @@ metafile = true
 
 [[files]]
 file = "mods/pulsar-lighting-engine.pw.toml"
-hash = "798534410483b9c39b85d3f7d1ca3676d35c9192645185925f818b88c1834217"
+hash = "8128f632fc9a1594bc7f0cba35ac543e5812defce06248e52aa421bc73123661"
 metafile = true
 
 [[files]]
@@ -6057,7 +6057,7 @@ metafile = true
 
 [[files]]
 file = "mods/room-for-two.pw.toml"
-hash = "8d25799d12313356fb1fcad1c9c1b35a9e735356c56cbfe51b33324ac6735670"
+hash = "ddaf70787e6d2e88617ae3ec9470061c34c8ba4510e0dabdf0c97266664e95ae"
 metafile = true
 
 [[files]]
@@ -6132,7 +6132,7 @@ metafile = true
 
 [[files]]
 file = "mods/tonis-better-end-cities.pw.toml"
-hash = "fa58bdbdf90ed2c9b246f332ea5000d6f364d72fe7eed38a28924a9ece7d30ca"
+hash = "7cf2aee2a14b69d3646e6ed1e78c893d077b34dd2999605414f23efc3fc535dc"
 metafile = true
 
 [[files]]
