@@ -4050,7 +4050,7 @@ hash = "1c1745f8348575f32f1cdd7938d507bcf54fa2094399b5d0200be1664116eebe"
 
 [[files]]
 file = "config/antiqueatlas/atlas_overlay.cfg"
-hash = "4fb0da95b85d9d611f592dc4c5d03b3db5736616b9c45a760dffed5a1d9255ba"
+hash = "7ef26b9ee80995d3e2985d0438c0e96a4b5ee156f4d708c1930d751ee0f973fb"
 
 [[files]]
 file = "config/antiqueatlas/biome_textures.json"
