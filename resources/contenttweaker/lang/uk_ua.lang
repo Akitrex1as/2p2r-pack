@@ -6,12 +6,6 @@ item.contenttweaker.icon_jupiter.name=Юпітер
 item.contenttweaker.icon_saturn.name=Сатурн
 item.contenttweaker.icon_uranus.name=Уран
 item.contenttweaker.icon_neptune.name=Нептун
-tile.contenttweaker.blackstone.name=Чорнокамінь
-tile.contenttweaker.polished_blackstone.name=Шліфований чорнокамінь
-tile.contenttweaker.polished_blackstone_bricks.name=Цегла зі шліфованого чорнокаменю
-tile.contenttweaker.cracked_polished_blackstone_bricks.name=Потріскана цегла з чорнокаменю
-tile.contenttweaker.chiseled_polished_blackstone.name=Різьблений чорнокамінь
-tile.contenttweaker.gilded_blackstone.name=Позолочений чорнокамінь
 
 # Triumph Advancements
 advancements.triumph.bountiful.epic_bounty.title=Епічна нагорода
