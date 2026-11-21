@@ -30,3 +30,21 @@ registerIcon("icon_jupiter");
 registerIcon("icon_saturn");
 registerIcon("icon_uranus");
 registerIcon("icon_neptune");
+
+// Blackstone family (Future-MC 0.2.21 registers its own blackstone only in its debug mode).
+// Textures come straight from the Future-MC jar via resources/contenttweaker/blockstates.
+function registerStone(name as string, hardness as float) {
+    var stone = VanillaFactory.createBlock(name, <blockmaterial:rock>);
+    stone.setBlockHardness(hardness);
+    stone.setBlockResistance(6.0);
+    stone.setToolClass("pickaxe");
+    stone.setToolLevel(0);
+    stone.setBlockSoundType(<soundtype:stone>);
+    stone.register();
+}
+registerStone("blackstone", 1.5);
+registerStone("polished_blackstone", 2.0);
+registerStone("polished_blackstone_bricks", 1.5);
+registerStone("cracked_polished_blackstone_bricks", 1.5);
+registerStone("chiseled_polished_blackstone", 1.5);
+registerStone("gilded_blackstone", 1.5);

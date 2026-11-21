@@ -4550,7 +4550,7 @@ hash = "6b2b7054d54d3992edc7af6f7925f0c36697ea70cc7d55f465fb57c80e798e44"
 
 [[files]]
 file = "config/futuremc/futuremc.cfg"
-hash = "7e4f691dbf1071256c43f05705a238fe666a298f703f4bba04c666f314d3f991"
+hash = "8ef7e91c5c9ff692ec4bf6cd8706cc6ac3c696c850deecf8f75dbadd43374c7b"
 
 [[files]]
 file = "config/galacticresearch.cfg"
@@ -6638,16 +6638,40 @@ file = "resources/assets/patchouli_books/Insruction/uk_ua.lang"
 hash = "762c2093cca97f0f1f73508f7fd8b505c0984c232ef477e9866af5c806328232"
 
 [[files]]
+file = "resources/contenttweaker/blockstates/blackstone.json"
+hash = "e037a11ea4da75eb5ef3858aaba0945e2fd571278aa869105cf45280f30ce60b"
+
+[[files]]
+file = "resources/contenttweaker/blockstates/chiseled_polished_blackstone.json"
+hash = "e47b8a4ad38980a58088449ceb6600de0d57fb2e118fc95a51ed8ec9ce1527aa"
+
+[[files]]
+file = "resources/contenttweaker/blockstates/cracked_polished_blackstone_bricks.json"
+hash = "4b8d5c43810912db0324624492c96feb25a4015adb22837533018a702293d9eb"
+
+[[files]]
+file = "resources/contenttweaker/blockstates/gilded_blackstone.json"
+hash = "3b110aaaebf15bc2474179afb6dc1f7e819a8fb71059e6f47de1277702dcef1d"
+
+[[files]]
+file = "resources/contenttweaker/blockstates/polished_blackstone.json"
+hash = "4b70a939d26da2e9ed5ef8ea5c76ebb3e11ce711bcef748923402547cf531968"
+
+[[files]]
+file = "resources/contenttweaker/blockstates/polished_blackstone_bricks.json"
+hash = "47845955907fe972440348bf1b87b97084ac342e9b64263adfbb4f815ea4be87"
+
+[[files]]
 file = "resources/contenttweaker/blockstates/scufford.json"
 hash = "d4007c04d2c22fe6c278f2ad3f50dbe499fad3e2ff8852a6816c2041bf78bdcd"
 
 [[files]]
 file = "resources/contenttweaker/lang/en_us.lang"
-hash = "dbb8f2d75158f66d402c02a036b3fd3cef1b208b71d255aeb1505782511e2dc7"
+hash = "1627df63e12876ac57996ed2b1d230940adcd86f566bcf3c9c6bcfddb0bc2c16"
 
 [[files]]
 file = "resources/contenttweaker/lang/uk_ua.lang"
-hash = "34ccec6098b4f3a113306e9f1cc4724f01b1da0efb21cc468c5c2db22a90f229"
+hash = "3cc2bfd9eb14a6467edd0d1ce12c63c7ccbdbe463e26d0a724788ea3fa8b35fe"
 
 [[files]]
 file = "resources/contenttweaker/models/item/icon_jupiter.json"
@@ -7547,7 +7571,7 @@ hash = "a282437c8beae0c4c24692289bbd7290ee8c16b9b762be976f81df1b81192d07"
 
 [[files]]
 file = "scripts/blackstone.zs"
-hash = "348c09af95250df82c559b492c72dc6daec40819bb0ae2579b6ece0c78398845"
+hash = "526fdc9714ec0bf23f807bee5a9578cd3d202ea3298346dc5589f04c2efb64ee"
 
 [[files]]
 file = "scripts/compost.zs"
@@ -7571,7 +7595,7 @@ hash = "8c8e8381cab796ff4f82adb67d79a80e75f9cb90f89ac0a916c7c7f1a46eb1e2"
 
 [[files]]
 file = "scripts/newcontent.zs"
-hash = "00933443f5186949b6d7151ea2a18f7482a52c310a2b21efc8e716698d8be68b"
+hash = "feb3ab7b961e35cd1dd8495b86c3c1a9328693189dcaf6035fb17ff880d75ef5"
 
 [[files]]
 file = "scripts/planet_research.zs"

@@ -6,6 +6,12 @@ item.contenttweaker.icon_jupiter.name=Jupiter
 item.contenttweaker.icon_saturn.name=Saturn
 item.contenttweaker.icon_uranus.name=Uranus
 item.contenttweaker.icon_neptune.name=Neptune
+tile.contenttweaker.blackstone.name=Blackstone
+tile.contenttweaker.polished_blackstone.name=Polished Blackstone
+tile.contenttweaker.polished_blackstone_bricks.name=Polished Blackstone Bricks
+tile.contenttweaker.cracked_polished_blackstone_bricks.name=Cracked Polished Blackstone Bricks
+tile.contenttweaker.chiseled_polished_blackstone.name=Chiseled Polished Blackstone
+tile.contenttweaker.gilded_blackstone.name=Gilded Blackstone
 
 # Triumph Advancements
 advancements.triumph.bountiful.epic_bounty.title=Epic Bounty
