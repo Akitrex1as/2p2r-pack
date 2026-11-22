@@ -5658,7 +5658,7 @@ hash = "64b6f1921d2c7e2d0f5b76a383aa0e05107b1b1c9d0459a3f307bacc55557e55"
 
 [[files]]
 file = "mods/2P2Rcompat-1.0.0.jar"
-hash = "b8285332ee9973a4fe4aa2aa6b89c7f047cfe96cd7f889b82064b4184ccd4637"
+hash = "d9c71dc3c453c108a2903170e103c76dcd4676df9ae9e8931f75f0457bfabda2"
 
 [[files]]
 file = "mods/antique-atlas.pw.toml"
@@ -6255,7 +6255,7 @@ hash = "3fceafacc282be1c6ff2248a425e8d001dada6c9014459fa20e489005708bbc5"
 
 [[files]]
 file = "patchouli_books/Insruction/en_us/entries/space/planets/galaxy_space.json"
-hash = "b42abce952735a4912280cea29f123f4ef3e99a8951caf8d4792307bf470b954"
+hash = "432dcd75ae9f680af892d2fab52623c2092f896fd03261af4becc4e222cdeeb1"
 
 [[files]]
 file = "patchouli_books/Insruction/en_us/entries/space/planets/haumea.json"
@@ -6475,7 +6475,7 @@ hash = "43a58466b826aa505a2e2a79331c08f3c40388a2c4dd3f883b9e67bb70b2654d"
 
 [[files]]
 file = "patchouli_books/Insruction/uk_ua/entries/space/planets/galaxy_space.json"
-hash = "23edddad2aa22f668e5c8ca3d541bd7df358bacaa28461765856aa647c43d37d"
+hash = "18379c2e9612b68c8cb945d1728a6666828d4e1cbf47b79548b61ec33f6fa131"
 
 [[files]]
 file = "patchouli_books/Insruction/uk_ua/entries/space/planets/haumea.json"
