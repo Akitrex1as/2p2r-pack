@@ -1,15 +1,12 @@
-// Pluto's vault guard; the location keeps the kill to that world
-setIcon("minecraft:bone")
+// Pluto has no boss: reaching it is the victory. (Was: kill an astro wolf there, but astro wolves never spawn wild.)
+setIcon("galacticraftcore:oxygen_mask")
 setTranslatedTitle("advancements.triumph.femboysecret.bosses.pluto_boss.title")
 setTranslatedDescription("advancements.triumph.femboysecret.bosses.pluto_boss.description")
 addParent("triumph:femboysecret/exploration/solar_system/pluto")
 setRequiresParents()
 
-criteria = addCriteria("pluto_wolf", "minecraft:player_killed_entity")
-criteria.setEntityType("galacticraftcore:astro_wolf")
-entityData = criteria.getEntityData()
-location = entityData.getLocationData()
-location.setDimensionType("planet.pluto")
+criteria = addCriteria("reached_pluto", "minecraft:changed_dimension")
+criteria.setDimensionDestination("planet.pluto")
 
 setRequirements("all")
 setRewardExperience(600)
