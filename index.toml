@@ -6255,7 +6255,7 @@ hash = "3fceafacc282be1c6ff2248a425e8d001dada6c9014459fa20e489005708bbc5"
 
 [[files]]
 file = "patchouli_books/Insruction/en_us/entries/space/planets/galaxy_space.json"
-hash = "329acd514547071e2c4f1b63af7b11e55cbf65030c681e957da66d459d4959fc"
+hash = "b42abce952735a4912280cea29f123f4ef3e99a8951caf8d4792307bf470b954"
 
 [[files]]
 file = "patchouli_books/Insruction/en_us/entries/space/planets/haumea.json"
@@ -6287,7 +6287,7 @@ hash = "d829e17c3ec2704ea71c201e1a887f892c484cd857c67e663c2b93af8bab539a"
 
 [[files]]
 file = "patchouli_books/Insruction/en_us/entries/space/planets/pluto.json"
-hash = "03539aef8577693144c550f4b860b2cd6a661ec723c55771b83d174dfc3594c3"
+hash = "68cfa39c0edc40961a73eb2a2ce394b2458b612fc996b26c70d0f4eca72dd13d"
 
 [[files]]
 file = "patchouli_books/Insruction/en_us/entries/space/planets/proxima.json"
@@ -6295,7 +6295,7 @@ hash = "19ad911df42e4958c57b1e4df91c4d7311c26bee5d4cd0d8cfe38374c32f1f36"
 
 [[files]]
 file = "patchouli_books/Insruction/en_us/entries/space/planets/saturn.json"
-hash = "96f2865b87aa4f9a310010e24e1cd169a9123e4430891ab227ae81950a9ef71a"
+hash = "4ffea4b7f16f02956540ab574377cc69174ba0f63180793c74612f61ed8f22ee"
 
 [[files]]
 file = "patchouli_books/Insruction/en_us/entries/space/planets/tau_ceti.json"
@@ -6475,7 +6475,7 @@ hash = "43a58466b826aa505a2e2a79331c08f3c40388a2c4dd3f883b9e67bb70b2654d"
 
 [[files]]
 file = "patchouli_books/Insruction/uk_ua/entries/space/planets/galaxy_space.json"
-hash = "4a1ffdd62ae5bc15a44396179ff2cb0c2551d2850b40fb21bfcee6ec23f3b90d"
+hash = "23edddad2aa22f668e5c8ca3d541bd7df358bacaa28461765856aa647c43d37d"
 
 [[files]]
 file = "patchouli_books/Insruction/uk_ua/entries/space/planets/haumea.json"
@@ -6507,7 +6507,7 @@ hash = "9ffa075cf3d99526ad351fcbccd11134004af299edb2aa9c19dac54a35080455"
 
 [[files]]
 file = "patchouli_books/Insruction/uk_ua/entries/space/planets/pluto.json"
-hash = "fc5a3287e1521f4aed82bab0d16453e9ef7036ea56010ee1394e34f020a4c60b"
+hash = "4fe68c1f9dfac204c9e0194ed77cc924029e0d9eccec21343912dec686e7575e"
 
 [[files]]
 file = "patchouli_books/Insruction/uk_ua/entries/space/planets/proxima.json"
@@ -6515,7 +6515,7 @@ hash = "cd6e361711bbeb9e5a656d813f2196a78fcdeb192e9635d9f7cd4b0dd6c934e8"
 
 [[files]]
 file = "patchouli_books/Insruction/uk_ua/entries/space/planets/saturn.json"
-hash = "7c0ccf3684d846d6f6737aadd74ebc9fe857a0aae32e4b27c719ad942258db44"
+hash = "40120a4ada6bb3b358d877ba4e195d2451fc4ffd4dfd41e35b5d1174c92e97b6"
 
 [[files]]
 file = "patchouli_books/Insruction/uk_ua/entries/space/planets/tau_ceti.json"
@@ -6643,11 +6643,11 @@ hash = "d4007c04d2c22fe6c278f2ad3f50dbe499fad3e2ff8852a6816c2041bf78bdcd"
 
 [[files]]
 file = "resources/contenttweaker/lang/en_us.lang"
-hash = "dbb8f2d75158f66d402c02a036b3fd3cef1b208b71d255aeb1505782511e2dc7"
+hash = "264eb0c4e80b68ec6e577b3fa3ead2c4121489e0e37f525caaf320280c6dd763"
 
 [[files]]
 file = "resources/contenttweaker/lang/uk_ua.lang"
-hash = "34ccec6098b4f3a113306e9f1cc4724f01b1da0efb21cc468c5c2db22a90f229"
+hash = "5a4f6e137ee2e0d10505381d5c9a7fd4a5912c992a9e03bd999eade5d910fb55"
 
 [[files]]
 file = "resources/contenttweaker/models/item/icon_jupiter.json"
@@ -7607,11 +7607,11 @@ hash = "f941eed6124491653adce0b2b3757a34c65036a8fd148c65ffab280157bd8d92"
 
 [[files]]
 file = "resources/triumph/lang/en_us.lang"
-hash = "95773b9d999225fd421a26c9fcc0ba8eb2f4ccd975cb8696fb7639bbb0912d87"
+hash = "8eea99e194fb46497e3c8dfcd283822ece688a6f665a5e845a0fe15b3b00d200"
 
 [[files]]
 file = "resources/triumph/lang/uk_ua.lang"
-hash = "a282437c8beae0c4c24692289bbd7290ee8c16b9b762be976f81df1b81192d07"
+hash = "349333016d0bdca1ebc19e38a658837f97a7ea7713f620fc8ff584a37f5f6a17"
 
 [[files]]
 file = "scripts/blackstone.zs"

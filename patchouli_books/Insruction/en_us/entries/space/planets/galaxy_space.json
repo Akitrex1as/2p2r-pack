@@ -35,7 +35,12 @@
 			],
 			"title": "Dungeons",
 			"border": true,
-			"text": "A blaze on Ceres, a ghast on Io, an ice blaze on Enceladus."
+			"text": "GalaxySpace boss dungeons are only on Ceres (a space blaze) and Io (a huge ghast)."
+		},
+		{
+			"type": "text",
+			"title": "Ruins",
+			"text": "Europa, Ganymede, Callisto, Titan, Enceladus, Miranda, Triton, Pluto, Haumea, Proxima B and Tau Ceti F have ruins without bosses: wrecked outposts, probe crash sites and bunkers with a ladder down. Their chests hold metal, silicon, wafers, food, oxygen and now and then diamonds. They appear only in new, unexplored places."
 		},
 		{
 			"type": "text",
