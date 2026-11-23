@@ -81,7 +81,7 @@
 			],
 			"title": "Favorite Items",
 			"border": true,
-			"text": "Alt + right-click to protect items from being deposited."
+			"text": "Ctrl + click to protect items from being deposited."
 		},
 		{
 			"type": "image",
