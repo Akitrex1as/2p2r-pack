@@ -13,3 +13,12 @@ tier4.addItemEntry(<galacticraftplanets:item_basic_asteroids:6> * 2, 6, "p2r_tit
 val tier5 = LootTweaker.getTable("galaxyspace:dungeon_tier_5").getPool("dungeon_tier_5");
 tier5.addItemEntry(<galaxyspace:gs_basic:14>, 6, "p2r_blank_schematic");
 tier5.addItemEntry(<galaxyspace:gs_basic:4> * 4, 6, "p2r_dolomite_meal");
+
+// Future MC adds these, but nothing gives them in survival (no recipe, no loot): put them where the newer game has them.
+// Trident: the vault of the rebuilt ocean monument (Better Monuments), as rare as its enchanted sword.
+LootTweaker.getTable("bettermonuments:chests/monument_vault").getPool("pool2").addItemEntry(<futuremc:trident>, 1, "p2r_trident");
+// Nautilus shell: fishing treasure, like 1.13.
+LootTweaker.getTable("minecraft:gameplay/fishing/treasure").getPool("main").addItemEntry(<futuremc:nautilus_shell>, 1, "p2r_nautilus_shell");
+// "otherside" disc: rare in dungeons and stronghold corridors, like 1.18.
+LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("main").addItemEntry(<futuremc:record_otherside>, 2, "p2r_record_otherside");
+LootTweaker.getTable("minecraft:chests/stronghold_corridor").getPool("main").addItemEntry(<futuremc:record_otherside>, 1, "p2r_record_otherside");

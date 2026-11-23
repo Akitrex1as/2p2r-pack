@@ -7631,7 +7631,7 @@ hash = "8ac88fa67697102b74590285023a42eca2bd7a65ed58f3c2366f21f030430767"
 
 [[files]]
 file = "scripts/loot.zs"
-hash = "68377843d9b1de660ec2f2127d0e1b344dbf01ff4100a4f228a1db30408f01b9"
+hash = "356e2f710601e22aae983b0aaab095dd29610b12d1e586bc13f25a2ea5e5af48"
 
 [[files]]
 file = "scripts/maxstacksize.zs"
