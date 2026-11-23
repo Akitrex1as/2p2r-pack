@@ -107,7 +107,7 @@
 			"images": [
 				"testbook:images/pickarang.png"
 			],
-			"title": "Кайлоранг",
+			"title": "Підбиранг",
 			"border": true,
 			"text": "Кайло, яке працює як бумеранг."
 		},
@@ -178,7 +178,7 @@
 		{
 			"type": "spotlight",
 			"item": "quark:tiny_potato",
-			"title": "Крихітна картопля",
+			"title": "Крихітна картоплинка",
 			"text": "Декоративна картоплина. Її можна назвати, і вона говоритиме."
 		}
 	]
