@@ -7618,6 +7618,10 @@ file = "scripts/blackstone.zs"
 hash = "0c209f020157ed8c3cac9851d9494ff1dd8dbd23fc18b5d8bccef0fe2f73a074"
 
 [[files]]
+file = "scripts/canned_food.zs"
+hash = "c1930d9b645026b861e89d560975a31244f58da8acabf70f113352ff54123a1b"
+
+[[files]]
 file = "scripts/compost.zs"
 hash = "ce0401300186826b35cd8778603743dc11a15dedddc800f851853c211c6cf7a9"
 
