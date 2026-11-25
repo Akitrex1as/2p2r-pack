@@ -5658,7 +5658,7 @@ hash = "64b6f1921d2c7e2d0f5b76a383aa0e05107b1b1c9d0459a3f307bacc55557e55"
 
 [[files]]
 file = "mods/2P2Rcompat-1.0.0.jar"
-hash = "0448ec37e03d381f5683f08fbbfb261e5cb1c4ab93e19b76ecd24554e793c368"
+hash = "eccc55333da07f5c3ccef39130cc5ad73d3956d7752e56676c1151171aced4fa"
 
 [[files]]
 file = "mods/antique-atlas.pw.toml"
