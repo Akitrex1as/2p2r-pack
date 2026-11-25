@@ -5658,7 +5658,7 @@ hash = "64b6f1921d2c7e2d0f5b76a383aa0e05107b1b1c9d0459a3f307bacc55557e55"
 
 [[files]]
 file = "mods/2P2Rcompat-1.0.0.jar"
-hash = "eccc55333da07f5c3ccef39130cc5ad73d3956d7752e56676c1151171aced4fa"
+hash = "0d08dc60ced006ef71e0cbed3c947fd46611b1e47be54c2abb8f3e76a4c31ea4"
 
 [[files]]
 file = "mods/antique-atlas.pw.toml"
@@ -5707,7 +5707,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-ocean-monuments.pw.toml"
-hash = "cd6cf104351336b474601083e5569c59379826440c26fd0fbb4595763712875d"
+hash = "035aa936f8eb441bc3e4f40184bed3e3f1944b682ddc5497af4ff3b296e2733b"
 metafile = true
 
 [[files]]
@@ -5847,7 +5847,7 @@ metafile = true
 
 [[files]]
 file = "mods/flare.pw.toml"
-hash = "3fc4cd835f6e8d10de704a4743a0337438080b2832d2a828fa6df0be03f25b09"
+hash = "17efdbf11d83ca56eab4e1c49f6ca04d9d88f00e77eed28c452318c005852dd2"
 metafile = true
 
 [[files]]
@@ -5942,7 +5942,7 @@ metafile = true
 
 [[files]]
 file = "mods/mixin-booter.pw.toml"
-hash = "6da5843909faca481904853014a0990ae956e806687c713ec2d04e0699014908"
+hash = "6d725cb74644969b6211a1221a6bfd53ac53e4f03c8cb1dc7442cfb2986a60e3"
 metafile = true
 
 [[files]]
@@ -6007,7 +6007,7 @@ metafile = true
 
 [[files]]
 file = "mods/pulsar-lighting-engine.pw.toml"
-hash = "8128f632fc9a1594bc7f0cba35ac543e5812defce06248e52aa421bc73123661"
+hash = "8d130ce066c3486c20b59b0fb3687a2a50b840bc8aafd0756a4ccd596fdaeba8"
 metafile = true
 
 [[files]]
@@ -6132,7 +6132,7 @@ metafile = true
 
 [[files]]
 file = "mods/tonis-better-end-cities.pw.toml"
-hash = "7cf2aee2a14b69d3646e6ed1e78c893d077b34dd2999605414f23efc3fc535dc"
+hash = "58eab0c73ddeba05d841c849dd82eb04210177f4dca87d52148a1597a1a162a6"
 metafile = true
 
 [[files]]

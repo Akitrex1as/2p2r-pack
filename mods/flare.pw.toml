@@ -1,20 +1,20 @@
-filename = 'flare-0.9.0.jar'
-name = 'Flare (Spark for 1.12.2)'
+filename = 'flare-0.9.1.jar'
+name = 'Flare'
 side = "both"
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '0.9.0'
+x-prismlauncher-version-number = '0.9.1'
 
 [download]
-hash = '8b39e66bd563d4744eb8e2f3b0cad1ff1b6b30d070dfbc6456f25b6ae8049646e8bca1b8315d14b4f595169061025582d5f19fe0b59f480f35adf38dbc29a29c'
+hash = 'ef94175521613f76d71a45e38f549c5f3b50f682f3c3b4d5a05369e5e5785e6bc3b561e00f5fa02c547a22452f5f43653a192ebbd4d64c9217d9e60345171e7d'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/rWzXKfPV/versions/Iq9pkJok/flare-0.9.0.jar'
+url = 'https://cdn.modrinth.com/data/rWzXKfPV/versions/ZliI3EKr/flare-0.9.1.jar'
 
 [update.modrinth]
 mod-id = 'rWzXKfPV'
-version = 'Iq9pkJok'
+version = 'ZliI3EKr'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'G1ckZuWK'

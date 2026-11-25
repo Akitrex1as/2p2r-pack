@@ -1,18 +1,18 @@
-filename = 'pulsar-0.6.7-beta.jar'
+filename = 'pulsar-0.7.3-beta.jar'
 name = 'Pulsar Lighting Engine'
 side = "both"
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '0.6.7-beta'
+x-prismlauncher-version-number = '0.7.3-beta'
 
 [download]
-hash = 'c75a4681c563b8ca1fce08fb7e7ec753f0aa474a3768f272347dacadeba4ab569fba8758c783285258bff1a84a220f7539b555516193e31f00f85c6262ec02e5'
+hash = '7319fe8be86784823b875004372f265f712a24ffdc8ffc4aff2d76acef634dd6136a79927d7b44d8ae43a084b4bd976a726b81a49a8f49106712cdb41dfa8ac9'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/gs7RbryI/versions/eaR7PtJE/pulsar-0.6.7-beta.jar'
+url = 'https://cdn.modrinth.com/data/gs7RbryI/versions/rLhUsZXJ/pulsar-0.7.3-beta.jar'
 
 [update.modrinth]
 mod-id = 'gs7RbryI'
-version = 'eaR7PtJE'
+version = 'rLhUsZXJ'

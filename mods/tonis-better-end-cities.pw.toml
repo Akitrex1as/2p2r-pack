@@ -1,18 +1,18 @@
-filename = 'betterendcities-1.2.0-forge-1.12.2.jar'
+filename = 'betterendcities-1.4.0-forge-1.12.2.jar'
 name = 'Better End Cities'
 side = "both"
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Better End Cities 1.2.0 (Forge 1.12.2)'
+x-prismlauncher-version-number = 'Better End Cities 1.4.0 (Forge 1.12.2)'
 
 [download]
-hash = '2e941e7a7fc98bb6d0464bb7098621b36ab1a467'
+hash = 'e4f310c909b6808996c6fbe39b267d7dcd653a50'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 
 [update.curseforge]
-file-id = 9689659
+file-id = 9813548
 project-id = 1745442
 
 [[x-prismlauncher-dependencies]]

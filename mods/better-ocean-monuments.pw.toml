@@ -1,18 +1,18 @@
-filename = 'bettermonuments-1.2.0-forge-1.12.2.jar'
+filename = 'bettermonuments-1.4.0-forge-1.12.2.jar'
 name = 'Better Monuments'
 side = "both"
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.12.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Better Monuments 1.2.0 (Forge 1.12.2)'
+x-prismlauncher-version-number = 'Better Monuments 1.4.0 (Forge 1.12.2)'
 
 [download]
-hash = '67124eb08002707597c60bd6d38dc4ff620b04f0'
+hash = '09abb033dba0f0b2332fdf5621b1c96e0ffe1bf9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 
 [update.curseforge]
-file-id = 9689499
+file-id = 9813392
 project-id = 1743609
 
 [[x-prismlauncher-dependencies]]

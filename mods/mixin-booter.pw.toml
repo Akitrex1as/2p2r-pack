@@ -1,4 +1,4 @@
-filename = '-mixinbooter-12.4.jar'
+filename = '-mixinbooter-12.5.jar'
 name = 'MixinBooter'
 side = "both"
 x-prismlauncher-dependencies = []
@@ -30,13 +30,14 @@ x-prismlauncher-mc-versions = [
     '1.12.2'
 ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'MixinBooter 12.4'
+x-prismlauncher-version-number = '12.5'
 
 [download]
-hash = '74d9aa226abd26049bb4ae404d50760f3eadfa62'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
+hash = '0f94c6f3b35cd8f4a8bea02ba7682be42b8cd5007b43ced1048c9fc738bc9519bc7ea6b30cdc700530c431f709c541f8fb7bf9ce631535485dd12ba7e1a72792'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/G1ckZuWK/versions/IKuCQwrm/%21mixinbooter-12.5.jar'
 
-[update.curseforge]
-file-id = 9669130
-project-id = 419286
+[update.modrinth]
+mod-id = 'G1ckZuWK'
+version = 'IKuCQwrm'
